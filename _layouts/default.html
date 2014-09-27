@@ -8,17 +8,11 @@
     <div id="layout">
       {% include menu.html %}
 
-        {% include header.html %}
-
-      <div id="main">
-        <div class="content">
-          {{ content }}
-        </div>
-      </div>
+      {{ content }}
 
     </div>
 
-    <script src="{{ js/ui.js | prepend: site.baseurl }}"></script>
+    <script src="js/ui.js"></script>
 
   </body>
 
