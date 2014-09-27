@@ -5,15 +5,20 @@
 
   <body>
 
-    {% include header.html %}
+    <div id="layout">
+      {% include menu.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+        {% include header.html %}
+
+      <div id="main">
+        <div class="content">
+          {{ content }}
+        </div>
       </div>
+
     </div>
 
-    {% include footer.html %}
+    <script src="{{ js/ui.js | prepend: site.baseurl }}"></script>
 
   </body>
 

@@ -1,14 +1,16 @@
 # Site settings
 title: What title?
 email: songjiapei@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  What description?
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.jack-song.com" # the base hostname & protocol for your site
+description: What description?
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://www.jack-song.me" # the base hostname & protocol for your site
 github_username:  jack-song
 
 # Build settings
 markdown: kramdown
+
+sass:
+    sass_dir: _sass
 
 defaults:
     scope:
