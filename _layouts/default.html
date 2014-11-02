@@ -8,11 +8,16 @@
     <div id="layout">
       {% include menu.html %}
 
-      {{ content }}
+      	{% include header.html %}
+
+		<div id="main">
+		<div class="content">
+		    {{ content }}
+	    </div>
+	    </div>
+
 
     </div>
-
-    <script src="js/ui.js"></script>
 
   </body>
 
