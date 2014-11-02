@@ -3,7 +3,7 @@ Personal site, based on jekyll, using purecss
 may move on to use foundation
 
 ####TODO:
- - update packaged css to scss
+ - update packaged css to scss (clean css)
+ - remove unneccessary includes and leftover files
  - improve on design by customization
  - add content
- - update javascript to jquery?
