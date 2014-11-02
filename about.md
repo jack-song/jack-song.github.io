@@ -1,6 +1,7 @@
 ---
-layout: default
 title: About
+permalink: about/
+layout: default
 order: 1
 ---
 

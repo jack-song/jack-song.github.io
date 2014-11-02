@@ -2,7 +2,7 @@
 title: My Bumbling
 email: songjiapei@gmail.com
 description: Comments on various software projects
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/ (not planning to use)
 url: "http://www.jack-song.me" # the base hostname & protocol for your site
 github_username:  jack-song
 permalink: none

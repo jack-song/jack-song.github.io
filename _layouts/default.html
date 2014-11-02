@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    <div id="layout">
-      {% include menu.html %}
+  <div id="layout">
+    {% include menu.html %}
 
-      	{% include header.html %}
+    {% include header.html %}
 
-		<div id="main">
-		<div class="content">
-		    {{ content }}
-	    </div>
-	    </div>
-
-
+    <div id="main">
+      <div class="content">
+        {{ content }}
+      </div>
     </div>
 
-  </body>
+  </div>
+
+<script src="/js/ui.js"></script>
+
+</body>
 
 </html>
