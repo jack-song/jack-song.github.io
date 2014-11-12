@@ -39,8 +39,22 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "menu";
 
+//sizing inline icons
 .icon > svg {
 	width: 1em;
 	height: 1em;
 	vertical-align: text-top;
+}
+
+//centering elements
+.center{
+	text-align: center;
+}
+
+//more distinctive headings
+.bar-heading{
+	color: rgba(0,0,0,.7);
+	background-color: #CDECFF;
+	padding-right: 1em;
+	padding-left: 1em;
 }

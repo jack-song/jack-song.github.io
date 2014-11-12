@@ -7,11 +7,12 @@ order: 1
 [projects]: /projects/
 
 
-Hi! I'm currently studying as a Software Engineer at the University of Waterloo, Canada. I really like making things. I'd love to discuss anything I have up on my site, even remotely related, so to get the important stuff out of the way, I can be contacted at:
+I'm currently studying as a Software Engineer at the University of Waterloo, Canada. I really like making things. I'd love to discuss anything even remotely related to I have up on my site:
 
 :envelope: jackthesong (at) gmail.com
 
 ###My other interests
+{:.bar-heading}
 
 Things I like, in no particular order:
 
@@ -24,10 +25,18 @@ Things I like, in no particular order:
 - Lord of the Rings
 - Science!
 - Portal
+- Total War
+- Dwarf Fortress
+- Fight Club
+- Passion Pit
+- Cowboy Bebop
+- Guster
+- Firefly
 - Lists
 
 
 ###My work
+{:.bar-heading}
 
 [You can find more technical information on my projects page.][projects]
 
