@@ -4,8 +4,9 @@ may move on to use foundation
 
 ####TODO:
 
-- replace emoji with icon fonts
-- update packaged css to scss (clean css)
+- reorganize project page -> export more detailed information to github readmes rather than clutter the site
+- update packaged jekyll css to scss, match purecss.io, and clean css overall
 - remove unneccessary includes and leftover files
 - improve on design by customization
-- add content
+- add resume
+- add blog/posts content

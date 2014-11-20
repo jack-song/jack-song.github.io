@@ -1,7 +1,7 @@
 # Site settings
-title: My Bumbling
-email: songjiapei@gmail.com
-description: Comments on various software projects
+title: Jack Song
+email: jackthesong@gmail.com
+description: Comments on various software and personal projects
 baseurl: "" # the subpath of your site, e.g. /blog/ (not planning to use)
 url: "http://www.jack-song.me" # the base hostname & protocol for your site
 github_username:  jack-song
@@ -9,9 +9,6 @@ permalink: none
 
 # Build settings
 markdown: kramdown
-
-gems:
-  - jemoji
 
 sass:
     sass_dir: _sass
