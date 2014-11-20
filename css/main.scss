@@ -64,11 +64,12 @@ $menu-border-bottom:	1px solid #444;
 }
 
 .introdiv{
+	max-width: $on-laptop;
 	border-bottom: $border-bottom;
 	text-align: center;
+	padding: 0em 2em 0em 2em;
 }
 
 .introp{
-	max-width: $on-laptop;
 	margin: 1.5em auto 1.5em auto;
 }
