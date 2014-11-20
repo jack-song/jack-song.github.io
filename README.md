@@ -1,7 +1,5 @@
 Personal site, based on jekyll, using purecss
 
-may move on to use foundation
-
 ####TODO:
 
 - reorganize project page -> export more detailed information to github readmes rather than clutter the site

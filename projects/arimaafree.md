@@ -9,7 +9,7 @@ order: 11
 [arimaa]: http://arimaa.com/arimaa/
 [nathan]: http://thenoviceoof.com/blog/projects/arimaa-icon-set/
 
-#### [{% icon fa-play-circle %} On Google Play][googleplay]{:.pure-button}  [{% icon fa-github %} On GitHub][github]{:.pure-button}
+#### [<i class='fa fa-play-circle'></i> On Google Play][googleplay]{:.pure-button}  [<i class='fa fa-github'></i> On GitHub][github]{:.pure-button}
 {:.center}
 
 

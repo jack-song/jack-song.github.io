@@ -9,7 +9,7 @@ order: 1
 
 I'm currently studying as a Software Engineer at the University of Waterloo, Canada. I really like making things. I'd love to discuss anything even remotely related to what I have up on my site:
 
-{% icon fa-envelope %} jackthesong (at) gmail.com
+<i class='fa fa-envelope'></i> jackthesong (at) gmail.com
 
 ###My other interests
 {:.bar-heading}
