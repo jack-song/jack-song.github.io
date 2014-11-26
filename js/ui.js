@@ -2,15 +2,22 @@ $(function () {
 
     var layout   = $('#layout'),
         menu     = $('#menu'),
-        menuLink = $('#menuLink');
+        menuLink = $('#menuLink'),
+        ACTIVE   = 'active';
 
     menuLink.click( function (e) {
-        var active = 'active';
-
         e.preventDefault();
-        layout.toggleClass(active);
-        menu.toggleClass(active);
-        menuLink.toggleClass(active);
+        layout.toggleClass(ACTIVE);
+        menu.toggleClass(ACTIVE);
+        menuLink.toggleClass(ACTIVE);
+    });
+
+    $(document).click( function (e) {
+        if(menuLink.hasClass(ACTIVE) && e.target.id != 'menuLink' && $(e.target).parents('#menu').length < 1){
+            layout.toggleClass(ACTIVE);
+            menu.toggleClass(ACTIVE);
+            menuLink.toggleClass(ACTIVE);
+        }
     });
 
 });
