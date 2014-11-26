@@ -58,8 +58,6 @@ figcaption {
     font-size: $small-font-size;
 }
 
-
-
 /**
  * Lists
  */
@@ -75,7 +73,6 @@ li {
 }
 
 
-
 /**
  * Headings
  */
@@ -84,20 +81,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-
 /**
  * Links
  */
-p a {
-    color: $brand-color;
+p a:not(.pure-button) {
+    color: $strong-color;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        color: $dark-color;
     }
 
     &:hover {
-        color: $text-color;
         text-decoration: underline;
     }
 }
@@ -149,29 +144,6 @@ pre {
 }
 
 
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc($on-laptop - (#{$spacing-unit} * 2));
-    max-width:         calc($on-laptop - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc($on-laptop - (#{$spacing-unit}));
-        max-width:         calc($on-laptop - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
 /**
  * Clearfix
  */
@@ -181,24 +153,5 @@ pre {
         content: "";
         display: table;
         clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 16px;
-        height: 16px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
     }
 }

@@ -23,18 +23,18 @@ This is the parent `<div>` that contains the menu and the content area.
     position: relative;
     padding-left: 0;
 }
-    #layout.active {
-        position: relative;
-        left: 150px;
-    }
-        #layout.active #menu {
-            left: 150px;
-            width: 150px;
-        }
+#layout.active {
+    position: relative;
+    left: 150px;
+}
+#layout.active #menu {
+    left: 150px;
+    width: 150px;
+}
 
-        #layout.active .menu-link {
-            left: 150px;
-        }
+#layout.active .menu-link {
+    left: 150px;
+}
 /*
 The content `<div>` is where all your content goes.
 */
@@ -48,29 +48,24 @@ The content `<div>` is where all your content goes.
 
 .header {
      margin: 0;
-     color: $header-text-color;
+     color: $dark-color;
      text-align: center;
      padding: 1em 0em 0em 0em;
      border-bottom: $border-bottom;
  }
-    .header h1 {
-        margin: 0.2em 0;
-        font-size: 3em;
-        font-weight: 300;
-    }
-     .header h2 {
-        font-weight: 300;
-        color: #AAA;
-        padding: 0;
-        margin-top: 0;
-    }
 
-.content-subhead {
-    margin: 50px 0 20px 0;
+.header h1 {
+    margin: 0.2em 0;
+    font-size: 3em;
     font-weight: 300;
-    color: #888;
 }
 
+.header h2 {
+    font-weight: 300;
+    color: $medium-color;
+    padding: 0;
+    margin-top: 0;
+}
 
 
 /*
@@ -86,70 +81,40 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #191818;
+    background: $dark-color;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
+    border-right: $menu-border-bottom;
 }
-    /*
-    All anchors inside the menu should be styled like this.
-    */
-    #menu a {
-        color: #999;
-        border: none;
-        padding: 0.6em 0 0.6em 0.6em;
-    }
+/*
+All anchors inside the menu should be styled like this.
+*/
+#menu a {
+    color: $on-dark-color;
+    border: none;
+    padding: 0.6em 0 0.6em 0.6em;
+}
 
-    #menu li {
-        border-bottom: $menu-border-bottom;
-    }
+#menu li {
+    border-bottom: $menu-border-bottom;
+}
 
-    /*
-    Remove all background/borders, since we are applying them to #menu.
-    */
-    #menu .pure-menu,
-    #menu .pure-menu ul {
-        border: none;
-        background: transparent;
-    }
+/*
+Remove all background/borders, since we are applying them to #menu.
+*/
+#menu .pure-menu,
+#menu .pure-menu ul {
+    border: none;
+    background: transparent;
+}
 
-    /*
-    Add that light border to separate items into groups.
-    */
-    #menu .pure-menu ul,
-    #menu .pure-menu .menu-item-divided {
-        border-top: 1px solid $header-text-color;
-    }
-        /*
-        Change color of the anchor links on hover/focus.
-        */
-        #menu .pure-menu li a:hover,
-        #menu .pure-menu li a:focus {
-            background: $header-text-color;
-        }
-
-    /*
-    This styles the selected menu item `<li>`.
-    */
-    #menu .pure-menu-selected,
-    #menu .pure-menu-heading {
-        background: #1f8dd6;
-    }
-        /*
-        This styles a link within a selected menu item `<li>`.
-        */
-        #menu .pure-menu-selected a {
-            color: #fff;
-        }
-
-    /*
-    This styles the menu heading.
-    */
-    #menu .pure-menu-heading {
-        font-size: 110%;
-        text-transform: none !important;
-        color: #fff;
-        margin: 0;
-    }
+/*
+Change color of the anchor links on hover/focus.
+*/
+#menu .pure-menu li a:hover,
+#menu .pure-menu li a:focus {
+    background: $lighter-dark-color;
+}
 
 /* -- Dynamic Button For Responsive Menu -------------------------------------*/
 
@@ -167,43 +132,42 @@ small screens.
     display: block; /* show this only on small screens */
     top: 0;
     left: 0; /* "#menu width" */
-    background: #000;
-    background: rgba(0,0,0,0.7);
+    background: $dark-color;
     font-size: 10px; /* change this value to increase/decrease button size */
     z-index: 10;
-    width: 2em;
+    width: 2em; 
     height: auto;
     padding: 2.1em 1.6em;
 }
 
-    .menu-link:hover,
-    .menu-link:focus {
-        background: #000;
-    }
+.menu-link:hover,
+.menu-link:focus {
+    background: $lighter-dark-color;
+}
 
-    .menu-link span {
-        position: relative;
-        display: block;
-    }
+.menu-link span {
+    position: relative;
+    display: block;
+}
 
-    .menu-link span,
-    .menu-link span:before,
-    .menu-link span:after {
-        background-color: #fff;
-        width: 100%;
-        height: 0.2em;
-    }
+.menu-link span,
+.menu-link span:before,
+.menu-link span:after {
+    background-color: #fff;
+    width: 100%;
+    height: 0.2em;
+}
 
-        .menu-link span:before,
-        .menu-link span:after {
-            position: absolute;
-            margin-top: -0.6em;
-            content: " ";
-        }
+.menu-link span:before,
+.menu-link span:after {
+    position: absolute;
+    margin-top: -0.6em;
+    content: " ";
+}
 
-        .menu-link span:after {
-            margin-top: 0.6em;
-        }
+.menu-link span:after {
+    margin-top: 0.6em;
+}
 
 
 /* -- Responsive Styles (Media Queries) ------------------------------------- */

@@ -38,7 +38,7 @@ Things I like, in no particular order:
 ###My work
 {:.bar-heading}
 
-[You can find more technical information on my projects page.][projects]
+[You can find more information on my projects page.][projects]
 
 For now, I mostly plan on sticking to my own projects to build up my basic skills and workflow. In the nearest possible future though, I definitely plan on joining an open source project that I'm interested in. 
 
