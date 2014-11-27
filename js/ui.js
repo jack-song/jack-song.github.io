@@ -13,7 +13,7 @@ $(function () {
     });
 
     $(document).click( function (e) {
-        if(menuLink.hasClass(ACTIVE) && e.target.id != 'menuLink' && $(e.target).parents('#menu').length < 1){
+        if(menuLink.hasClass(ACTIVE) &&  !$(e.target).is('.page-link, #menuLink, #menu')){
             layout.toggleClass(ACTIVE);
             menu.toggleClass(ACTIVE);
             menuLink.toggleClass(ACTIVE);
