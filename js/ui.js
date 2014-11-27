@@ -5,15 +5,18 @@ $(function () {
         menuLink = $('#menuLink'),
         ACTIVE   = 'active';
 
-    menuLink.click( function (e) {
-        e.preventDefault();
-        layout.toggleClass(ACTIVE);
-        menu.toggleClass(ACTIVE);
-        menuLink.toggleClass(ACTIVE);
-    });
-
     $(document).click( function (e) {
-        if(menuLink.hasClass(ACTIVE) &&  !$(e.target).is('.page-link, #menuLink, #menu')){
+        var $source = $(e.target);
+
+        if($source.is('#menuLink')){
+            e.preventDefault();
+            layout.toggleClass(ACTIVE);
+            menu.toggleClass(ACTIVE);
+            menuLink.toggleClass(ACTIVE);
+            return;
+        }
+
+        if(menuLink.hasClass(ACTIVE) &&  !$source.is('.page-link, #menu')){
             layout.toggleClass(ACTIVE);
             menu.toggleClass(ACTIVE);
             menuLink.toggleClass(ACTIVE);
