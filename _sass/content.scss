@@ -1,0 +1,17 @@
+#content{
+  color: $color_base0;
+  font-size: $font-size;
+  padding-left: $spacing;
+  padding-right: $spacing;
+
+  max-width: $width_max;
+  margin: auto;
+  margin-top: 80px;
+
+  .heading-bar {
+  }
+
+  ul {
+    list-style-type: none;
+  }
+}

@@ -2,23 +2,15 @@
 title: Jack Song
 email: jackthesong@gmail.com
 description: Comments on various software and personal projects
-baseurl: "" # the subpath of your site, e.g. /blog/ (not planning to use)
 url: "http://www.jack-song.me" # the base hostname & protocol for your site
-github_username:  jack-song
+github_username: jack-song
 permalink: none
 
 # Build settings
 markdown: kramdown
 
-kramdown: 
+kramdown:
   parse_block_html: true
 
 sass:
-    sass_dir: _sass
-
-defaults:
-    scope:
-        path: ""
-        type: ""
-    values:
-        layout: ""
+  sass_dir: _sass

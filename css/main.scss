@@ -1,93 +1,38 @@
 ---
 ---
+
 @charset "utf-8";
 
-// Our variables
-$base-font-family: 	'Helvetica Neue', Arial, sans-serif;
-$base-font-size:   	16px;
-$small-font-size:  	$base-font-size * 0.875;
-$base-line-height: 	1.5;
+$font_size: 20px;
 
-$spacing-unit:     	30px;
+$color_base03: #002b36;
+$color_base02: #073642;
+$color_base01: #586e75;
+$color_base0: #839496;
+$color_blue: #268bd2;
 
-$background-color: 		#F8FCFE;
-$dark-color:			#333E43;
-$lighter-dark-color:	#445056;
-$on-dark-color:			white;
-$light-color:			#00E4F1;
-$medium-color:			#83969C;
-$pale-color:			#a7ecef;
-$strong-color:			#1D96CF;
-$text-color:			#222;
+$width_max: 800px;
+$width_max_nav: 400px;
+$spacing: 20px;
 
-$grey-color:       	#828282;
-$grey-color-light: 	lighten($grey-color, 40%);
-$grey-color-dark:  	darken($grey-color, 25%);
+body{
+  background-color: $color_base03;
 
-$on-palm:          	600px;
-$on-laptop:        	800px;
+  a{
+    text-decoration: none;
+    color: $color_blue;
 
-$border-bottom:		1px solid $pale-color;
-$menu-border-bottom:	1px solid $lighter-dark-color;
-
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+    &:hover{
+      color: $color_base01;
     }
+  }
+
+  ::selection{
+    background-color: $color_base0;
+  }
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import "base";
-@import "menu";
-
-//sizing inline icons
-.icon > svg {
-	width: 1em;
-	height: 1em;
-	vertical-align: text-top;
-}
-
-//centering elements
-.center{
-	text-align: center;
-}
-
-//more distinctive headings
-.bar-heading{
-	color: $text-color;
-	background-color: $pale-color;
-	padding-left: 1em;
-	border-radius: 2px;
-}
-
-.introdiv{
-	border-bottom: $border-bottom;
-	text-align: center;
-	padding: 0em 2em 0em 2em;
-}
-
-.introp{
-	margin: 1.5em auto 1.5em auto;
-	max-width: $on-laptop;
-}
-
-.project{
-	height: 100%;
-	background-color: $light-color;
-	border-radius: $spacing-unit/5;
-
-	margin-left: $spacing-unit/2;
-	margin-right: $spacing-unit/2;
-	margin-bottom: $spacing-unit/2;
-
-	padding-top: $spacing-unit/3;
-	padding-left: $spacing-unit/3;
-	padding-right: $spacing-unit/3;
-	padding-bottom: 1px;
-}
-
-.button-project {
-	color: $on-dark-color;
-    background: $strong-color;
-    margin: .2em;
-}
+@import "nav";
+@import "content";
+@import "project";

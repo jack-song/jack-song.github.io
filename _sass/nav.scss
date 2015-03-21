@@ -1,0 +1,30 @@
+#nav{
+  font-size: $font-size+2;
+  background-color: $color_base02;
+  color: $color_base0;
+  text-align: center;
+
+  ul{
+    :hover{
+      background-color: $color_base03;
+      cursor: pointer;
+    }
+    :active{
+      background-color: $color_base03;
+    }
+  }
+}
+
+.headroom {
+    position: fixed;
+    top: 0;
+    transition: transform 100ms ease-in;
+
+    &.headroom--pinned {
+    transform: translateY(0%);
+    }
+
+    &.headroom--unpinned {
+        transform: translateY(-100%);
+    }
+}
