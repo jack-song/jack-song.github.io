@@ -7,11 +7,11 @@
     color: $color_orange;
     font-family: $font_style_code;
 
-    margin-top: $width_max/4;
+    margin-top: $width_max/5;
   }
 
   .title-block{
-    margin-bottom: $width_max/6;
+    margin-bottom: $width_max/7;
 
     .version{
       font-size: $font_size*(2/3);
@@ -23,7 +23,7 @@
     max-width: ($width_max/2)*4;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: $spacing*4;
+    margin-bottom: $spacing*3;
     padding: $spacing;
 
     .feature{
@@ -31,6 +31,7 @@
       max-width: $width_max/2;
       margin-left: auto;
       margin-right: auto;
+      margin-bottom: $spacing;
 
       div{
         display: table;
@@ -41,4 +42,9 @@
       }
     }
   }
+
+  .button-mainpage{
+    margin-bottom: 3*$spacing;
+  }
+
 }

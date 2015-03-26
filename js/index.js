@@ -46,17 +46,23 @@ $(document).ready(function () {
     oldElement = $('.nav-current');
 
     if (!element.hasClass('nav-current')) {
-      if(oldElement.length > 0){
-        oldElement.removeClass('nav-current');
-        animateTextSwap(oldElement, oldElement.attr('nav-notcurrent'));
-      }
+      $('html').velocity('scroll', 'fast', function () {
+        if(oldElement.length > 0){
+          oldElement.removeClass('nav-current');
+          animateTextSwap(oldElement, oldElement.attr('nav-notcurrent'));
+        }
 
-      element.addClass('nav-current');
-      animateTextSwap(element, element.attr('nav-current'));
+        element.addClass('nav-current');
+        animateTextSwap(element, element.attr('nav-current'));
 
-      animatePieceSwap($('#mainpage-' + element.attr('nav-current')), $('.mainpage-current'));
-      $('.mainpage-current').removeClass('mainpage-current');
-      $('#mainpage-' + element.attr('nav-current')).addClass('mainpage-current');
+        animatePieceSwap($('#mainpage-' + element.attr('nav-current')), $('.mainpage-current'));
+        $('.mainpage-current').removeClass('mainpage-current');
+        $('#mainpage-' + element.attr('nav-current')).addClass('mainpage-current');
+
+        // if (document.body.scrollTop !== 0) {
+        //   window.scrollTo(0, 0);
+        // }
+      });
     }
   });
 });
