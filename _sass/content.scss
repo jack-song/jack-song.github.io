@@ -1,17 +1,29 @@
-#content{
+#pagecontent{
   color: $color_base0;
-  font-size: $font-size;
-  padding-left: $spacing;
-  padding-right: $spacing;
-
-  max-width: $width_max;
-  margin: auto;
-  margin-top: 80px;
+  font-size: $font_size;
+  margin-top: $spacing_nav;
 
   .heading-bar {
+    max-width: $width_max + $spacing_nav;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: $color_orange;
+    background-color: $color_base02;
+    font-family: $font_style_code;
+    border-radius: 4px;
   }
 
   ul {
     list-style-type: none;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, ul{
+    padding-left: $spacing;
+    padding-right: $spacing;
+    margin-bottom: $spacing;
+
+    margin-left: auto;
+    margin-right: auto;
   }
 }

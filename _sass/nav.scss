@@ -1,15 +1,18 @@
 #nav{
-  font-size: $font-size+2;
+  font-size: $font_size_nav;
   background-color: $color_base02;
   color: $color_base0;
   text-align: center;
 
   ul{
     :hover{
+      transition: background-color .1s;
       background-color: $color_base03;
       cursor: pointer;
     }
-    :active{
+
+    .nav-current{
+      transition: background-color .1s;
       background-color: $color_base03;
     }
   }
@@ -18,7 +21,7 @@
 .headroom {
     position: fixed;
     top: 0;
-    transition: transform 100ms ease-in;
+    transition: transform 80ms linear;
 
     &.headroom--pinned {
     transform: translateY(0%);

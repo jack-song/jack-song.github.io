@@ -1,0 +1,44 @@
+#mainpage-Index{
+  text-align: center;
+
+  .title-heading{
+    font-size: 160;
+    font-style: oblique;
+    color: $color_orange;
+    font-family: $font_style_code;
+
+    margin-top: $width_max/4;
+  }
+
+  .title-block{
+    margin-bottom: $width_max/6;
+
+    .version{
+      font-size: $font_size*(2/3);
+      color: $color_base01;
+    }
+  }
+
+  .features{
+    max-width: ($width_max/2)*4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $spacing*4;
+    padding: $spacing;
+
+    .feature{
+      text-align: left;
+      max-width: $width_max/2;
+      margin-left: auto;
+      margin-right: auto;
+
+      div{
+        display: table;
+        h2{
+          display: table-cell;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}

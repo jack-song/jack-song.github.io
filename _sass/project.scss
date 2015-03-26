@@ -1,5 +1,16 @@
-.project{
-}
+#mainpage-Projects{
+  text-align: center;
+  max-width: $width_max;
+  margin: auto;
 
-.project-button {
+  .project{
+    margin-bottom: 2*$spacing;
+    background-color: $color_base02;
+    border-radius: 4px;
+    padding: $spacing;
+
+    h2{
+      margin-top: 0px;
+    }
+  }
 }

@@ -3,17 +3,22 @@
 
 @charset "utf-8";
 
+$font_size_nav: 22px;
 $font_size: 20px;
+$font_style_code: Terminus, "DejaVu Sans Mono", Consolas, monospace;
 
-$color_base03: #002b36;
-$color_base02: #073642;
-$color_base01: #586e75;
-$color_base0: #839496;
 $color_blue: #268bd2;
+$color_orange: #cb4b16;
+
+$color_base03: #333E43;
+$color_base02: #4C595F;
+$color_base01: #586e75;
+$color_base0: #FFD4C9;
 
 $width_max: 800px;
 $width_max_nav: 400px;
 $spacing: 20px;
+$spacing_nav: 80px;
 
 body{
   background-color: $color_base03;
@@ -36,3 +41,4 @@ body{
 @import "nav";
 @import "content";
 @import "project";
+@import "mainpage"

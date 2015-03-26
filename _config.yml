@@ -8,6 +8,7 @@ permalink: none
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 
 kramdown:
   parse_block_html: true
