@@ -4,7 +4,7 @@
   .title-heading{
     font-size: 160;
     font-style: oblique;
-    color: $color_orange;
+    color: $color_accent_primary_base;
     font-family: $font_style_code;
 
     margin-top: $width_max/5;
@@ -15,7 +15,7 @@
 
     .version{
       font-size: $font_size*(2/3);
-      color: $color_base01;
+      color: $color_text_minor;
     }
   }
 
@@ -45,6 +45,21 @@
 
   .button-mainpage{
     margin-bottom: 3*$spacing;
+    font-size: 1.5*$font_size;
   }
+}
 
+#mainpage-Me{
+  p, ul{
+    max-width: $width_max;
+  }
+}
+
+.button-mainpage{
+  background-color: $color_accent_primary_base;
+  color: $color_background_base;
+
+  &:hover{
+    color: $color_background_base;
+  }
 }

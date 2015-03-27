@@ -7,13 +7,13 @@ $font_size_nav: 20px;
 $font_size: 20px;
 $font_style_code: Terminus, "DejaVu Sans Mono", Consolas, monospace;
 
-$color_blue: #268bd2;
-$color_orange: #cb4b16;
-
-$color_base03: #333E43;
-$color_base02: #4C595F;
-$color_base01: #586e75;
-$color_base0: #FFD4C9;
+$color_accent_secondary_base: #1998C6;
+$color_accent_primary_base: #ce7823;
+$color_accent_primary_minor: #cc4422;
+$color_background_base: #333E43;
+$color_background_minor: #4C595F;
+$color_text_minor: #83969C;
+$color_text_base: #DDDDDD;
 
 $width_max: 800px;
 $width_max_nav: 400px;
@@ -21,19 +21,19 @@ $spacing: 20px;
 $spacing_nav: 80px;
 
 body{
-  background-color: $color_base03;
+  background-color: $color_background_base;
 
   a{
     text-decoration: none;
-    color: $color_blue;
+    color: $color_accent_secondary_base;
 
     &:hover{
-      color: $color_base01;
+      color: $color_text_minor;
     }
   }
 
   ::selection{
-    background-color: $color_base0;
+    background-color: $color_text_base;
   }
 }
 

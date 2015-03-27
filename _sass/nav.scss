@@ -1,19 +1,24 @@
 #nav{
   font-size: $font_size_nav;
-  background-color: $color_base02;
-  color: $color_base0;
+  background-color: $color_background_minor;
   text-align: center;
 
   ul{
+    a{
+      color: $color_accent_primary_minor;
+    }
+
     :hover{
-      transition: background-color .1s;
-      background-color: $color_base03;
+      transition: background-image .1s;
+      background-color: $color_background_minor;
+      background-image: linear-gradient(transparent,rgba(0,0,0,.05) 40%,rgba(0,0,0,.1));
       cursor: pointer;
+      color: $color_accent_primary_minor;
     }
 
     .nav-current{
-      transition: background-color .1s;
-      background-color: $color_base03;
+      transition: color .1s;
+      color: $color_accent_primary_base;
     }
   }
 }
