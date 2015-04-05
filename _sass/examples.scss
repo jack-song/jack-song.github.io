@@ -1,4 +1,4 @@
-#mainpage-Projects{
+#mainpage-examples{
   text-align: center;
   max-width: $width_max;
   margin: auto;
@@ -8,6 +8,11 @@
     background-color: $color_background_minor;
     border-radius: 4px;
     padding: $spacing;
+
+    .img-project img{
+      max-height: $width_max/2;
+      margin: auto;
+    }
 
     h2{
       margin-top: 0px;

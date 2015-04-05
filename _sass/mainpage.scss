@@ -11,11 +11,19 @@
   }
 
   .title-block{
-    margin-bottom: $width_max/7;
+    margin-bottom: $spacing*3;
+    margin-top: $spacing*5;
 
     .version{
       font-size: $font_size*(2/3);
       color: $color_text_minor;
+    }
+
+    .title-img{
+      max-width: $width_max*(2/3);
+      margin: auto;
+      margin-bottom: $spacing*3;
+      margin-bottom: $spacing*3;
     }
   }
 
@@ -49,13 +57,14 @@
   }
 }
 
-#mainpage-Me{
+#mainpage-about, #mainpage-docs{
   p, ul{
     max-width: $width_max;
   }
 }
 
 .button-mainpage{
+  margin-top: $spacing;
   background-color: $color_accent_primary_base;
   color: $color_background_base;
 

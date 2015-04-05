@@ -55,9 +55,9 @@ $(document).ready(function () {
           animateTextSwap(oldElement, oldElement.attr('nav-notcurrent'));
         }
 
-        animatePieceSwap($('#mainpage-' + element.attr('nav-current')), $('.mainpage-current'));
+        animatePieceSwap($('#mainpage-' + element.attr('mainpage-suffix')), $('.mainpage-current'));
         $('.mainpage-current').removeClass('mainpage-current');
-        $('#mainpage-' + element.attr('nav-current')).addClass('mainpage-current');
+        $('#mainpage-' + element.attr('mainpage-suffix')).addClass('mainpage-current');
       });
     }
   });
