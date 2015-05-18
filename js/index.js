@@ -1,6 +1,30 @@
 $(document).ready(function () {
   $('#nav').headroom();
 
+  PDFJS.getDocument('assets/base.pdf').then(function(pdf) {
+  pdf.getPage(1).then(function(page) {
+    var scale = 1;
+    var viewport = page.getViewport(scale);
+
+    //
+    // Prepare canvas using PDF page dimensions
+    //
+    var canvas = document.getElementById('resume');
+    var context = canvas.getContext('2d');
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    //
+    // Render PDF page into canvas context
+    //
+    var renderContext = {
+      canvasContext: context,
+      viewport: viewport
+    };
+    page.render(renderContext);
+  });
+});
+
   String.prototype.testNavWidth = function(font) {
     var f = font || '20px arial',
         o = $('<a>' + this + '</a>')
