@@ -56,9 +56,21 @@
   }
 }
 
-#mainpage-about, #mainpage-docs{
+#mainpage-about {
+  margin-top: $spacing + $spacing_nav;
+
   p, ul{
     max-width: $width_max;
+  }
+}
+
+#resume-button{
+  margin: auto;
+  text-align: center;
+
+  .button-mainpage{
+    margin-top: $spacing/2;
+    margin-bottom: $spacing/2;
   }
 }
 

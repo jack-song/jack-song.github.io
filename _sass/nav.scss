@@ -3,8 +3,10 @@
   background-color: $color_background_minor;
   text-align: center;
   border-bottom: 2px $color_background_base solid;
+  height: $spacing_nav;
 
   ul{
+  height: 100%;
     a{
       color: $color_accent_primary_minor;
     }
