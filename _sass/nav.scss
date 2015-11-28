@@ -2,6 +2,7 @@
   font-size: $font_size_nav;
   background-color: $color_background_minor;
   text-align: center;
+  border-bottom: 2px $color_background_base solid;
 
   ul{
     a{

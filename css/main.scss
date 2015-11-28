@@ -3,9 +3,10 @@
 
 @charset "utf-8";
 
-$font_size_nav: 20px;
-$font_size: 20px;
-$font_style_code: Terminus, "DejaVu Sans Mono", Consolas, monospace;
+$font_size_nav: 1.2rem;
+$font_size: 1.2rem;
+$font_style_code: Consolas, monospace;
+$font_style: "Lato", sans-serif;
 
 $color_accent_secondary_base: #1998C6;
 $color_accent_primary_base: #ce7823;
@@ -15,10 +16,10 @@ $color_background_minor: #4C595F;
 $color_text_minor: #83969C;
 $color_text_base: #DDDDDD;
 
-$width_max: 800px;
-$width_max_nav: 400px;
-$spacing: 20px;
-$spacing_nav: 80px;
+$width_max: 60rem;
+$width_max_nav: 30rem;
+$spacing: 2rem;
+$spacing_nav: 4rem;
 
 body{
   background-color: $color_background_base;

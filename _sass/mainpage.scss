@@ -11,8 +11,8 @@
   }
 
   .title-block{
-    margin-bottom: $spacing*3;
-    margin-top: $spacing*5;
+    margin-bottom: $spacing*2;
+    margin-top: $spacing*3;
 
     .version{
       font-size: $font_size*(2/3);
@@ -22,8 +22,7 @@
     .title-img{
       max-width: $width_max*(2/3);
       margin: auto;
-      margin-bottom: $spacing*3;
-      margin-bottom: $spacing*3;
+      margin-bottom: $spacing*1.5;
     }
   }
 
@@ -31,7 +30,7 @@
     max-width: ($width_max/2)*4;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: $spacing*3;
+    margin-bottom: 0;
     padding: $spacing;
 
     .feature{
