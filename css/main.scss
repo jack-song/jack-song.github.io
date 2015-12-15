@@ -39,6 +39,8 @@ body{
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
+@import "pure-min.css";
+@import "grids-responsive-min.css";
 @import "nav";
 @import "content";
 @import "examples";
