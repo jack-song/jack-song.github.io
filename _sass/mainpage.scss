@@ -67,13 +67,23 @@
   }
 }
 
-#resume-button{
-  margin: auto;
-  text-align: center;
+#mainpage-docs {
+  list-style-position:inside;
 
-  .button-mainpage{
-    margin-top: $spacing/2;
-    margin-bottom: $spacing/2;
+  #resume-button{
+    margin: auto;
+    text-align: center;
+    font-size: 1.5em;
+
+    .button-mainpage{
+      margin-top: $spacing;
+      margin-bottom: $spacing/3;
+    }
+  }
+
+  #resume {
+    margin: auto;
+    max-width: $width_max;
   }
 }
 
