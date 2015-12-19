@@ -6,7 +6,7 @@
 $font_size_nav: 1.2rem;
 $font_size: 1.2rem;
 $font_style_code: Consolas, monospace;
-$font_style: "Lato", sans-serif;
+$font_style: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 
 $color_accent_secondary_base: #1998C6;
 $color_accent_primary_base: #ce7823;
@@ -21,20 +21,24 @@ $width_max_nav: 30rem;
 $spacing: 2rem;
 $spacing_nav: 3rem;
 
-body{
-  background-color: $color_background_base;
+html{
+  font-family: $font_style !important;
 
-  a{
-    text-decoration: none;
-    color: $color_accent_secondary_base;
+  body{
+    background-color: $color_background_base;
 
-    &:hover{
-      color: $color_text_minor;
+    a{
+      text-decoration: none;
+      color: $color_accent_secondary_base;
+
+      &:hover{
+        color: $color_text_minor;
+      }
     }
-  }
 
-  ::selection{
-    background-color: $color_background_minor;
+    ::selection{
+      background-color: $color_background_minor;
+    }
   }
 }
 
