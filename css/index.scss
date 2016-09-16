@@ -4,12 +4,18 @@
 
 @import 'base';
 
-#title {
-  text-align: center;
+.title-content {
   margin-bottom: 2em;
   margin-top: 0;
   padding-top: 3em;
+}
 
-  padding-left: $content-padding;
-  padding-right: $content-padding;
+hr {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 3em;
 }

@@ -3,14 +3,59 @@ html {
   -webkit-text-size-adjust: 100%; }
 
 body {
-  font-size: 24px;
+  font-size: 22px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   background-color: #FFFFFF;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 3em; }
+  margin-bottom: 0; }
+
+p {
+  margin-top: 1em;
+  margin-bottom: 0; }
+
+h1, h2 {
+  margin: 0;
+  font-family: Lato, Helvetica, sans-serif;
+  color: #87440D; }
+
+h2 {
+  font-size: 1em; }
+
+h1 {
+  font-size: 1.5em;
+  line-height: 2.5em; }
+
+a {
+  color: #684D19;
+  text-decoration: none;
+  border-bottom: 1px solid #684D19; }
+
+hr {
+  width: 50%;
+  border-top: 2px dotted #AFB7CA; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+img {
+  max-width: 560px;
+  max-height: 320px;
+  display: block;
+  margin: 0 auto; }
+
+.code {
+  font-family: monospace;
+  color: #3C4C70; }
+
+.footer {
+  margin-top: 3em;
+  height: 4em;
+  background-color: #E2ECEC; }
 
 .words {
   color: #040404;
@@ -20,44 +65,26 @@ body {
   line-height: 1.6em;
   font-size: 1em;
   font-family: Bookman, serif;
-  padding-left: 4px;
-  padding-right: 4px; }
+  padding-left: 12px;
+  padding-right: 12px; }
 
-h2, h3, p, blockquote {
-  margin: 0;
-  padding: 0;
-  margin-top: 1em; }
+.bordered {
+  border-left: 2px dotted #AFB7CA;
+  padding-left: 24px;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 3em; }
 
-h1, h2 {
-  font-family: Lato, Helvetica, sans-serif;
-  color: #87440D; }
-
-h2 {
-  font-size: 1.2em; }
-
-h1 {
-  font-size: 2em;
-  line-height: 3em;
+.title {
   background-color: #E2ECEC; }
 
-a {
-  color: #684D19;
-  text-decoration: none;
-  border-bottom: 1px solid #684D19; }
-
-hr {
-  width: 50%;
-  border-top: 1px dotted #684D19;
-  margin-top: 6em;
-  margin-bottom: 6em; }
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.code {
-  font-family: monospace; }
+.title-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px; }
 
 @-webkit-keyframes fadeIn {
   from {
@@ -98,10 +125,15 @@ ul {
   -moz-animation-delay: 0.3s;
   animation-delay: 0.3s; }
 
-#title {
-  text-align: center;
+.title-content {
   margin-bottom: 2em;
   margin-top: 0;
-  padding-top: 3em;
-  padding-left: 4px;
-  padding-right: 4px; }
+  padding-top: 3em; }
+
+hr {
+  margin-top: 6em;
+  margin-bottom: 6em; }
+
+h1 {
+  font-size: 2em;
+  line-height: 3em; }

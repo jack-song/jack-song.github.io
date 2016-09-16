@@ -1,5 +1,9 @@
 $content-width: 800px;
-$content-padding: 4px;
+$content-padding: 12px;
+$primary-color: #684D19;
+$secondary-color: #3C4C70;
+$primary-background-color: #E2ECEC;
+$secondary-background-color: #AFB7CA;
 
 html {
     -ms-text-size-adjust: 100%;
@@ -7,7 +11,7 @@ html {
 }
 
 body {
-  font-size: 24px;
+  font-size: 22px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   
@@ -15,7 +19,62 @@ body {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-  padding-bottom: 3em;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: Lato, Helvetica, sans-serif;
+  color: #87440D;
+}
+
+h2 {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 2.5em;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+    border-bottom: 1px solid $primary-color;
+}
+
+hr {
+  width: 50%;
+  border-top: 2px dotted $secondary-background-color;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: .7*$content-width;
+  max-height: .4*$content-width;
+  display: block;
+  margin: 0 auto;
+}
+
+.code {
+  font-family: monospace;
+  color: $secondary-color;
+}
+
+.footer {
+  margin-top: 3em;
+  height: 4em;
+  background-color: $primary-background-color;
 }
 
 .words {
@@ -30,50 +89,27 @@ body {
   padding-right: $content-padding;
 }
 
-h2,h3,p,blockquote {
-    margin: 0;
-    padding: 0;
-
-    margin-top: 1em;
+.bordered {
+  border-left: 2px dotted $secondary-background-color;
+  padding-left: $content-padding*2;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 3em;
 }
 
-h1, h2 {
-  font-family: Lato, Helvetica, sans-serif;
-  color: #87440D;
+.title {
+  background-color: $primary-background-color;
 }
 
-h2 {
-  font-size: 1.2em;
-}
+.title-content {
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
 
-h1 {
-  font-size: 2em;
-  line-height: 3em;
-  background-color: #E2ECEC;
-}
+  text-align: left;
 
-a {
-    color: #684D19;
-    text-decoration: none;
-    border-bottom: 1px solid #684D19;
-}
-
-hr {
-  width: 50%;
-  border-top: 1px dotted #684D19;
-
-  margin-top: 6em;
-  margin-bottom: 6em;
-}
-
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.code {
-  font-family: monospace;
+  padding-left: $content-padding;
+  padding-right: $content-padding;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
