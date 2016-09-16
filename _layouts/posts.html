@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>{{ page.title }}</title>
+    <meta charset="utf-8" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="{{ '/css/posts.css' }}" rel="stylesheet">
+  </head>
+
+  <body>
+
+  	<h1 id="title" class="fade-in earlier">
+      <div class="title-content">
+  	    {{ page.title }}
+      </div>
+  	</h1>
+  
+    <div class="words fade-in later">
+      {{ content }}
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,15 @@
+---
+---
+@charset "utf-8";
+
+@import 'base';
+
+#title {
+  text-align: center;
+  margin-bottom: 2em;
+  margin-top: 0;
+  padding-top: 3em;
+
+  padding-left: $content-padding;
+  padding-right: $content-padding;
+}

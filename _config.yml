@@ -1,0 +1,9 @@
+title: Jack Song
+email: jackthesong@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Who is Jack?
+baseurl: ""
+url: "http://whoisjack.today"
+
+# Build settings
+markdown: kramdown
