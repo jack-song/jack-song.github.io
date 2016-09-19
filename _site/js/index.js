@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function update_today(role, action) {
-    document.getElementById('today').innerHTML = `Today, I'm ${codify(action)} and learning to be a better ${codify(role)}.`;
+    document.getElementById('today').innerHTML = `Today, I'm ${codify(action)} and learning to be a better ${codify(role)}.  Ask me about it!`;
   }
 
   function update_yesterday(role_yesterday, action_yesterday) {
@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var day = today.getDate();
 
   // replace the Date
-  document.getElementById('date').innerHTML = `It's ${codify(month + " " + day)}.`;
+  document.getElementById('date').innerHTML = `Hi! It's ${codify(month + " " + day)} already - time flies.`;
 
   // seed is total days since the offset
   var base_seed = Math.floor(today.getTime()/(1000*60*60*24));

@@ -43,9 +43,13 @@ h1 {
 }
 
 a {
-    color: $primary-color;
-    text-decoration: none;
-    border-bottom: 1px solid $primary-color;
+  color: $primary-color;
+  text-decoration: none;
+  border-bottom: 1px solid $primary-color;
+}
+
+a:hover, a:active, a.button:hover, a.button:active {
+  background-color: $primary-background-color;
 }
 
 hr {
@@ -64,6 +68,13 @@ img {
   max-height: .4*$content-width;
   display: block;
   margin: 0 auto;
+}
+
+a.button {
+  margin-right: 2*$content-padding;
+  border: 1px solid $primary-color;
+  border-radius: $content-padding/3;
+  padding: $content-padding/4 $content-padding/2;
 }
 
 .code {
