@@ -45,11 +45,15 @@ h1 {
 a {
   color: $primary-color;
   text-decoration: none;
+  border-bottom: 1px dotted $primary-color;
+}
+
+a:hover, a:active {
   border-bottom: 1px solid $primary-color;
 }
 
-a:hover, a:active, a.button:hover, a.button:active {
-  background-color: $primary-background-color;
+a.button:hover, a.button:active {
+  border-style: solid;
 }
 
 hr {
@@ -72,7 +76,7 @@ img {
 
 a.button {
   margin-right: 2*$content-padding;
-  border: 1px solid $primary-color;
+  border: 1px dotted $primary-color;
   border-radius: $content-padding/3;
   padding: $content-padding/4 $content-padding/2;
 }

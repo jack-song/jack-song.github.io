@@ -86,4 +86,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
   var action = update_text(role, base_seed, ACTION_TYPES, update_today, 0);
   var action_yesterday = update_text(role_yesterday, base_seed_yesterday, ACTION_TYPES_PAST, update_yesterday, 1);
+
+  // endpoint test function
+  // var xhr = new XMLHttpRequest();
+  // xhr.open('GET', WIKI_ENDPOINT + '/daily/wikipedia');
+  // xhr.send(null);
+  // xhr.onreadystatechange = function () {
+  //   var DONE = 4; // readyState 4 means the request is done.
+  //   var OK = 200; // status 200 is a successful return.
+  //   if (xhr.readyState === DONE) {
+  //     if (xhr.status === OK) {
+  //       console.log("UP");
+  //     } else {
+  //       console.log("BORKED");
+  //     }
+  //   }
+  // };
 });
