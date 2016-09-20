@@ -81,6 +81,10 @@ a.button {
   padding: $content-padding/4 $content-padding/2;
 }
 
+a.button.end {
+  margin-right: 0;
+}
+
 .code {
   font-family: monospace;
   color: $secondary-color;
@@ -102,6 +106,10 @@ a.button {
   font-family: Bookman, serif;
   padding-left: $content-padding;
   padding-right: $content-padding;
+}
+
+.centered {
+  text-align: center;
 }
 
 .bordered {
