@@ -2,6 +2,7 @@
 layout: post
 title:  "Arimaa Free"
 category: project
+excerpt_separator: <!--excerpt-->
 ---
 
 <a class="button" href="http://play.google.com/store/apps/details?id=email.com.gmail.songjiapei.arimaa&hl=en">
@@ -13,3 +14,4 @@ category: project
 ![Arimaa Free](/assets/screen-arimaa.jpg)
 
 Android port of a chess-like board game.
+<!--excerpt-->
