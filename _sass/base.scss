@@ -53,7 +53,7 @@ a:hover, a:active {
 }
 
 a.button:hover, a.button:active {
-  border-style: solid;
+  border: 1px solid $primary-color;
 }
 
 hr {
@@ -67,6 +67,10 @@ ul {
   list-style: none;
 }
 
+i {
+  margin-right: $content-padding;
+}
+
 img {
   max-width: .7*$content-width;
   max-height: .4*$content-width;
@@ -76,9 +80,10 @@ img {
 
 a.button {
   margin-right: 2*$content-padding;
+  font-family: Lato, Helvetica, sans-serif;
   border: 1px dotted $primary-color;
   border-radius: $content-padding/3;
-  padding: $content-padding/4 $content-padding/2;
+  padding: $content-padding/2 $content-padding;
 }
 
 a.button.end {
@@ -109,6 +114,7 @@ a.button.end {
 }
 
 .centered {
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -155,13 +161,13 @@ a.button.end {
 }
 
 .fade-in.earlier {
-  -webkit-animation-delay: 0.1s;
-  -moz-animation-delay: 0.1s;
-  animation-delay: 0.1s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .fade-in.later {
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
