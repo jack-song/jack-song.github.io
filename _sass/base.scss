@@ -58,7 +58,9 @@ a.button:hover, a.button:active {
 
 hr {
   width: 50%;
-  border-top: 2px dotted $secondary-background-color;
+  border-style: dashed;
+  border-width: 1px;
+  border-color: $primary-background-color;
 }
 
 ul {
