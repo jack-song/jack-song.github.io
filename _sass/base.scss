@@ -5,13 +5,6 @@ $secondary-color: #3C4C70;
 $primary-background-color: #E2ECEC;
 $secondary-background-color: #AFB7CA;
 
-@font-face {
-  font-family: Lato;
-  src: url('/fonts/Lato-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -164,9 +157,9 @@ a.button.end {
   -moz-animation-fill-mode:forwards;
   animation-fill-mode:forwards;
  
-  -webkit-animation-duration:.2s;
-  -moz-animation-duration:.2s;
-  animation-duration:.2s;
+  -webkit-animation-duration:.15s;
+  -moz-animation-duration:.15s;
+  animation-duration:.15s;
 }
 
 .fade-in.earlier {
