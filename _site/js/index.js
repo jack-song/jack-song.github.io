@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
   var ROLES = ["problem solver", "engineer", "student", "teacher", "brother", "photographer", "artist", "friend", "explorer", "scientist"];
 
-  var ACTION_TYPES = ["reading about ", "trying to ", "working on "];
-  var ACTION_TYPES_PAST = ["learned about ", "tried to ", "put time into "];
+  var ACTION_TYPES = ["reading about (the) ", "trying to ", "working on "];
+  var ACTION_TYPES_PAST = ["learned about (the) ", "tried to ", "put time into "];
 
   var TIME_ACTIONS = ["my rock climbing", "living a healthier lifestyle", "my coding", "practicing an instrument", "finishing my current book", "a drawing", "my sketching"];
   var TRYING_ACTIONS = ["find a new band", "see a new part of town", "catch up with an old friend", "find an interesting lecture to watch", "meet someone new", "test a new technology"];

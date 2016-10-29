@@ -5,10 +5,17 @@ $secondary-color: #3C4C70;
 $primary-background-color: #E2ECEC;
 $secondary-background-color: #AFB7CA;
 
+@font-face {
+  font-family: Lato;
+  src: url('/fonts/Lato-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 body {
@@ -110,7 +117,7 @@ a.button.end {
   max-width: $content-width;
   line-height: 1.6em;
   font-size: 1em;
-  font-family: Bookman, serif;
+  font-family: Georgia, sans-serif;
   padding-left: $content-padding;
   padding-right: $content-padding;
 }
