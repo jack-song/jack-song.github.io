@@ -1,5 +1,5 @@
 $content-width: 800px;
-$content-padding: 12px;
+$content-padding: 1rem;
 $primary-color: #684D19;
 $secondary-color: #3C4C70;
 $primary-background-color: #E2ECEC;
@@ -70,7 +70,7 @@ ul {
 }
 
 i {
-  margin-right: $content-padding;
+  margin-right: .8rem;
 }
 
 img {
@@ -81,11 +81,11 @@ img {
 }
 
 a.button {
-  margin-right: 2*$content-padding;
+  margin-right: 1.5rem;
   font-family: Lato, Helvetica, sans-serif;
   border: 1px dotted $primary-color;
-  border-radius: $content-padding/3;
-  padding: $content-padding/2 $content-padding;
+  border-radius: .2rem;
+  padding: .3rem .8rem;
 }
 
 a.button.end {
@@ -113,6 +113,7 @@ a.button.end {
   font-family: Georgia, sans-serif;
   padding-left: $content-padding;
   padding-right: $content-padding;
+  text-align: left;
 }
 
 .centered {
@@ -122,8 +123,9 @@ a.button.end {
 
 .post-preview {
   border-left: 2px dotted $secondary-background-color;
-  margin-left: -1rem;
-  padding-left: 1rem;
+  /* push the border out on small screens */
+  margin-left: -($content-padding+1);
+  padding-left: $content-padding+1;
   padding-top: .5rem;
   padding-bottom: .5rem;
   margin-top: 4rem;
