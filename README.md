@@ -1,7 +1,6 @@
 # shite
 
 ## TODO
- * use negative borders for more space with side-highlights on mobile
  * blog page
  * nav
  * better projects view for displaying posts
@@ -11,6 +10,7 @@
  * carousel or gallery thing like wallop js?
 
 ### done
+ * use negative borders for more space with side-highlights on mobile
  * add gitignore
  * fix image sizing on mobile
  * add projects
