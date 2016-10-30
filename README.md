@@ -5,9 +5,10 @@
  * blog page
  * nav
  * better projects view for displaying posts
- * lazy loaded images
+ * lazy loaded images (probably blazy or layzr)
  * better image sizes
  * more interesting UX
+ * carousel or gallery thing like wallop js?
 
 ### done
  * add gitignore
