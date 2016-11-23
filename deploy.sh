@@ -2,7 +2,7 @@
 trap 'exit' ERR
 
 # Generate site
-hugo
+./hugo
 
 # stash public files
 cd public
