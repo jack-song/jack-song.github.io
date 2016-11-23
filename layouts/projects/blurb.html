@@ -1,0 +1,19 @@
+<div class="image-blurb-container">
+    <div class="image-blurb-spacer"></div>
+    <div class="image-blurb card plain">
+        <a href="{{ .Permalink }}">
+            <img src="{{ .Params.image }}" />
+        </a>
+
+        <div class="image-blurb-text">
+            <h2>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+
+            <p>
+                {{ .Params.description }}
+            </p>
+        </div>
+    </div>
+    <div class="image-blurb-spacer"></div>
+</div>

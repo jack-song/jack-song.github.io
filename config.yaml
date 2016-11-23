@@ -1,0 +1,9 @@
+---
+contentdir: "content"
+layoutdir: "layouts"
+publishdir: "public"
+baseurl: http://whoisjack.today
+disablePathToLower: true
+title: "Jack Song"
+canonifyurls: true
+...

@@ -1,0 +1,195 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 18px; }
+
+body {
+  background-image: url("/assets/background.png");
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0; }
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 1.6em;
+  font-family: Georgia, sans-serif; }
+
+h1, h2 {
+  margin: 0;
+  font-family: 'Muli', Helvetica, sans-serif;
+  color: #684D19; }
+
+h2 {
+  font-size: 1.2em;
+  line-height: 2em; }
+
+h1 {
+  font-size: 1.5em;
+  line-height: 3em; }
+
+a {
+  color: #684D19;
+  text-decoration: none;
+  border-bottom: 1px dotted #684D19; }
+
+a:hover, a:active {
+  border-bottom: 1px solid #684D19; }
+
+a.button:hover, a.button:active {
+  border: 1px solid #684D19; }
+
+a.button {
+  margin-right: 1.5rem;
+  font-family: 'Muli', Helvetica, sans-serif;
+  border: 1px dotted #684D19;
+  border-radius: .2rem;
+  padding: .3rem .8rem; }
+
+a.button.end {
+  margin-right: 0; }
+
+hr {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #E2ECEC;
+  width: 50%;
+  margin-top: 5rem;
+  margin-bottom: 5rem; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+i {
+  margin-right: .8rem; }
+
+.code {
+  font-family: monospace;
+  color: #3C4C70; }
+
+.centered {
+  margin-top: 1rem;
+  text-align: center; }
+
+.words {
+  color: #080810;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 4rem;
+  text-align: left; }
+  .words img {
+    width: 100%; }
+
+@media (min-width: 800px) {
+  html {
+    font-size: 20px; }
+  .words {
+    padding-left: 3rem;
+    padding-right: 3rem; } }
+
+.blurb-spread {
+  -webkit-column-count: 2;
+          column-count: 2;
+  -webkit-column-width: 266.66667px;
+          column-width: 266.66667px;
+  -webkit-column-gap: 0;
+          column-gap: 0;
+  max-width: 800px;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4rem; }
+
+.image-blurb-container {
+  -webkit-column-break-inside: avoid;
+          break-inside: avoid; }
+  .image-blurb-container .image-blurb-spacer {
+    width: 100%;
+    height: 1rem; }
+  .image-blurb-container .image-blurb {
+    margin-left: 1rem;
+    margin-right: 1rem; }
+    .image-blurb-container .image-blurb img {
+      width: 100%; }
+    .image-blurb-container .image-blurb .image-blurb-text {
+      padding: 1rem; }
+    .image-blurb-container .image-blurb > a {
+      border-bottom: none; }
+      .image-blurb-container .image-blurb > a:hover img, .image-blurb-container .image-blurb > a:active img {
+        -webkit-filter: grayscale(50%);
+                filter: grayscale(50%);
+        -webkit-filter: brightness(0.9);
+                filter: brightness(0.9); }
+
+.image-set {
+  -webkit-column-width: 266.66667px;
+          column-width: 266.66667px;
+  margin-top: 1rem; }
+  .image-set img {
+    display: block; }
+
+.top-chunk {
+  height: 6rem; }
+
+.bottom-chunk {
+  height: 4rem; }
+
+.card {
+  position: relative;
+  box-shadow: 0px 0px 1px 1px rgba(10, 10, 15, 0.4); }
+
+.tex {
+  background-image: url("/assets/shattered.png");
+  z-index: 5; }
+
+.plain {
+  background-color: #FCFBFA;
+  z-index: 4; }
+
+.title-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -webkit-animation: fadeIn ease-in 1;
+          animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-duration: .15s;
+          animation-duration: .15s; }
+
+.fade-in.earlier {
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s; }
+
+.fade-in.later {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s; }

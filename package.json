@@ -1,0 +1,16 @@
+{
+  "name": "shite",
+  "devDependencies": {
+    "onchange": "latest",
+    "node-sass": "latest",
+    "autoprefixer": "latest",
+    "postcss-cli": "latest"
+  },
+  "scripts": {
+	  "css:devbuild": "node-sass ./static-src/sass -o ./static/css",
+	  "postcss:devbuild": "postcss --use autoprefixer --autoprefixer.browsers \"> 5%\" -d ./static/css ./static/css/*.css",
+	  "css:watch": "onchange ./static-src/sass -- npm run css:devbuild",
+	  "precss:watch": "npm run css:devbuild",
+	  "dev": "npm run css:watch"
+  }
+}

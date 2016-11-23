@@ -1,0 +1,233 @@
+$content-width: 800px;
+$content-padding: 1rem;
+$primary-color: #684D19;
+$secondary-color: #3C4C70;
+$primary-background-color: #E2ECEC;
+$soft-white: #FCFBFA;
+$soft-black: #080810;
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-size: 18px;
+}
+
+body {
+  background-image: url("/assets/background.png");
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1em;
+  line-height: 1.6em;
+  font-family: Georgia, sans-serif;
+}
+
+h1, h2 {
+  margin: 0;
+  font-family: 'Muli', Helvetica, sans-serif;
+  color: $primary-color;
+}
+
+h2 {
+    font-size: 1.2em;
+    line-height: 2em;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 3em;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+  border-bottom: 1px dotted $primary-color;
+}
+
+a:hover, a:active {
+  border-bottom: 1px solid $primary-color;
+}
+
+a.button:hover, a.button:active {
+  border: 1px solid $primary-color;
+}
+
+a.button {
+  margin-right: 1.5rem;
+  font-family: 'Muli', Helvetica, sans-serif;
+  border: 1px dotted $primary-color;
+  border-radius: .2rem;
+  padding: .3rem .8rem;
+}
+
+a.button.end {
+  margin-right: 0;
+}
+
+hr {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: $primary-background-color;
+  width: 50%;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+i {
+  margin-right: .8rem;
+}
+
+.code {
+  font-family: monospace;
+  color: $secondary-color;
+}
+
+.centered {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.words {
+  color: $soft-black;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $content-width;
+  padding-top: $content-padding;
+  padding-left: $content-padding;
+  padding-right: $content-padding;
+  padding-bottom: 4*$content-padding;
+  text-align: left;
+
+  img {
+    width: 100%;
+  }
+}
+
+@media (min-width: $content-width) {
+  html {
+    font-size: 20px;
+  }
+
+  .words {
+    padding-left: 3*$content-padding;
+    padding-right: 3*$content-padding;
+  }
+}
+
+.blurb-spread {
+  column-count: 2;
+  column-width: $content-width/3;
+  column-gap: 0;
+  max-width: $content-width;
+  margin-top: $content-padding;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4*$content-padding;
+}
+
+.image-blurb-container {
+  break-inside: avoid;
+
+  .image-blurb-spacer {
+    width: 100%;
+    height: $content-padding;
+  }
+
+  .image-blurb {
+    margin-left: $content-padding;
+    margin-right: $content-padding;
+
+    img {
+      width: 100%;
+    }
+
+    .image-blurb-text {
+      padding: $content-padding;
+    }
+
+    > a {
+      border-bottom: none;
+      &:hover, &:active {
+        img {
+          filter: grayscale(50%);
+          filter: brightness(.9);
+        }
+      }
+    }
+  }
+}
+
+.image-set {
+  column-width: $content-width/3;
+  margin-top: $content-padding;
+
+  img {
+    display: block;
+  }
+}
+
+.top-chunk {
+  height: 6rem;
+}
+
+.bottom-chunk {
+  height: 4rem;
+}
+
+.card {
+  // needed for z-index
+  position: relative;
+  box-shadow: 0px 0px 1px 1px rgba(10, 10, 15, .4);
+}
+
+.tex {
+  background-image: url("/assets/shattered.png");
+  z-index: 5;
+}
+
+.plain {
+  background-color: $soft-white;
+  z-index: 4;
+}
+
+.title-content {
+  max-width: $content-width;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: left;
+
+  padding-top: $content-padding;
+  padding-left: $content-padding;
+  padding-right: $content-padding;
+}
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+ /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation:fadeIn ease-in 1;
+  animation-fill-mode:forwards;
+  animation-duration:.15s;
+}
+
+.fade-in.earlier {
+  animation-delay: 0.2s;
+}
+
+.fade-in.later {
+  animation-delay: 0.4s;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    {{ partial "headstuff.html" . }}
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&text=Jack%20Song">
+    <link rel="stylesheet" href="/css/index.css">
+  </head>
+
+  <body>
+    {{ partial "topchunk.html" . }}
+    <div class="words plain card fade-in later">
+      <p id="date">
+        Hi! It's <span class="code">[ ... ]</span> already - time flies.
+      </p>
+
+      <p id="today">
+        Today, I'm <span class="code">[ ... ]</span> and trying to be a better <span class="code">[ ... ]</span>. Ask me about it!
+      </p>
+
+      <hr>
+
+      <p>
+        Chances are I'll be following through with what I've said — I get shamelessly excited about learning and trying things. You can check out my <a href="/projects">projects</a> and <a href="assets/JackSong.pdf" target="_blank">resume</a>.
+      </p>
+
+      <p>
+        I also like to <a href="http://malsatas.deviantart.com/" target="_blank">draw</a>, climb rocks, and try every recommendation I'm given — from books to entire hobbies.
+      </p>
+
+      <hr>
+
+      <p id="yesterday">
+        Yesterday I became a better <span class="code">[ ... ]</span> and <span class="code">[ ... ]</span>.
+      </p>
+
+      <p>
+        Who are you? Let's talk: <a href="mailto:jackthesong@gmail.com">jackthesong@gmail.com</a>.
+      </p>
+    </div>
+    
+    {{ partial "bottomchunk.html" . }}
+    <script type="text/javascript" src="/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    {{ partial "headstuff.html" . }}
+  </head>
+
+  <body>
+    {{ partial "topchunk.html" . }}
+
+    <div class="blurb-spread fade-in later">
+    {{ range .Data.Pages }}
+        {{ .Render "blurb" }}
+    {{ end }}
+    </div>
+
+    {{ partial "bottomchunk.html" . }}
+  </body>
+</html>
