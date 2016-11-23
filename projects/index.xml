@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects-rsses on Jack Song</title>
+    <link>http://whoisjack.today/projects/index.xml</link>
+    <description>Recent content in Projects-rsses on Jack Song</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://whoisjack.today/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arimaa Free</title>
+      <link>http://whoisjack.today/projects/arimaa-free/</link>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/arimaa-free/</guid>
+      <description>&lt;div class=&#34;image-set&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/arimaa-screen-1.png&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/arimaa-screen-2.png&#34;&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;centered&#34;&gt;
+    &lt;a class=&#34;button&#34; href=&#34;http://play.google.com/store/apps/details?id=email.com.gmail.songjiapei.arimaa&amp;hl=en&#34;&gt;
+        &lt;i class=&#34;ion-android-playstore&#34;&gt;&lt;/i&gt;Play Store
+    &lt;/a&gt; &lt;a class=&#34;button end&#34; href=&#34;http://github.com/jack-song/Arimaa&#34;&gt;
+        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Interestingly, a game designed to be difficult for computers to play. But AI players have very recently beaten humans! &lt;a href=&#34;http://arimaa.com/arimaa/&#34;&gt;The original Arimaa can be found here.&lt;/a&gt; (warning: not a modern website)&lt;/p&gt;
+
+&lt;p&gt;It was fun to design a system for rewinding and replaying games move by move. I ended up using a string notation for recording actions augmented from the &lt;a href=&#34;http://arimaa.com/arimaa/learn/notation.html&#34;&gt;standard&lt;/a&gt;. Despite being intimidating, it was also fun to generate the recursive set of legal moves for the UI. Not too proud of the &amp;ldquo;GameEngine&amp;rdquo; class though&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Colorful Conway</title>
+      <link>http://whoisjack.today/projects/conway/</link>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/conway/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://whoisjack.today/assets/conway-blurb.png&#34; alt=&#34;Colorful Conway&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;centered&#34;&gt;
+    &lt;a class=&#34;button&#34; href=&#34;http://colorfulconway-songjack.rhcloud.com/&#34;&gt;
+        &lt;i class=&#34;ion-android-globe&#34;&gt;&lt;/i&gt;Try it live
+    &lt;/a&gt; &lt;a class=&#34;button end&#34; href=&#34;https://github.com/jack-song/colorfulConway&#34;&gt;
+        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Different clients are given different colours on a standard Game of Life board. The simulation runs as usual - except new cells are generated as an average colour of the cells around it.&lt;/p&gt;
+
+&lt;p&gt;It was interesting to have to deal with the realities of network latency and a relatively inefficient computation. Signficant compromises had to be made to the original design. Simulations are round based rather than constantly running to allow the server to synchronize clients. Simulations also run slower to improve consistency between clients with varying computing power.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Morbid Motivation</title>
+      <link>http://whoisjack.today/projects/morbid/</link>
+      <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/morbid/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://whoisjack.today/assets/morbid-blurb.png&#34; alt=&#34;Morbid Motivation&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;centered&#34;&gt;
+    &lt;a class=&#34;button&#34; href=&#34;http://chrome.google.com/webstore/detail/morbid-motivation/kjpeibokdagajocicdijpeognkpccphj&#34;&gt;
+        &lt;i class=&#34;ion-android-globe&#34;&gt;&lt;/i&gt;Chrome Store
+    &lt;/a&gt; &lt;a class=&#34;button end&#34; href=&#34;http://github.com/jack-song/MorbidMotivation&#34;&gt;
+        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The idea is to use our inevitable passing as a source of motivation. Colours are configurable to the user&amp;rsquo;s tastes.&lt;/p&gt;
+
+&lt;p&gt;A fairly simple app made in a few hours for a short hackathon. An early attempt to learn ways of modularizing javascript code.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

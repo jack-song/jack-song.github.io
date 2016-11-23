@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://whoisjack.today/assets/favicon.ico?">
+<link rel="stylesheet" href="http://whoisjack.today/css/ionicons.min.css">
+<link rel="stylesheet" href="http://whoisjack.today/css/base.css">
+
+<title>Colorful Conway</title>
+  </head>
+
+  <body>
+    <div class="top-chunk tex card fade-in earlier">
+    <h1 class="title-content">Colorful Conway</h1>
+</div>
+    <div class="words plain card fade-in later">
+      <p><img src="http://whoisjack.today/assets/conway-blurb.png" alt="Colorful Conway" /></p>
+
+<div class="centered">
+    <a class="button" href="http://colorfulconway-songjack.rhcloud.com/">
+        <i class="ion-android-globe"></i>Try it live
+    </a> <a class="button end" href="https://github.com/jack-song/colorfulConway">
+        <i class="ion-social-github"></i>Github
+    </a>
+</div>
+
+<p>Different clients are given different colours on a standard Game of Life board. The simulation runs as usual - except new cells are generated as an average colour of the cells around it.</p>
+
+<p>It was interesting to have to deal with the realities of network latency and a relatively inefficient computation. Signficant compromises had to be made to the original design. Simulations are round based rather than constantly running to allow the server to synchronize clients. Simulations also run slower to improve consistency between clients with varying computing power.</p>
+
+    </div>
+    
+    <div class="bottom-chunk tex card">
+</div>
+  </body>
+</html>
