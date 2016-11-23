@@ -73,12 +73,12 @@ i {
   text-align: center; }
 
 .blurb-spread {
-  -webkit-column-count: 2;
-          column-count: 2;
-  -webkit-column-width: 266.66667px;
-          column-width: 266.66667px;
-  -webkit-column-gap: 0;
-          column-gap: 0;
+  -moz-column-count: 2;
+       column-count: 2;
+  -moz-column-width: 266.66667px;
+       column-width: 266.66667px;
+  -moz-column-gap: 0;
+       column-gap: 0;
   max-width: 800px;
   margin-top: 1rem;
   margin-left: auto;
@@ -86,8 +86,8 @@ i {
   margin-bottom: 4rem; }
 
 .image-blurb-container {
-  -webkit-column-break-inside: avoid;
-          break-inside: avoid; }
+  page-break-inside: avoid;
+       break-inside: avoid; }
   .image-blurb-container .image-blurb-spacer {
     width: 100%;
     height: 1rem; }
@@ -102,10 +102,8 @@ i {
     .image-blurb-container .image-blurb > a {
       border-bottom: none; }
       .image-blurb-container .image-blurb > a:hover img, .image-blurb-container .image-blurb > a:active img {
-        -webkit-filter: grayscale(50%);
-                filter: grayscale(50%);
-        -webkit-filter: brightness(0.9);
-                filter: brightness(0.9); }
+        filter: grayscale(50%);
+        filter: brightness(0.9); }
 
 .top-chunk {
   height: 6rem; }
@@ -133,12 +131,6 @@ i {
   padding-left: 1rem;
   padding-right: 1rem; }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
 @keyframes fadeIn {
   from {
     opacity: 0; }
@@ -149,20 +141,15 @@ i {
   opacity: 0;
   /* make things invisible upon start */
   /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
-  -webkit-animation: fadeIn ease-in 1;
-          animation: fadeIn ease-in 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-duration: .15s;
-          animation-duration: .15s; }
+  animation: fadeIn ease-in 1;
+  animation-fill-mode: forwards;
+  animation-duration: .15s; }
 
 .fade-in.earlier {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s; }
+  animation-delay: 0.2s; }
 
 .fade-in.later {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s; }
+  animation-delay: 0.4s; }
 
 .title-content {
   padding-top: 1rem; }
