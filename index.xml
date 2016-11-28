@@ -29,7 +29,7 @@
 
 &lt;p&gt;Interestingly, a game designed to be difficult for computers to play. But AI players have very recently beaten humans! &lt;a href=&#34;http://arimaa.com/arimaa/&#34;&gt;The original Arimaa can be found here.&lt;/a&gt; (warning: not a modern website)&lt;/p&gt;
 
-&lt;p&gt;It was fun to design a system for rewinding and replaying games move by move. I ended up using a string notation for recording actions augmented from the &lt;a href=&#34;http://arimaa.com/arimaa/learn/notation.html&#34;&gt;standard&lt;/a&gt;. Despite being intimidating, it was also fun to generate the recursive set of legal moves for the UI. Not too proud of the &amp;ldquo;GameEngine&amp;rdquo; class though&amp;hellip;&lt;/p&gt;
+&lt;p&gt;It was fun to design a system for rewinding and replaying games move by move. I ended up using a string serialization for recording actions based on the &lt;a href=&#34;http://arimaa.com/arimaa/learn/notation.html&#34;&gt;standard notation&lt;/a&gt;. Despite being intimidating, it was also fun to generate the recursive set of legal moves for the UI. Not too proud of the &amp;ldquo;GameEngine&amp;rdquo; class though&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
