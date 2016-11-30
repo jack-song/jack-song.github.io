@@ -27,11 +27,11 @@
 </div>
     <div class="middle-chunk plain card fade-in later">
       <p id="date">
-        Hi! It's <span class="code">[ ... ]</span> already - time flies.
+        Hi! It's <span class="code">[a beautiful day]</span>.
       </p>
 
-      <p id="today">
-        Today, I'm <span class="code">[ ... ]</span> and trying to be a better <span class="code">[ ... ]</span>. Ask me about it!
+      <p>
+        Today, I'll be <span id="today" class="code">[taking a walk]</span> <span id="extra"></span>. Ask me about it!
       </p>
 
       <hr>
@@ -46,10 +46,6 @@
 
       <hr>
 
-      <p id="yesterday">
-        Yesterday I became a better <span class="code">[ ... ]</span> and <span class="code">[ ... ]</span>.
-      </p>
-
       <p>
         Who are you? Let's talk: <a href="mailto:jackthesong@gmail.com">jackthesong@gmail.com</a>.
       </p>
@@ -58,5 +54,6 @@
     <div class="bottom-chunk tex card">
 </div>
     <script type="text/javascript" src="http://whoisjack.today/js/index.js"></script>
+    <script src="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWikipedia%3AToday%2527s_featured_article%22%20and%20xpath%3D%27(%2F%2F*%5B%40id%3D%22mw-content-text%22%5D%2F%2F*%5Bcontains(%40class%2C%22MainPageBG%22)%5D%5B1%5D%2F%2Fb%2Fa)%5B1%5D%27&format=json&callback=yqlCallback"></script>
   </body>
 </html>
