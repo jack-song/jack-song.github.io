@@ -44,5 +44,5 @@ window.yqlCallback = function (data) {
   let extra = document.getElementById('extra');
   let title = data.query.results.a.title;
   let url = 'https://en.wikipedia.org' + data.query.results.a.href;
-  extra.innerHTML = ` and reading about ${link(title, url)}`;
+  extra.innerHTML = ` and reading about (the) ${link(title, url)}`;
 }
