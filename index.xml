@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jack Song</title>
+    <title>Jack</title>
     <link>http://whoisjack.today/index.xml</link>
-    <description>Recent content on Jack Song</description>
+    <description>Recent content on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/index.xml" rel="self" type="application/rss+xml" />
@@ -15,8 +15,8 @@
       
       <guid>http://whoisjack.today/projects/arimaa-free/</guid>
       <description>&lt;div class=&#34;image-set&#34;&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/arimaa-screen-1.png&#34;&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/arimaa-screen-2.png&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/projects/arimaa-screen-1.png&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/projects/arimaa-screen-2.png&#34;&gt;
 &lt;/div&gt;
 
 &lt;div class=&#34;centered&#34;&gt;
@@ -39,7 +39,7 @@
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/projects/conway/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://whoisjack.today/assets/conway-blurb.png&#34; alt=&#34;Colorful Conway&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://whoisjack.today/assets/projects/conway-blurb.png&#34; alt=&#34;Colorful Conway&#34; /&gt;&lt;/p&gt;
 
 &lt;div class=&#34;centered&#34;&gt;
     &lt;a class=&#34;button&#34; href=&#34;http://colorfulconway-songjack.rhcloud.com/&#34;&gt;
@@ -61,7 +61,7 @@
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/projects/morbid/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://whoisjack.today/assets/morbid-blurb.png&#34; alt=&#34;Morbid Motivation&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;http://whoisjack.today/assets/projects/morbid-blurb.png&#34; alt=&#34;Morbid Motivation&#34; /&gt;&lt;/p&gt;
 
 &lt;div class=&#34;centered&#34;&gt;
     &lt;a class=&#34;button&#34; href=&#34;http://chrome.google.com/webstore/detail/morbid-motivation/kjpeibokdagajocicdijpeognkpccphj&#34;&gt;

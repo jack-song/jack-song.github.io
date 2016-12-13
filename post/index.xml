@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on Jack Song</title>
+    <title>Post-rsses on Jack</title>
     <link>http://whoisjack.today/post/index.xml</link>
-    <description>Recent content in Post-rsses on Jack Song</description>
+    <description>Recent content in Post-rsses on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 27 Jul 2016 15:35:35 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/post/index.xml" rel="self" type="application/rss+xml" />

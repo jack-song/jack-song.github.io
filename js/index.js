@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+(function() {
   const ACTIONS = ["a more knowledgeable engineer", "a more efficient student", "a kinder brother", "a better photographer", "a more creative artist", "a more understanding friend",
                 "improving my rock climbing", "living a healthier lifestyle", "building something", "practicing an instrument", "reading a book", "sketching", "watching an interesting lecture", "looking into a new technology"];
 
@@ -26,16 +26,21 @@ document.addEventListener("DOMContentLoaded", function() {
   let month = MONTHS[today.getMonth()];
   let day = today.getDate();
 
-  // replace the Date
-  document.getElementById('date').innerHTML = `Hi! It's ${codify(month + " " + day)} already.`;
+  
 
   // seed is total days since the offset
   let base_seed = Math.floor(today.getTime()/(1000*60*60*24));
   let action = get_value(ACTIONS, base_seed);
 
-  // replace today's action
-  document.getElementById('today').innerHTML = codify(action);
-});
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    // replace the Date
+    document.getElementById('date').innerHTML = `Hi! It's ${codify(month + " " + day)} already.`;
+
+    // replace today's action
+    document.getElementById('today').innerHTML = codify(action);
+  });
+})();
 
 window.yqlCallback = function (data) {
   function link (name, url) {
