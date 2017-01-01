@@ -10,10 +10,6 @@
     return x - Math.floor(x);
   }
 
-  function codify(str) {
-    return '<span class="code">' + str + '</span>'
-  }
-
   function get_index(source, seed) {
     return Math.floor(pseudo_random(seed) * source.length);
   }
@@ -35,10 +31,10 @@
   
   document.addEventListener("DOMContentLoaded", function() {
     // replace the Date
-    document.getElementById('date').innerHTML = `Hi! It's ${codify(month + " " + day)} already.`;
+    document.getElementById('date').innerHTML = `Hi! It's ${month + " " + day} already!`;
 
     // replace today's action
-    document.getElementById('today').innerHTML = codify(action);
+    document.getElementById('today').innerHTML = action;
   });
 })();
 
@@ -49,5 +45,5 @@ window.yqlCallback = function (data) {
   let extra = document.getElementById('extra');
   let title = data.query.results.a.title;
   let url = 'https://en.wikipedia.org' + data.query.results.a.href;
-  extra.innerHTML = ` and reading about: ${link(title, url)}`;
+  extra.innerHTML = ` and reading today's featured wikipedia article, <em>${link(title, url)}</em>`;
 }
