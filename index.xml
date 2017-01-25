@@ -5,8 +5,33 @@
     <link>http://whoisjack.today/index.xml</link>
     <description>Recent content on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RTFM</title>
+      <link>http://whoisjack.today/blog/2017-01-24-RTFM/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-01-24-RTFM/</guid>
+      <description>&lt;p&gt;I thought this would be a story about finding a flaw in the great google machine - instead it&amp;rsquo;s about being prudent when working with dependencies.
+&lt;/p&gt;
+
+&lt;p&gt;I am currently working on an app for Kenyan users. With SMS functionality, we have validation for local phone numbers. While we were testing, I realized that my number is considered invalid by google&amp;rsquo;s &lt;a href=&#34;https://github.com/googlei18n/libphonenumber&#34;&gt;libphonenumber&lt;/a&gt; library. It has a 254798 prefix presumably newly introduced as I had picked up my SIM at the airport days earlier.&lt;/p&gt;
+
+&lt;p&gt;I check the library and searched for &amp;ldquo;kenya&amp;rdquo;. After a quick scan, a comment stands out: &amp;ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report.&amp;rdquo; Followed by &amp;ldquo;other prefixes from Wikipedia.&amp;rdquo; I take a look and Wikipedia does not contain a prefix for my number. Everything made sense. There&amp;rsquo;s no way google has the resources to keep up with all the technical changes in the world - and certainly not the developing areas where documentation is poor and good practice is as well respected as traffic regulations.&lt;/p&gt;
+
+&lt;p&gt;Excitedly, I thought I would get to file a bug report against a google repository. Nervously, I realized we&amp;rsquo;d have to roll our own phone number validation to release on schedule. So I hammer out a horrific switch case method and throw it in.
+But as I go to file the report, I read the issue guidelines, which includes this step: &amp;ldquo;Is the issue reproducible using the demo?,&amp;rdquo; and this step: &amp;ldquo;Your issue may be resolved by upgrading to the latest version of the library.&amp;rdquo; Mmmmmm. I try my number in the online demo. It works. I go back to the code file. Appended at the very end of file: &amp;ldquo;25479|Safaricom.&amp;rdquo; Sure enough, searching the issues gives &lt;a href=&#34;https://github.com/googlei18n/libphonenumber/issues/804&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I rollback and just update the library. Maybe I should submit a change to Wikipedia.
+So even if you&amp;rsquo;re using a library for a volatile domain - give them the benefit of the doubt and first RTFM.
+An argument can also be made that in a domain &lt;em&gt;this&lt;/em&gt; volatile, it could be wise to use a less strict form of validation in the first place, depending on the business value of the feature always working vs. the consequences of allowing an illegal value.&lt;/p&gt;
+
+&lt;p&gt;Bonus: &lt;a href=&#34;https://www.facebook.com/SafaricomLtd/posts/10156369539590084&#34;&gt;FB&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/safaricomltd/status/633134928536932352&#34;&gt;twitter&lt;/a&gt; as technical communication channels&lt;/p&gt;
+
+&lt;p&gt;At least they&amp;rsquo;re responsive!&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Arimaa Free</title>
@@ -74,30 +99,6 @@
 &lt;p&gt;The idea is to use our inevitable passing as a source of motivation. Colours are configurable to the user&amp;rsquo;s tastes.&lt;/p&gt;
 
 &lt;p&gt;A fairly simple app made in a few hours for a short hackathon. An early attempt to learn ways of modularizing javascript code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Welcome to Jekyll!</title>
-      <link>http://whoisjack.today/2016/07/27/welcome-to-jekyll/</link>
-      <pubDate>Wed, 27 Jul 2016 15:35:35 +0000</pubDate>
-      
-      <guid>http://whoisjack.today/2016/07/27/welcome-to-jekyll/</guid>
-      <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
-
-&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
-
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
-
-
-def print_hi(name)
-  puts &#34;Hi, #{name}&#34;
-end
-print_hi(&#39;Tom&#39;)
-#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.
-
-
-&lt;p&gt;Check out the &lt;a href=&#34;http://jekyllrb.com/docs/home&#34;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&#34;https://github.com/jekyll/jekyll&#34;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&#34;https://talk.jekyllrb.com/&#34;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

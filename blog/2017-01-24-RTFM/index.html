@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://whoisjack.today/assets/favicon.ico?">
+<link rel="stylesheet" href="http://whoisjack.today/css/ionicons.min.css">
+<link rel="stylesheet" href="http://whoisjack.today/css/base.css">
+
+<title>Jack</title>
+  </head>
+
+  <body class="plain">
+    <div class="fade-in earlier">
+    <div class="title-content">
+        <h1><a href="http://whoisjack.today/">Jack</a></h1>
+        <span class="nav">
+    <a href="http://whoisjack.today/projects">Projects</a>
+</span>
+    </div>
+</div>
+    <div class="content fade-in later wall">
+      <h3>
+          RTFM
+      </h3>
+
+      <p>I thought this would be a story about finding a flaw in the great google machine - instead it&rsquo;s about being prudent when working with dependencies.
+</p>
+
+<p>I am currently working on an app for Kenyan users. With SMS functionality, we have validation for local phone numbers. While we were testing, I realized that my number is considered invalid by google&rsquo;s <a href="https://github.com/googlei18n/libphonenumber">libphonenumber</a> library. It has a 254798 prefix presumably newly introduced as I had picked up my SIM at the airport days earlier.</p>
+
+<p>I check the library and searched for &ldquo;kenya&rdquo;. After a quick scan, a comment stands out: &ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report.&rdquo; Followed by &ldquo;other prefixes from Wikipedia.&rdquo; I take a look and Wikipedia does not contain a prefix for my number. Everything made sense. There&rsquo;s no way google has the resources to keep up with all the technical changes in the world - and certainly not the developing areas where documentation is poor and good practice is as well respected as traffic regulations.</p>
+
+<p>Excitedly, I thought I would get to file a bug report against a google repository. Nervously, I realized we&rsquo;d have to roll our own phone number validation to release on schedule. So I hammer out a horrific switch case method and throw it in.
+But as I go to file the report, I read the issue guidelines, which includes this step: &ldquo;Is the issue reproducible using the demo?,&rdquo; and this step: &ldquo;Your issue may be resolved by upgrading to the latest version of the library.&rdquo; Mmmmmm. I try my number in the online demo. It works. I go back to the code file. Appended at the very end of file: &ldquo;25479|Safaricom.&rdquo; Sure enough, searching the issues gives <a href="https://github.com/googlei18n/libphonenumber/issues/804">this</a>.</p>
+
+<p>I rollback and just update the library. Maybe I should submit a change to Wikipedia.
+So even if you&rsquo;re using a library for a volatile domain - give them the benefit of the doubt and first RTFM.
+An argument can also be made that in a domain <em>this</em> volatile, it could be wise to use a less strict form of validation in the first place, depending on the business value of the feature always working vs. the consequences of allowing an illegal value.</p>
+
+<p>Bonus: <a href="https://www.facebook.com/SafaricomLtd/posts/10156369539590084">FB</a> and <a href="https://twitter.com/safaricomltd/status/633134928536932352">twitter</a> as technical communication channels</p>
+
+<p>At least they&rsquo;re responsive!</p>
+    </div>
+    
+    <div class="bottom-chunk">
+</div>
+  </body>
+</html>
