@@ -31,7 +31,7 @@
   
   document.addEventListener("DOMContentLoaded", function() {
     // replace the Date
-    document.getElementById('date').innerHTML = `Hi! It's ${month + " " + day} already!`;
+    document.getElementById('date').innerHTML = `It's ${month + " " + day} already!`;
 
     // replace today's action
     document.getElementById('today').innerHTML = action;
