@@ -30,11 +30,8 @@
 
   
   document.addEventListener("DOMContentLoaded", function() {
-    // replace the Date
-    document.getElementById('date').innerHTML = `It's ${month + " " + day} already!`;
-
-    // replace today's action
-    document.getElementById('today').innerHTML = action;
+    // replace the Date and action
+    document.getElementById('date').innerHTML = `On ${month + " " + day}, I'll be ${action}.`;
   });
 })();
 
@@ -45,5 +42,5 @@ window.yqlCallback = function (data) {
   let extra = document.getElementById('extra');
   let title = data.query.results.a.title;
   let url = 'https://en.wikipedia.org' + data.query.results.a.href;
-  extra.innerHTML = ` and reading today's featured wikipedia article: <em>${link(title, url)}</em>`;
+  extra.innerHTML = ` Today's quick read: <em>${link(title, url)}</em>.`;
 }
