@@ -8,6 +8,6 @@
 (function() {
     // Initialize
     var bLazy = new Blazy({
-      offset: 400
+      offset: 500
    });
 })();

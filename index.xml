@@ -5,30 +5,65 @@
     <link>http://whoisjack.today/index.xml</link>
     <description>Recent content on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 24 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Feb 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>RTFM</title>
-      <link>http://whoisjack.today/blog/2017-01-24-RTFM/</link>
-      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      <title>Shock</title>
+      <link>http://whoisjack.today/blog/2017-02-08-shock/</link>
+      <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/blog/2017-01-24-RTFM/</guid>
-      <description>&lt;p&gt;I thought this would be a story about finding a flaw in the great google machine - instead it&amp;rsquo;s about being prudent when working with dependencies.
+      <guid>http://whoisjack.today/blog/2017-02-08-shock/</guid>
+      <description>&lt;p&gt;Now I know a little more about making jumps and taking hard landings.
 &lt;/p&gt;
 
-&lt;p&gt;I am currently working on an app for Kenyan users. With SMS functionality, we have validation for local phone numbers. While we were testing, I realized that my number is considered invalid by google&amp;rsquo;s &lt;a href=&#34;https://github.com/googlei18n/libphonenumber&#34;&gt;libphonenumber&lt;/a&gt; library. It has a 254798 prefix presumably newly introduced as I had picked up my SIM at the airport days earlier.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;b-lazy embed&#34; src=&#34;http://whoisjack.today/assets/load.png&#34; data-src=&#34;/assets/blog/shock/plane.jpg&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;I check the library and searched for &amp;ldquo;kenya&amp;rdquo;. After a quick scan, a comment stands out: &amp;ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report.&amp;rdquo; Followed by &amp;ldquo;other prefixes from Wikipedia.&amp;rdquo; I take a look and Wikipedia does not contain a prefix for my number. Everything made sense. There&amp;rsquo;s no way google has the resources to keep up with all the technical changes in the world - and certainly not the developing areas where documentation is poor and good practice is as well respected as traffic regulations.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;It&amp;rsquo;s overwhelming&amp;rdquo; - assurances from many of the people I&amp;rsquo;ve met. They&amp;rsquo;re consistently impressed that I&amp;rsquo;m so new to the African continent. Expats and locals are the same. They&amp;rsquo;re excited for my stay here, and equally sympathetic about the culture shock.&lt;/p&gt;
 
-&lt;p&gt;Excitedly, I thought I would get to file a bug report against a google repository. Nervously, I realized we&amp;rsquo;d have to roll our own phone number validation to release on schedule. So I hammer out a horrific switch case method and throw it in.
-But as I go to file the report, I read the issue guidelines, which includes this step: &amp;ldquo;Is the issue reproducible using the demo?,&amp;rdquo; and this step: &amp;ldquo;Your issue may be resolved by upgrading to the latest version of the library.&amp;rdquo; Mmmmmm. I try my number in the online demo. It works. I go back to the code file. Appended at the very end of file: &amp;ldquo;25479|Safaricom.&amp;rdquo; Sure enough, searching the issues gives &lt;a href=&#34;https://github.com/googlei18n/libphonenumber/issues/804&#34;&gt;this&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I came in hot, finishing a 24 hour flight iterary with my four-month-stay backpack. I said no to a border official asking for a tip (bribe? he didn&amp;rsquo;t even fill the form in correctly). I jumped really fast into an Uber because the driver was yelling &amp;ldquo;faster, faster!&amp;rdquo; He laughed as we sped away. He says that a policeman was coming, looking for trouble. While I unpack at my new home I realize I&amp;rsquo;m sick. The jet lag didn&amp;rsquo;t help.&lt;/p&gt;
 
-&lt;p&gt;I rollback and just update the library. Maybe I should submit a change to Wikipedia.
-So even if you&amp;rsquo;re using a library for a volatile domain - give them the benefit of the doubt and first RTFM.
-An argument can also be made that in a domain &lt;em&gt;this&lt;/em&gt; volatile, it could be wise to use a less strict form of validation in the first place, depending on the business value of the feature always working vs. the consequences of allowing an illegal value.&lt;/p&gt;
+&lt;p&gt;&lt;img class=&#34;b-lazy embed&#34; src=&#34;http://whoisjack.today/assets/load.png&#34; data-src=&#34;/assets/blog/shock/road.jpg&#34;&gt;&lt;/p&gt;
 
-&lt;p&gt;Bonus: &lt;a href=&#34;https://www.facebook.com/SafaricomLtd/posts/10156369539590084&#34;&gt;FB&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/safaricomltd/status/633134928536932352&#34;&gt;twitter&lt;/a&gt; as technical communication channels&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d like to think I&amp;rsquo;ve had it rough but it hasn&amp;rsquo;t been too bad, just unexpected.&lt;/p&gt;
+
+&lt;p&gt;Culture shock is real, and things are very different around here. There are power outages. There&amp;rsquo;s a drought - water outages. The faces I see everywhere and every day are what not what I&amp;rsquo;m used to. I pass through a security check for every property I step onto. Doctors have been on a nation-wide strike for over a month now. These things told me that I was travelling and I took them in stride. Because I like travelling.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s the smaller things that tired me out. Being out of breath at the top of a staircase because it&amp;rsquo;s 1,600m above sea level. Wondering if the way I say &amp;ldquo;mambo&amp;rdquo; or &amp;ldquo;asante&amp;rdquo; sound empty. Containing my surprise every time I see a soldier with a rifle. These made the whole experience feel fresh and also made me anxious for the next day. The anxiety was kind of fun, but this is not a vacation getaway, or &amp;ldquo;travelling&amp;rdquo;. I don&amp;rsquo;t even have a flight out yet.&lt;/p&gt;
+
+&lt;p&gt;More than usual, I&amp;rsquo;d want to spend some weekend days at home, doing nothing.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;b-lazy embed&#34; src=&#34;http://whoisjack.today/assets/load.png&#34; data-src=&#34;/assets/blog/shock/room.jpg&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;I knew that I would get used to all of it. It felt like waiting for the day you feel good after being sick in bed. For me, it&amp;rsquo;s already happened, or happening, but I can&amp;rsquo;t explain how or when. And I feel like I&amp;rsquo;ve finally had a taste of what millions of people have bet their lives on. To write their own personal legends, some are willing to endure the shock of a new world.&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;b-lazy embed&#34; src=&#34;http://whoisjack.today/assets/load.png&#34; data-src=&#34;/assets/blog/shock/house.jpg&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RTFM</title>
+      <link>http://whoisjack.today/blog/2017-01-24-rtfm/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-01-24-rtfm/</guid>
+      <description>&lt;p&gt;I thought I had found a flaw in the great google machine - instead I learned that &lt;a href=&#34;https://twitter.com/JakeWharton/status/806344184999399424&#34;&gt;&amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;I am currently working on an app for Kenyan users, with validation for local phone numbers. We use google&amp;rsquo;s &lt;a href=&#34;https://github.com/googlei18n/libphonenumber&#34;&gt;libphonenumber&lt;/a&gt; library. While testing, I realized that my Kenyan number was considered invalid.&lt;/p&gt;
+
+&lt;p&gt;I check the source code and searched for &amp;ldquo;kenya&amp;rdquo;: &amp;ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report [&amp;hellip;] other prefixes from Wikipedia.&amp;rdquo; I take a look and Wikipedia does not contain a prefix for my number. Everything made sense - my number was recently issued. There&amp;rsquo;s no way google has the resources to keep up with all the technical changes in the world - and certainly not in Kenya where documentation is poor and growth is fast.&lt;/p&gt;
+
+&lt;p&gt;I regretfully hammer out a horrific switch case method to validate phone numbers instead of using the library - we did not have time to wait for a fix. But as I go to file a bug report, I read the guidelines: &amp;ldquo;Is the issue reproducible using the demo? [&amp;hellip;] Your issue may be resolved by upgrading to the latest version of the library.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Oh.&lt;/p&gt;
+
+&lt;p&gt;I try my Kenyan number in the online demo. It&amp;rsquo;s valid. Searching the issues gives &lt;a href=&#34;https://github.com/googlei18n/libphonenumber/issues/804&#34;&gt;this&lt;/a&gt;. I rollback and update the library.&lt;/p&gt;
+
+&lt;p&gt;So even if you&amp;rsquo;re in a volatile domain - give the library the benefit of the doubt and first RTFM. I guess I could at least submit a change to Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;An argument can also be made that in a domain &lt;em&gt;this&lt;/em&gt; volatile, it could be wise to use a less strict form of validation in the first place, depending the importance of the features vs. handling illegal values.&lt;/p&gt;
+
+&lt;p&gt;Bonus: A telecommunication giant using &lt;a href=&#34;https://www.facebook.com/SafaricomLtd/posts/10156369539590084&#34;&gt;facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/safaricomltd/status/633134928536932352&#34;&gt;twitter&lt;/a&gt; as technical communication channels&lt;/p&gt;
 
 &lt;p&gt;At least they&amp;rsquo;re responsive!&lt;/p&gt;</description>
     </item>
