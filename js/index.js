@@ -1,6 +1,6 @@
 (function() {
-  const ACTIONS = ["a more knowledgeable engineer", "a more efficient student", "a kinder brother", "a better photographer", "a more creative artist", "a more understanding friend",
-                "improving my rock climbing", "living a healthier lifestyle", "building something", "practicing an instrument", "reading a book", "sketching", "watching an interesting lecture", "looking into a new technology"];
+  const ACTIONS = ["organize my notes", "design something", "work on a painting", "take better photographs", "meditate", "listen to a new band",
+                "improve my rock climbing", "eat healthier", "work on a side project", "practice an instrument", "read a book", "sketch for a while", "find a lecture to watch", "look into a new technology"];
 
   const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
@@ -31,7 +31,7 @@
   
   document.addEventListener("DOMContentLoaded", function() {
     // replace the Date and action
-    document.getElementById('date').innerHTML = `On ${month + " " + day}, I'll be ${action}.`;
+    document.getElementById('date').innerHTML = `On ${month + " " + day}, I'll ${action}.`;
   });
 })();
 
