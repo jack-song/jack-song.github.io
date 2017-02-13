@@ -1,5 +1,5 @@
 (function() {
-  const ACTIONS = ["organize my notes", "design something", "work on a painting", "take better photographs", "meditate", "listen to a new band",
+  const ACTIONS = ["organize my notes", "iterate on some design work", "work on a painting", "take better photographs", "meditate", "listen to a new band",
                 "improve my rock climbing", "eat healthier", "work on a side project", "practice an instrument", "read a book", "sketch for a while", "find a lecture to watch", "look into a new technology"];
 
   const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -31,7 +31,7 @@
   
   document.addEventListener("DOMContentLoaded", function() {
     // replace the Date and action
-    document.getElementById('date').innerHTML = `On ${month + " " + day}, I'll ${action}.`;
+    document.getElementById('date').innerHTML = `${month + " " + day}: I'll ${action}.`;
   });
 })();
 
