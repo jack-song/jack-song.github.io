@@ -18,22 +18,25 @@
     return source[get_index(source, seed)];
   }
 
+  function load() {
+    // replace the Date and action
+    document.getElementById('date').innerHTML = `${month + " " + day}`;
+    document.getElementById('action').innerHTML = `Today I'll ${action}`;
+  }
+
   let today = new Date();
   let month = MONTHS[today.getMonth()];
   let day = today.getDate();
-
-  
 
   // seed is total days since the offset
   let base_seed = Math.floor(today.getTime()/(1000*60*60*24));
   let action = get_value(ACTIONS, base_seed);
 
-  
-  document.addEventListener("DOMContentLoaded", function() {
-    // replace the Date and action
-    document.getElementById('date').innerHTML = `${month + " " + day}`;
-    document.getElementById('action').innerHTML = `Today I'll ${action}`;
-  });
+  if (document.readyState !== "loading") {
+    load();
+  } else {
+    document.addEventListener("DOMContentLoaded", load);
+  }
 })();
 
 window.yqlCallback = function (data) {
