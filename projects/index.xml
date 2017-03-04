@@ -5,8 +5,42 @@
     <link>http://whoisjack.today/projects/index.xml</link>
     <description>Recent content in Projects on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 17 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>WIP: Page Predictor</title>
+      <link>http://whoisjack.today/projects/page-predictor/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/page-predictor/</guid>
+      <description>&lt;div class=&#34;centered&#34;&gt;
+    &lt;a class=&#34;button&#34; href=&#34;https://github.com/jack-song/PagePredictor&#34;&gt;
+        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;A chrome extension that predicts what website you&amp;rsquo;re going to &amp;mdash; so you don&amp;rsquo;t even have to type it in!&lt;/p&gt;
+
+&lt;p&gt;Our team&amp;rsquo;s base assumption is that we visit some websites in certain patterns, and a neural net might be able to pick up on them. Learning about normalizing data, recurrent neural networks and tweaking them. Admittedly, test results so far have been quite poor and we will probably try some different training methods or ways of preprocessing/cleaning the history data.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WIP: pattio</title>
+      <link>http://whoisjack.today/projects/pattio/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/pattio/</guid>
+      <description>&lt;p&gt;Currently our team&amp;rsquo;s Fourth Year Design Project.&lt;/p&gt;
+
+&lt;p&gt;On social media, we don&amp;rsquo;t communicate the way we do in real life. There are different protocols and habits, which can make interactions feel shallow or distracting. We want to make an app that promotes meaningful and spontaneous conversations for close friends and family.&lt;/p&gt;
+
+&lt;p&gt;Important features include voice calls, seeing and joining ongoing conversations between friends, allowing guests to join, and less &amp;ldquo;indirect&amp;rdquo; engagement such as statuses and leaving messages. We also want to build a &amp;ldquo;binary indicator&amp;rdquo; culture - availability implies a genuine interest in spending time to chat, rather than ambiguous &amp;ldquo;busy&amp;rdquo; statuses.&lt;/p&gt;
+
+&lt;p&gt;Our proposed solution is a progressive web app based on WebRTC - our stack so far uses node, react, docker, yarn, and webpack.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Arimaa Free</title>
@@ -26,6 +60,8 @@
         &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
     &lt;/a&gt;
 &lt;/div&gt;
+
+&lt;p&gt;Open source contributions are welcome!&lt;/p&gt;
 
 &lt;p&gt;Interestingly, a game designed to be difficult for computers to play. But AI players have very recently beaten humans! &lt;a href=&#34;http://arimaa.com/arimaa/&#34;&gt;The original Arimaa can be found here.&lt;/a&gt; (warning: not a modern website)&lt;/p&gt;
 
