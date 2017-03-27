@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://whoisjack.today/blog/2017-03-14-Losing/</loc>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://whoisjack.today/projects/wiki-daily/</loc>
+    <lastmod>2017-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://whoisjack.today/projects/page-predictor/</loc>
     <lastmod>2017-03-04T00:00:00+00:00</lastmod>
   </url>
@@ -38,19 +48,19 @@
   
   <url>
     <loc>http://whoisjack.today/blog/</loc>
-    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://whoisjack.today/</loc>
-    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://whoisjack.today/projects/</loc>
-    <lastmod>2017-03-04T00:00:00+00:00</lastmod>
+    <lastmod>2017-03-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

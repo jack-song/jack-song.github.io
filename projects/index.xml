@@ -5,11 +5,38 @@
     <link>http://whoisjack.today/projects/index.xml</link>
     <description>Recent content in Projects on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 04 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/projects/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>WIP: Page Predictor</title>
+      <title>Daily Wiki</title>
+      <link>http://whoisjack.today/projects/wiki-daily/</link>
+      <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/wiki-daily/</guid>
+      <description>&lt;div class=&#34;centered&#34;&gt;
+    &lt;a class=&#34;button&#34; href=&#34;https://www.amazon.com/Jack-Song-Daily-Wiki/dp/B01N2MAHX5/&#34;&gt;
+        &lt;i class=&#34;ion-chatbubble-working&#34;&gt;&lt;/i&gt;Amazon
+    &lt;/a&gt;
+    &lt;a class=&#34;button&#34; href=&#34;https://github.com/jack-song/WikiDaily&#34;&gt;
+        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Yes I did it for the free Alexa dev sweater.&lt;/p&gt;
+
+&lt;p&gt;No I haven&amp;rsquo;t retrieved my sweater yet. The ratings are pretty bad. People want the entire featured article read out to them. Maybe I&amp;rsquo;ll add that if I get the time. Feel free to make a pull request!&lt;/p&gt;
+
+&lt;p&gt;Fun to play with Node on AWS Lambda. Also learned about YQL queries, which seem pretty useful for web scraping.&lt;/p&gt;
+
+&lt;p&gt;I realized that wikipedia doesn&amp;rsquo;t actually have an API for their featured articles&amp;hellip; It was brutal working through solution iterations until I arrived at the current one. One candidate was parsing the Atom feed XML with an actual server.&lt;/p&gt;
+
+&lt;p&gt;Storing the daily queries would make this service much more efficient at the cost of some complexity.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Page Predictor (WIP)</title>
       <link>http://whoisjack.today/projects/page-predictor/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
@@ -27,7 +54,7 @@
     </item>
     
     <item>
-      <title>WIP: pattio</title>
+      <title>Pattio (WIP)</title>
       <link>http://whoisjack.today/projects/pattio/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
@@ -56,12 +83,13 @@
 &lt;div class=&#34;centered&#34;&gt;
     &lt;a class=&#34;button&#34; href=&#34;http://play.google.com/store/apps/details?id=email.com.gmail.songjiapei.arimaa&amp;hl=en&#34;&gt;
         &lt;i class=&#34;ion-android-playstore&#34;&gt;&lt;/i&gt;Play Store
-    &lt;/a&gt; &lt;a class=&#34;button&#34; href=&#34;http://github.com/jack-song/Arimaa&#34;&gt;
+    &lt;/a&gt;
+    &lt;a class=&#34;button&#34; href=&#34;http://github.com/jack-song/Arimaa&#34;&gt;
         &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
     &lt;/a&gt;
 &lt;/div&gt;
 
-&lt;p&gt;Open source contributions are welcome!&lt;/p&gt;
+&lt;p&gt;Open source contributions welcome! I&amp;rsquo;m currently looking for someone to pass on the development torch; there&amp;rsquo;s a lot of interesting work to be done, especially as a beginner/intermediate project. AI bots and online multiplayer! Send an email to jackthesong@gmail.com and I&amp;rsquo;d be glad to set you up/do a walkthrough.&lt;/p&gt;
 
 &lt;p&gt;Interestingly, a game designed to be difficult for computers to play. But AI players have very recently beaten humans! &lt;a href=&#34;http://arimaa.com/arimaa/&#34;&gt;The original Arimaa can be found here.&lt;/a&gt; (warning: not a modern website)&lt;/p&gt;
 
@@ -86,7 +114,8 @@
 &lt;div class=&#34;centered&#34;&gt;
     &lt;a class=&#34;button&#34; href=&#34;http://colorfulconway-songjack.rhcloud.com/&#34;&gt;
         &lt;i class=&#34;ion-android-globe&#34;&gt;&lt;/i&gt;Try it live
-    &lt;/a&gt; &lt;a class=&#34;button&#34; href=&#34;https://github.com/jack-song/colorfulConway&#34;&gt;
+    &lt;/a&gt;
+    &lt;a class=&#34;button&#34; href=&#34;https://github.com/jack-song/colorfulConway&#34;&gt;
         &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
     &lt;/a&gt;
 &lt;/div&gt;
@@ -114,7 +143,8 @@
 &lt;div class=&#34;centered&#34;&gt;
     &lt;a class=&#34;button&#34; href=&#34;http://chrome.google.com/webstore/detail/morbid-motivation/kjpeibokdagajocicdijpeognkpccphj&#34;&gt;
         &lt;i class=&#34;ion-android-globe&#34;&gt;&lt;/i&gt;Chrome Store
-    &lt;/a&gt; &lt;a class=&#34;button&#34; href=&#34;http://github.com/jack-song/MorbidMotivation&#34;&gt;
+    &lt;/a&gt;
+    &lt;a class=&#34;button&#34; href=&#34;http://github.com/jack-song/MorbidMotivation&#34;&gt;
         &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
     &lt;/a&gt;
 &lt;/div&gt;
