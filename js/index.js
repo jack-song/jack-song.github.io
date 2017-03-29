@@ -22,6 +22,7 @@
     // replace the Date and action
     document.getElementById('date').innerHTML = `${month + " " + day}`;
     document.getElementById('action').innerHTML = `Today I'll ${action}`;
+    document.getElementById('dot').innerHTML = `.`;
   }
 
   let today = new Date();
