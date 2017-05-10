@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fine229 on Jack</title>
+    <link>http://whoisjack.today/categories/fine229/index.xml</link>
+    <description>Recent content in Fine229 on Jack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://whoisjack.today/categories/fine229/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Exercise 1</title>
+      <link>http://whoisjack.today/blog/2017-05-10-fine229-b1/</link>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-05-10-fine229-b1/</guid>
+      <description>&lt;p&gt;I thought I had found a flaw in the great google machine - instead I learned that &lt;a href=&#34;https://twitter.com/JakeWharton/status/806344184999399424&#34;&gt;&amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;I am currently working on an app for Kenyan users, with validation for local phone numbers. We use google&amp;rsquo;s &lt;a href=&#34;https://github.com/googlei18n/libphonenumber&#34;&gt;libphonenumber&lt;/a&gt; library. While testing, I realized that my Kenyan number was considered invalid.&lt;/p&gt;
+
+&lt;p&gt;I check the source code and searched for &amp;ldquo;kenya&amp;rdquo;: &amp;ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report [&amp;hellip;] other prefixes from Wikipedia.&amp;rdquo; I take a look and Wikipedia does not contain a prefix for my number. Everything made sense - my number was recently issued. There&amp;rsquo;s no way google has the resources to keep up with all the technical changes in the world - and certainly not in Kenya where documentation is poor and growth is fast.&lt;/p&gt;
+
+&lt;p&gt;I regretfully hammer out a horrific switch case method to validate phone numbers instead of using the library - we did not have time to wait for a fix. But as I go to file a bug report, I read the guidelines: &amp;ldquo;Is the issue reproducible using the demo? [&amp;hellip;] Your issue may be resolved by upgrading to the latest versof the library.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Oh.&lt;/p&gt;
+
+&lt;p&gt;I try my Kenyan number in the online demo. It&amp;rsquo;s valid. Searching the issues gives &lt;a href=&#34;https://github.com/googlei18n/libphonenumber/issues/804&#34;&gt;this&lt;/a&gt;. I rollback and update the library.&lt;/p&gt;
+
+&lt;p&gt;So even if you&amp;rsquo;re in a volatile domain - give the library the benefit of the doubt and first RTFM. I guess I could at least submit a change to Wikipedia.&lt;/p&gt;
+
+&lt;p&gt;An argument can also be made that in a domain &lt;em&gt;this&lt;/em&gt; volatile, it could be wise to use a less strict form of validation in the first place, depending the importance of the features vs. handling illegal values.&lt;/p&gt;
+
+&lt;p&gt;Bonus: A telecommunication giant using &lt;a href=&#34;https://www.facebook.com/SafaricomLtd/posts/10156369539590084&#34;&gt;facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/safaricomltd/status/633134928536932352&#34;&gt;twitter&lt;/a&gt; as technical communication channels&lt;/p&gt;
+
+&lt;p&gt;At least they&amp;rsquo;re responsive!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
