@@ -8,11 +8,157 @@
     <atom:link href="http://whoisjack.today/categories/art/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Glitches</title>
+      <link>http://whoisjack.today/blog/2017-05-28-cans/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-05-28-cans/</guid>
+      <description>&lt;p&gt;Cans Cans Cans&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Source image is a picture of &lt;em&gt;Campbell&amp;rsquo;s Soup Cans&lt;/em&gt;, by Andy Warhol, found here: &lt;a href=&#34;https://www.timeout.com/newyork/art/andy-warhol-campbells-soup-cans-and-other-works-19531967&#34;&gt;https://www.timeout.com/newyork/art/andy-warhol-campbells-soup-cans-and-other-works-19531967&lt;/a&gt;. Displayed images have all been converted to JPG for presentation.&lt;/p&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/phaser.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/phaser.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from BMP&lt;/li&gt;
+&lt;li&gt;applied Phaser effect to section of audio - rows of cans could actually be distinquished in the audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/reverse.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/reverse.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from BMP&lt;/li&gt;
+&lt;li&gt;applied reverse effect to section of audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/rawstretched.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/rawstretched.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;applied a Paul Stretch to section of audio&lt;/li&gt;
+&lt;li&gt;re-imported RAW as an image with fewer channels, at a resolution of 1000 x 1000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/shift.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/shift.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;applied a pitch shift from F to D to section of audio&lt;/li&gt;
+&lt;li&gt;re-imported RAW as an image with fewer channels, to riginal file size&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/text.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/text.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;opened BMP in text editor&lt;/li&gt;
+&lt;li&gt;copy pasted random sections of text into different areas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/non.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/non.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;exported from photoshop as interleaved RAW&lt;/li&gt;
+&lt;li&gt;re-imported as a non-interleaved RAW iamge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/extrainterleave.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/extrainterleave.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;exported from photoshop as interleaved RAW (3 channels)&lt;/li&gt;
+&lt;li&gt;re-imported as interleaved RAW (10 channels)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/bass.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/bass.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;adjusted frequency levels on one section of the audio&lt;/li&gt;
+&lt;li&gt;increased bass and decreased treble by 5 dB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/wahwah.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/wahwah.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;applied WahWah effect to one section of the audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/ripped.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/ripped.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ripped USB out of computer while BMP file was transferring&lt;/li&gt;
+&lt;li&gt;mystery finally solved&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Playing with gifs - 2</title>
-      <link>http://whoisjack.today/blog/2017-05-22-fine229-a1-result/</link>
+      <link>http://whoisjack.today/blog/2017-05-22-gifs-2/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/blog/2017-05-22-fine229-a1-result/</guid>
+      <guid>http://whoisjack.today/blog/2017-05-22-gifs-2/</guid>
       <description>&lt;p&gt;Making Waves&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -38,10 +184,10 @@
     
     <item>
       <title>Playing with gifs - 1</title>
-      <link>http://whoisjack.today/blog/2017-05-11-fine229-a1-thoughts/</link>
+      <link>http://whoisjack.today/blog/2017-05-11-gifs-1/</link>
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/blog/2017-05-11-fine229-a1-thoughts/</guid>
+      <guid>http://whoisjack.today/blog/2017-05-11-gifs-1/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve wanted to make a cinemagraph since I first saw one on Reddit.
 &lt;/p&gt;
 

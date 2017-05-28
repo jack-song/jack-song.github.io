@@ -8,11 +8,201 @@
     <atom:link href="http://whoisjack.today/collections/fine229/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Exercise 3</title>
+      <link>http://whoisjack.today/blog/2017-05-28-fine229-b3/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-05-28-fine229-b3/</guid>
+      <description>&lt;p&gt;Glitch&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;A Pure Glitch is an effect either produced without intention or without understanding the underlying cause and system. A Glitch-alike is an effect produced purposefully and with some form of reasoning about how the effect was created.&lt;/p&gt;
+
+&lt;p&gt;My attempts are shown in a separate post here: /blog/2017-05-28-cans/&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;datamoshing&#34;&gt;Datamoshing&lt;/h3&gt;
+
+&lt;p&gt;Datamoshing is an effect based on the visual presentation of compression artefacts found in lossy file formats. For this reason, they are often shown in certain common formats like GIFs, JPEGs, or video.&lt;/p&gt;
+
+&lt;p&gt;Some of these videos can be easily found on Youtube:
+&lt;a href=&#34;https://www.youtube.com/watch?v=FBjO_7El7uM&#34;&gt;https://www.youtube.com/watch?v=FBjO_7El7uM&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;data-bending-image-bending&#34;&gt;Data bending / image bending&lt;/h3&gt;
+
+&lt;p&gt;Data bending is a technique used to produce glitch effects by directly editing the file data in an unintentional way. This could include editing the data as ASCII text or by interpreting the file as a format that it was not intended for. An example is image bending by editing a BMP file as if it was a sound file.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;hex-editing&#34;&gt;Hex editing&lt;/h3&gt;
+
+&lt;p&gt;Hex editing is a file editing technique that changes the binary data making up a file directly, usually displayed in base-16, or &amp;ldquo;hex&amp;rdquo;. This technique can be used to for data bending.&lt;/p&gt;
+
+&lt;p&gt;There are often tools designed specifically for this purpose, such as FlexHex: &lt;a href=&#34;http://www.flexhex.com/&#34;&gt;http://www.flexhex.com/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;pixel-sorting&#34;&gt;Pixel sorting&lt;/h3&gt;
+
+&lt;p&gt;An image-editing effect based on the action of grouping pixels that similarities. It usually creates a distinct and striped look along certain columns or rows where the technique was applied. The method was largely popularized by Kim Asendorf who created a program for this technique: &lt;a href=&#34;http://kimasendorf.com/www/&#34;&gt;http://kimasendorf.com/www/&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Glitches</title>
+      <link>http://whoisjack.today/blog/2017-05-28-cans/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-05-28-cans/</guid>
+      <description>&lt;p&gt;Cans Cans Cans&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Source image is a picture of &lt;em&gt;Campbell&amp;rsquo;s Soup Cans&lt;/em&gt;, by Andy Warhol, found here: &lt;a href=&#34;https://www.timeout.com/newyork/art/andy-warhol-campbells-soup-cans-and-other-works-19531967&#34;&gt;https://www.timeout.com/newyork/art/andy-warhol-campbells-soup-cans-and-other-works-19531967&lt;/a&gt;. Displayed images have all been converted to JPG for presentation.&lt;/p&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/phaser.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/phaser.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from BMP&lt;/li&gt;
+&lt;li&gt;applied Phaser effect to section of audio - rows of cans could actually be distinquished in the audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/reverse.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/reverse.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from BMP&lt;/li&gt;
+&lt;li&gt;applied reverse effect to section of audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/rawstretched.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/rawstretched.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;applied a Paul Stretch to section of audio&lt;/li&gt;
+&lt;li&gt;re-imported RAW as an image with fewer channels, at a resolution of 1000 x 1000&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/shift.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/shift.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;applied a pitch shift from F to D to section of audio&lt;/li&gt;
+&lt;li&gt;re-imported RAW as an image with fewer channels, to riginal file size&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/text.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/text.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;opened BMP in text editor&lt;/li&gt;
+&lt;li&gt;copy pasted random sections of text into different areas&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/non.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/non.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;exported from photoshop as interleaved RAW&lt;/li&gt;
+&lt;li&gt;re-imported as a non-interleaved RAW iamge&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/extrainterleave.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/extrainterleave.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;exported from photoshop as interleaved RAW (3 channels)&lt;/li&gt;
+&lt;li&gt;re-imported as interleaved RAW (10 channels)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/bass.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/bass.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;adjusted frequency levels on one section of the audio&lt;/li&gt;
+&lt;li&gt;increased bass and decreased treble by 5 dB&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/wahwah.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/wahwah.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
+&lt;li&gt;applied WahWah effect to one section of the audio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/art/a2/ripped.jpg&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/a2/ripped.jpg&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ripped USB out of computer while BMP file was transferring&lt;/li&gt;
+&lt;li&gt;mystery finally solved&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Playing with gifs - 3</title>
-      <link>http://whoisjack.today/blog/2017-05-23-fine229-a1-statement/</link>
+      <link>http://whoisjack.today/blog/2017-05-23-gifs-3/</link>
       <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/blog/2017-05-23-fine229-a1-statement/</guid>
+      <guid>http://whoisjack.today/blog/2017-05-23-gifs-3/</guid>
       <description>&lt;p&gt;Making Waves is a short story about a boat in the small fishing town of Lamu, Kenya.
 &lt;/p&gt;
 
@@ -52,10 +242,10 @@
     
     <item>
       <title>Playing with gifs - 2</title>
-      <link>http://whoisjack.today/blog/2017-05-22-fine229-a1-result/</link>
+      <link>http://whoisjack.today/blog/2017-05-22-gifs-2/</link>
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/blog/2017-05-22-fine229-a1-result/</guid>
+      <guid>http://whoisjack.today/blog/2017-05-22-gifs-2/</guid>
       <description>&lt;p&gt;Making Waves&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -85,7 +275,9 @@
       <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-05-16-fine229-b2/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Gifs&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;stereography&#34;&gt;Stereography&lt;/h3&gt;
 
@@ -148,10 +340,10 @@
     
     <item>
       <title>Playing with gifs - 1</title>
-      <link>http://whoisjack.today/blog/2017-05-11-fine229-a1-thoughts/</link>
+      <link>http://whoisjack.today/blog/2017-05-11-gifs-1/</link>
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/blog/2017-05-11-fine229-a1-thoughts/</guid>
+      <guid>http://whoisjack.today/blog/2017-05-11-gifs-1/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve wanted to make a cinemagraph since I first saw one on Reddit.
 &lt;/p&gt;
 
@@ -232,7 +424,9 @@
       <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-05-10-fine229-b1/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
+      <description>&lt;p&gt;Basics&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;subjectivity&#34;&gt;Subjectivity&lt;/h3&gt;
 
