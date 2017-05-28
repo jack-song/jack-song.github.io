@@ -5,8 +5,37 @@
     <link>http://whoisjack.today/projects/index.xml</link>
     <description>Recent content in Projects on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 13 Mar 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>SunShower (WIP)</title>
+      <link>http://whoisjack.today/projects/sunshower/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/projects/sunshower/</guid>
+      <description>&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;/assets/projects/sunshower.png&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/projects/sunshower.png&#34;&gt;
+&lt;/noscript&gt;
+
+&lt;div class=&#34;centered&#34;&gt;
+    &lt;a class=&#34;button&#34; href=&#34;http://whoisjack.today/sunshower/&#34;&gt;
+        &lt;i class=&#34;ion-android-globe&#34;&gt;&lt;/i&gt;Play it!
+    &lt;/a&gt;
+    &lt;a class=&#34;button&#34; href=&#34;https://github.com/jack-song/sunshower&#34;&gt;
+        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Pet project based on an idea I had for a simple, challenging game with a high skill ceiling. It&amp;rsquo;s basically Tetris 360. Original intention was to learn more about using a game framework and marketing.&lt;/p&gt;
+
+&lt;p&gt;Turns out I&amp;rsquo;m also learning a lot about game design, user feedback management, and Google Analytics. There are definitely still improvements (like row elimination animations) to be made and more marketing (like a dedicated domain) to be done.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Daily Wiki</title>
