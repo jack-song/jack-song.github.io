@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://whoisjack.today/blog/2017-06-02-fine229-glitches/</loc>
+    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://whoisjack.today/blog/2017-05-28-fine229-b3/</loc>
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
   </url>
@@ -104,7 +109,7 @@
   
   <url>
     <loc>http://whoisjack.today/blog/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -120,13 +125,13 @@
   
   <url>
     <loc>http://whoisjack.today/collections/fine229/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://whoisjack.today/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
