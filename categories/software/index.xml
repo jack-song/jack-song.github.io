@@ -8,6 +8,146 @@
     <atom:link href="http://whoisjack.today/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Building a Processing Pipeline - 3</title>
+      <link>http://whoisjack.today/blog/2017-06-02-data-pipeline-3/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-06-02-data-pipeline-3/</guid>
+      <description>&lt;p&gt;Initial results.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../2017-04-21-data-pipeline-2&#34;&gt;part 2&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Configuration, security, and deployment with SQS were all as easy as expected, and IAM has been a great convenience. It was also pretty straight forward to write tasks for Celery - but successes are not interesting.&lt;/p&gt;
+
+&lt;p&gt;Celery does not play perfectly with SQS.&lt;/p&gt;
+
+&lt;p&gt;One source of struggle was having scheduled tasks, thanks to SQS limitations &lt;a href=&#34;https://stackoverflow.com/questions/41300209/celery-sqs-duplication-of-tasks-sqs-visibility-timeout&#34;&gt;(mostly relating to timeouts)&lt;/a&gt;. We were forced to use local scheduling solutions for timed output delivery - in this case, Advanced Python Scheduler. Unfortunately, out of the box, jobs can be dropped if worker instances fail before an ETA is met as tasks are stored in memory. To make this a more robust long term solution, we&amp;rsquo;ll have to use disk storage.&lt;/p&gt;
+
+&lt;p&gt;SQS also seemed to cause Celery workers to &lt;a href=&#34;https://github.com/celery/celery/issues/3712&#34;&gt;hang when trying to process with &amp;gt; 1 worker per instance&lt;/a&gt;. This is a fairly significant problem at scale and will hopefully be resolved soon.&lt;/p&gt;
+
+&lt;p&gt;Presumably, &lt;a href=&#34;https://github.com/spulec/PyQS&#34;&gt;PyQs&lt;/a&gt; should work better with SQS, and may deserve another look if support is improved.&lt;/p&gt;
+
+&lt;p&gt;Our design also allowed a little extra complexity to sneak in. The information required for the jobs come from a Node.js lambda service that was already used for shuttling data around. There was no clean way of dropping these jobs directly into the Python worker queues, so we needed another Python lambda. However, it&amp;rsquo;s not a huge issue as the data could be reformated at this gateway anyways, giving a nice seperation of concerns between the two systems.&lt;/p&gt;
+
+&lt;p&gt;Overall, there were no disasters during the initial rollout. There were some hiccups as you&amp;rsquo;d expect from any plan. Pending maturation and scaling. Maybe there will be a part 4.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Building a Processing Pipeline - 2</title>
+      <link>http://whoisjack.today/blog/2017-04-21-data-pipeline-2/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-04-21-data-pipeline-2/</guid>
+      <description>&lt;p&gt;Amazon AWS SQS vs RabbitMQ, with simple domain-specific benchmarks.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;../2017-04-20-data-pipeline-1&#34;&gt;part 1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our data pipeline needs a message broker for a &lt;a href=&#34;http://www.celeryproject.org/&#34;&gt;Celery&lt;/a&gt; job queue; &lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; and &lt;a href=&#34;https://aws.amazon.com/sqs/&#34;&gt;Amazon SQS&lt;/a&gt; are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.&lt;/p&gt;
+
+&lt;p&gt;RabbitMQ has a solid reputation as a broker, with diverse and robust features. It works very well with Celery. The only real disadvantage is that it relies on custom configuration and deployment. SQS is a message queue as a service, self-scaling and configurable from a web UI. It also plays well with other AWS offerings. However, it can be pricier and slower at scale, and less flexible to use.&lt;/p&gt;
+
+&lt;p&gt;Long term, RabbitMQ seems like a clear winner, but there are more factors to consider:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;We have 2 developers, one of which is leaving soon.&lt;/li&gt;
+&lt;li&gt;We lack devops experience.&lt;/li&gt;
+&lt;li&gt;While this pipeline is important to the business, it&amp;rsquo;s not operationally crucial.&lt;/li&gt;
+&lt;li&gt;There is only one use case where the speed of dropping off jobs will be important.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Maintenance, reliability, security, and scaling would all be taken care of on SQS - making it a very appealing option, provided that 3 assumptions were reasonable:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Given that our clients are in Africa, any performance differences will be trivial compared to the network latency.&lt;/li&gt;
+&lt;li&gt;Given jobs of suffcient processing time, any performance differences will be trivial compared to the job computations.&lt;/li&gt;
+&lt;li&gt;Even if we scale at a rapid rate, our current business size means that it won&amp;rsquo;t be &amp;ldquo;big enough&amp;rdquo; any time soon.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To confirm, I ran some tests on AWS, swapping out the broker. I had a Flask gateway and a Celery worker on separate EC2 instances, and used Celery to manage jobs. I ran 5 trials for each broker, at 2 different times during the day. Each trial had 300 requests for 1 second jobs.&lt;/p&gt;
+
+&lt;p&gt;I had total request time as one metric, using the &lt;code&gt;requests&lt;/code&gt; package&amp;rsquo;s built in &lt;a href=&#34;http://docs.python-requests.org/en/latest/api/?highlight=elapsed#requests.Response.elapsed&#34;&gt;profiling method&lt;/a&gt;. I also had a metric for total time taken for processing, using worker logs. Agreeing with general concensus, RabbitMQ is distinctly faster in both reading and writing.&lt;/p&gt;
+
+&lt;p&gt;Writing/requesting time (s):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RabbitMQ: 209 +- 28&lt;/li&gt;
+&lt;li&gt;AWS SQS: 248 +- 57&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Reading/processing time (s):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RabbitMQ: 361 +- 3&lt;/li&gt;
+&lt;li&gt;AWS SQS: 368 +- 6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;However in both cases, their uncertainty ranges overlap and other components of the pipeline could easily become more dominant bottlenecks as compared to the brokers themselves.&lt;/p&gt;
+
+&lt;p&gt;As a cash-strapped startup, cost was another important factor, and estimates were made with the test results.&lt;/p&gt;
+
+&lt;p&gt;Scaling:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Assume client use rate of 100% (currently &amp;lt; 5%)&lt;/li&gt;
+&lt;li&gt;Doubling client #s every month&lt;/li&gt;
+&lt;li&gt;=&amp;gt; clients will push ~60 million requests in about 12 months as a very optimistic estimate&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Costs:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;RabbitMQ&lt;/li&gt;
+&lt;li&gt;A base cost of ~$9 for a fully used T2.micro instance&lt;/li&gt;
+&lt;li&gt;~2% CPU usage for ~1 request/second&lt;/li&gt;
+&lt;li&gt;Taking into account baseline CPU and CPU credits, we get about 23 million requests/month&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;23 million requests / $9&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;AWS SQS&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;20 million requests / $10&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So we start to see a slight cost advantage for RabbitMQ starting at around 20 million requests. We assume that at smaller scales, SQS will be advantageous (lacking overhead costs), and at larger scales, RabbitMQ wil become more advantageous (using more cost-effective, large instances). Since the scaling estimates indicate that this switch will occur ~11 months from now at the earliest, SQS appears to be a cost-effective choice for a reasonable amount of time in the future.&lt;/p&gt;
+
+&lt;p&gt;Since it has been shown that RabbitMQ&amp;rsquo;s 2 main advantages, better performance and lower costs, will likely not be important factors for at least another year, we have decided to use AWS SQS for now. Actually, one of the main advantages of Celery is that it shouldn&amp;rsquo;t be too hard to change the broker that we&amp;rsquo;re using later on.&lt;/p&gt;
+
+&lt;p&gt;Rollout results are discussed in &lt;a href=&#34;../2017-06-02-data-pipeline-3&#34;&gt;part 3&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Building a Processing Pipeline - 1</title>
+      <link>http://whoisjack.today/blog/2017-04-20-data-pipeline-1/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-04-20-data-pipeline-1/</guid>
+      <description>&lt;p&gt;Requirements and architecture. Job queues.
+&lt;/p&gt;
+
+&lt;p&gt;At my work, we&amp;rsquo;re building a pipeline to provide data-driven feedback to users.&lt;/p&gt;
+
+&lt;p&gt;The de-facto king for data is Python, thanks to its community. A common way to deploy these models is via a Flask application, but this isn&amp;rsquo;t a good fit for every case. What if the service doesn&amp;rsquo;t need a front end? What if clients don&amp;rsquo;t want to wait for a potentially long operation? What if our business requirements are still uncertain, and we anticipate a need to scale?&lt;/p&gt;
+
+&lt;p&gt;We could use Twisted or Tornado to imitate some of that Node.js non-blocking goodness, but other libraries might not be compatible. It&amp;rsquo;s also a new paradigm for the devs to learn. Scaling and tight coupling are still concerns as with any monolithic web app.&lt;/p&gt;
+
+&lt;p&gt;A strong solution is to use job queues, where we drop off work and have workers share tasks. Dropping off work takes very little time. Having a storage for the jobs improves reliability. There can be any number of workers, of any type, allowing great flexibility and scalability. The disadvantage is having to set up and maintain the queue infrastructure. Given the importance of this pipeline to our business, it&amp;rsquo;s a worthwhile investment.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://nameko.readthedocs.io/en/stable/&#34;&gt;Nameko&lt;/a&gt; is a framework focused on microservices that work with message queues. However, it&amp;rsquo;s quite new and research doesn&amp;rsquo;t turn up many resources on &lt;a href=&#34;https://groups.google.com/forum/#!topic/nameko-dev/Sfvm9xY6MHE&#34;&gt;deployment and maintenance practices for a production service&lt;/a&gt;. A risky choice for an early startup with poor devops experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.iron.io/&#34;&gt;Iron.io&lt;/a&gt; is a nicely packaged solution for managing job queues and workers. However, the price can be relatively hefty and our technology would be locked with their services. A risky choice for a startup on a budget, with rapidly changing requirements.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://python-rq.org/&#34;&gt;PythonRQ&lt;/a&gt;, a simple self-hosted framework for job queues and workers, may similarly have too many restrictions long term. It only operates with certain technologies and cannot guarantee job completion.&lt;/p&gt;
+
+&lt;p&gt;The natural choice for job management becomes the industry standard, &lt;a href=&#34;http://www.celeryproject.org/&#34;&gt;Celery&lt;/a&gt;, another self-hosted framework with great configurability.&lt;/p&gt;
+
+&lt;p&gt;However, we also have to choose the message storage that Celery would use (a broker). There are many possibilities here as well, but we narrowed it down to two big players: &lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; and &lt;a href=&#34;https://aws.amazon.com/sqs/&#34;&gt;Amazon SQS&lt;/a&gt;. They were designed for message reliability at scale and have strong user communities.&lt;/p&gt;
+
+&lt;p&gt;The final choice is described in detail in &lt;a href=&#34;../2017-04-21-data-pipeline-2&#34;&gt;part 2&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>RTFM</title>
       <link>http://whoisjack.today/blog/2017-01-24-RTFM/</link>
       <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>

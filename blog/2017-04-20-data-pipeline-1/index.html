@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://whoisjack.today/assets/favicon.ico?">
+<link rel="stylesheet" href="http://whoisjack.today/css/ionicons.min.css">
+<link rel="stylesheet" href="http://whoisjack.today/css/base.css">
+
+<title>Jack</title>
+  </head>
+
+  <body class="plain">
+    <div class="fade-in earlier">
+    <div class="topchunk">
+        <h1><a href="http://whoisjack.today/">Jack</a></h1>
+        <span class="nav">
+    <h3><a href="http://whoisjack.today/projects">projects</a></h3>
+    <h3><a href="http://whoisjack.today/blog">blog</a></h3>
+</span>
+    </div>
+</div>
+    <div class="content fade-in later wall">
+      <h2>
+          Building a Processing Pipeline - 1
+      </h2>
+      <span class="faint"> April 20, 2017 
+          
+          - 
+          
+              
+              
+              <a href="http://whoisjack.today/categories/software">
+                  software
+              </a>
+          
+        
+      </span>
+
+      <p>Requirements and architecture. Job queues.
+</p>
+
+<p>At my work, we&rsquo;re building a pipeline to provide data-driven feedback to users.</p>
+
+<p>The de-facto king for data is Python, thanks to its community. A common way to deploy these models is via a Flask application, but this isn&rsquo;t a good fit for every case. What if the service doesn&rsquo;t need a front end? What if clients don&rsquo;t want to wait for a potentially long operation? What if our business requirements are still uncertain, and we anticipate a need to scale?</p>
+
+<p>We could use Twisted or Tornado to imitate some of that Node.js non-blocking goodness, but other libraries might not be compatible. It&rsquo;s also a new paradigm for the devs to learn. Scaling and tight coupling are still concerns as with any monolithic web app.</p>
+
+<p>A strong solution is to use job queues, where we drop off work and have workers share tasks. Dropping off work takes very little time. Having a storage for the jobs improves reliability. There can be any number of workers, of any type, allowing great flexibility and scalability. The disadvantage is having to set up and maintain the queue infrastructure. Given the importance of this pipeline to our business, it&rsquo;s a worthwhile investment.</p>
+
+<p><a href="https://nameko.readthedocs.io/en/stable/">Nameko</a> is a framework focused on microservices that work with message queues. However, it&rsquo;s quite new and research doesn&rsquo;t turn up many resources on <a href="https://groups.google.com/forum/#!topic/nameko-dev/Sfvm9xY6MHE">deployment and maintenance practices for a production service</a>. A risky choice for an early startup with poor devops experience.</p>
+
+<p><a href="https://www.iron.io/">Iron.io</a> is a nicely packaged solution for managing job queues and workers. However, the price can be relatively hefty and our technology would be locked with their services. A risky choice for a startup on a budget, with rapidly changing requirements.</p>
+
+<p><a href="http://python-rq.org/">PythonRQ</a>, a simple self-hosted framework for job queues and workers, may similarly have too many restrictions long term. It only operates with certain technologies and cannot guarantee job completion.</p>
+
+<p>The natural choice for job management becomes the industry standard, <a href="http://www.celeryproject.org/">Celery</a>, another self-hosted framework with great configurability.</p>
+
+<p>However, we also have to choose the message storage that Celery would use (a broker). There are many possibilities here as well, but we narrowed it down to two big players: <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a>. They were designed for message reliability at scale and have strong user communities.</p>
+
+<p>The final choice is described in detail in <a href="../2017-04-21-data-pipeline-2">part 2</a>.</p>
+    </div>
+    
+    <div class="bottom-chunk fade-in later">
+    <hr>
+</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-99596755-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    <script type="text/javascript" src="http://whoisjack.today/js/lazysizes.min.js" async></script>
+  </body>
+</html>
