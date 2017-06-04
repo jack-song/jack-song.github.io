@@ -1,6 +1,5 @@
 (function() {
-  const ACTIONS = ["organize my notes", "iterate on some design work", "paint", "take better photographs", "meditate", "listen to a new band",
-                "improve my rock climbing", "eat healthier", "work on a side project", "practice an instrument", "read a book", "sketch", "find a lecture to watch", "look into a new technology"];
+  const ACTIONS = ["learn more about design", "paint", "meditate", "find a new band", "improve my rock climbing", "practice handstands", "practice harmonica", "practice guitar", "read a book", "sketch", "find a lecture to watch"];
 
   const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
