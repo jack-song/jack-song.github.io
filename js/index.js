@@ -19,7 +19,10 @@
 
   function load() {
     // replace the Date and action
-    document.getElementById('date').innerHTML = `${month + " " + day}`;
+    if (document.getElementById('date')) {
+        document.getElementById('date').innerHTML = `${month + " " + day}`;
+    }
+    
     document.getElementById('action').innerHTML = `Today I'll ${action}`;
     document.getElementById('dot').innerHTML = `.`;
   }
