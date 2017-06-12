@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://whoisjack.today/blog/2017-06-12-digital-perspective/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://whoisjack.today/blog/2017-06-12-digital-perspective-statement/</loc>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://whoisjack.today/blog/2017-06-08-fine229-b5/</loc>
     <lastmod>2017-06-08T00:00:00+00:00</lastmod>
   </url>
@@ -37,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://whoisjack.today/blog/2017-05-23-gifs-3/</loc>
+    <loc>http://whoisjack.today/blog/2017-05-23-gifs-statement/</loc>
     <lastmod>2017-05-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -128,13 +138,13 @@
   
   <url>
     <loc>http://whoisjack.today/categories/art/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://whoisjack.today/blog/</loc>
-    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -150,13 +160,13 @@
   
   <url>
     <loc>http://whoisjack.today/collections/fine229/</loc>
-    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://whoisjack.today/</loc>
-    <lastmod>2017-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
