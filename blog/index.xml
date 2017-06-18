@@ -5,8 +5,47 @@
     <link>http://whoisjack.today/blog/index.xml</link>
     <description>Recent content in Blogs on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 12 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Exercise 6</title>
+      <link>http://whoisjack.today/blog/2017-06-17-fine229-b6/</link>
+      <pubDate>Sat, 17 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-06-17-fine229-b6/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;constructed-narrative&#34;&gt;Constructed Narrative&lt;/h3&gt;
+
+&lt;p&gt;When the contents of a photograph have been artificially created by the artist in some way to reflect a narrative, rather than simply photographing a real scene. An example is A Sudden Gust of Wind (after Hokusai), taken by Jeff Wall, portraying the same narrative as the woodcut that inspired the work. The photograph was constructed digitally from various pieces.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.tate.org.uk/art/artworks/wall-a-sudden-gust-of-wind-after-hokusai-t06951&#34;&gt;http://www.tate.org.uk/art/artworks/wall-a-sudden-gust-of-wind-after-hokusai-t06951&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tableau&#34;&gt;Tableau&lt;/h3&gt;
+
+&lt;p&gt;A photograph where the scene is assembled and actors are used to produce a certain result. An example is The Basement, by Gregory Crewdson. Actors, an arranged set, and lighting are used to make a lazy, warm, and crisp basement image.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://lens.blogs.nytimes.com/2016/01/25/alone-in-a-crowd-with-gregory-crewdson/?_r=0&#34;&gt;https://lens.blogs.nytimes.com/2016/01/25/alone-in-a-crowd-with-gregory-crewdson/?_r=0&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;re-enactment&#34;&gt;Re-enactment&lt;/h3&gt;
+
+&lt;p&gt;A re-enactment is an image that aims to reproduce a past historical event. An example is Diary of a Victorian Dandy, which portrays a gathering of wealthy Victorians in an opulent room, taken in 1998.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.yinkashonibarembe.com/artwork/photography/?image_id=50&#34;&gt;http://www.yinkashonibarembe.com/artwork/photography/?image_id=50&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;uncanny&#34;&gt;Uncanny&lt;/h3&gt;
+
+&lt;p&gt;A work has an uncanny characterstic if it is similar to something else, but with subtle, unsettling differences. An example would be Bram Stoker’s Chair, by Sam Taylor-Johnson. The image clearly depicts a situation that is physically possible, but feels fake. The timing of the picture seems highly coincidential and the chair appears to lack a shadow, generating doubt in the viewer.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://samtaylorjohnson.com/photography/art/bram-stokers-chair-2005&#34;&gt;http://samtaylorjohnson.com/photography/art/bram-stokers-chair-2005&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>A digital perspective</title>
@@ -775,90 +814,6 @@
 &lt;p&gt;It was one of my favorite subjects, and I even did extra classes. But these were technical sessions and offered very little creative flexibility; I quit often. To scratch the itch I turned to art on my own time: &lt;a href=&#34;http://malsatas.deviantart.com/&#34;&gt;http://malsatas.deviantart.com/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Recently I&amp;rsquo;ve understood that I like &amp;ldquo;doing art&amp;rdquo; because I enjoy creating and telling stories. I like building flavorful worlds and presenting compellling characters. I like the idea of reaching into people with stories. I&amp;rsquo;ve since changed how I approach art and have projects that I&amp;rsquo;m excited to work on. Hopefully they will grow into games or webcomics. The pipe dream is to build public, interactive art.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Building a Processing Pipeline - 2</title>
-      <link>http://whoisjack.today/blog/2017-04-21-data-pipeline-2/</link>
-      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://whoisjack.today/blog/2017-04-21-data-pipeline-2/</guid>
-      <description>&lt;p&gt;Amazon AWS SQS vs RabbitMQ, with simple domain-specific benchmarks.
-&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;../2017-04-20-data-pipeline-1&#34;&gt;part 1&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Our data pipeline needs a message broker for a &lt;a href=&#34;http://www.celeryproject.org/&#34;&gt;Celery&lt;/a&gt; job queue; &lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; and &lt;a href=&#34;https://aws.amazon.com/sqs/&#34;&gt;Amazon SQS&lt;/a&gt; are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.&lt;/p&gt;
-
-&lt;p&gt;RabbitMQ has a solid reputation as a broker, with diverse and robust features. It works very well with Celery. The only real disadvantage is that it relies on custom configuration and deployment. SQS is a message queue as a service, self-scaling and configurable from a web UI. It also plays well with other AWS offerings. However, it can be pricier and slower at scale, and less flexible to use.&lt;/p&gt;
-
-&lt;p&gt;Long term, RabbitMQ seems like a clear winner, but there are more factors to consider:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;We have 2 developers, one of which is leaving soon.&lt;/li&gt;
-&lt;li&gt;We lack devops experience.&lt;/li&gt;
-&lt;li&gt;While this pipeline is important to the business, it&amp;rsquo;s not operationally crucial.&lt;/li&gt;
-&lt;li&gt;There is only one use case where the speed of dropping off jobs will be important.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Maintenance, reliability, security, and scaling would all be taken care of on SQS - making it a very appealing option, provided that 3 assumptions were reasonable:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Given that our clients are in Africa, any performance differences will be trivial compared to the network latency.&lt;/li&gt;
-&lt;li&gt;Given jobs of suffcient processing time, any performance differences will be trivial compared to the job computations.&lt;/li&gt;
-&lt;li&gt;Even if we scale at a rapid rate, our current business size means that it won&amp;rsquo;t be &amp;ldquo;big enough&amp;rdquo; any time soon.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To confirm, I ran some tests on AWS, swapping out the broker. I had a Flask gateway and a Celery worker on separate EC2 instances, and used Celery to manage jobs. I ran 5 trials for each broker, at 2 different times during the day. Each trial had 300 requests for 1 second jobs.&lt;/p&gt;
-
-&lt;p&gt;I had total request time as one metric, using the &lt;code&gt;requests&lt;/code&gt; package&amp;rsquo;s built in &lt;a href=&#34;http://docs.python-requests.org/en/latest/api/?highlight=elapsed#requests.Response.elapsed&#34;&gt;profiling method&lt;/a&gt;. I also had a metric for total time taken for processing, using worker logs. Agreeing with general concensus, RabbitMQ is distinctly faster in both reading and writing.&lt;/p&gt;
-
-&lt;p&gt;Writing/requesting time (s):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RabbitMQ: 209 +- 28&lt;/li&gt;
-&lt;li&gt;AWS SQS: 248 +- 57&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Reading/processing time (s):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RabbitMQ: 361 +- 3&lt;/li&gt;
-&lt;li&gt;AWS SQS: 368 +- 6&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;However in both cases, their uncertainty ranges overlap and other components of the pipeline could easily become more dominant bottlenecks as compared to the brokers themselves.&lt;/p&gt;
-
-&lt;p&gt;As a cash-strapped startup, cost was another important factor, and estimates were made with the test results.&lt;/p&gt;
-
-&lt;p&gt;Scaling:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Assume client use rate of 100% (currently &amp;lt; 5%)&lt;/li&gt;
-&lt;li&gt;Doubling client #s every month&lt;/li&gt;
-&lt;li&gt;=&amp;gt; clients will push ~60 million requests in about 12 months as a very optimistic estimate&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Costs:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;RabbitMQ&lt;/li&gt;
-&lt;li&gt;A base cost of ~$9 for a fully used T2.micro instance&lt;/li&gt;
-&lt;li&gt;~2% CPU usage for ~1 request/second&lt;/li&gt;
-&lt;li&gt;Taking into account baseline CPU and CPU credits, we get about 23 million requests/month&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;23 million requests / $9&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;AWS SQS&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;20 million requests / $10&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;So we start to see a slight cost advantage for RabbitMQ starting at around 20 million requests. We assume that at smaller scales, SQS will be advantageous (lacking overhead costs), and at larger scales, RabbitMQ wil become more advantageous (using more cost-effective, large instances). Since the scaling estimates indicate that this switch will occur ~11 months from now at the earliest, SQS appears to be a cost-effective choice for a reasonable amount of time in the future.&lt;/p&gt;
-
-&lt;p&gt;Since it has been shown that RabbitMQ&amp;rsquo;s 2 main advantages, better performance and lower costs, will likely not be important factors for at least another year, we have decided to use AWS SQS for now. Actually, one of the main advantages of Celery is that it shouldn&amp;rsquo;t be too hard to change the broker that we&amp;rsquo;re using later on.&lt;/p&gt;
-
-&lt;p&gt;Rollout results are discussed in &lt;a href=&#34;../2017-06-02-data-pipeline-3&#34;&gt;part 3&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
