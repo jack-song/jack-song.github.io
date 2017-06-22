@@ -5,8 +5,27 @@
     <link>http://whoisjack.today/blog/index.xml</link>
     <description>Recent content in Blogs on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 17 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Exercise 7</title>
+      <link>http://whoisjack.today/blog/2017-06-22-fine229-b7/</link>
+      <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-06-22-fine229-b7/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;!--&lt;img 
+    class=&#34;lazyload&#34; 
+    src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
+    data-src=&#34;image%20fix&#34;&gt;
+&lt;noscript&gt;
+    &lt;img src=&#34;image%20fix&#34;&gt;
+&lt;/noscript&gt;--&gt;
+
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/NWPshpo4pY8&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
+    </item>
     
     <item>
       <title>Exercise 6</title>
@@ -800,20 +819,6 @@
 &lt;p&gt;Yaacov Agam uses repetition in shape and color to build optical effects and illusions.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Yaacov_Agam&#34;&gt;https://en.wikipedia.org/wiki/Yaacov_Agam&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>http://whoisjack.today/blog/2017-05-10-fine229-intro/</link>
-      <pubDate>Wed, 10 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://whoisjack.today/blog/2017-05-10-fine229-intro/</guid>
-      <description>&lt;p&gt;I like &amp;ldquo;doing art&amp;rdquo;.
-&lt;/p&gt;
-
-&lt;p&gt;It was one of my favorite subjects, and I even did extra classes. But these were technical sessions and offered very little creative flexibility; I quit often. To scratch the itch I turned to art on my own time: &lt;a href=&#34;http://malsatas.deviantart.com/&#34;&gt;http://malsatas.deviantart.com/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Recently I&amp;rsquo;ve understood that I like &amp;ldquo;doing art&amp;rdquo; because I enjoy creating and telling stories. I like building flavorful worlds and presenting compellling characters. I like the idea of reaching into people with stories. I&amp;rsquo;ve since changed how I approach art and have projects that I&amp;rsquo;m excited to work on. Hopefully they will grow into games or webcomics. The pipe dream is to build public, interactive art.&lt;/p&gt;</description>
     </item>
     
   </channel>
