@@ -683,17 +683,17 @@
 &lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
-    data-src=&#34;/assets/art/out.gif&#34;&gt;
+    data-src=&#34;/assets/art/gif/out.gif&#34;&gt;
 &lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/art/out.gif&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/gif/out.gif&#34;&gt;
 &lt;/noscript&gt;
 
 &lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
-    data-src=&#34;/assets/art/past.gif&#34;&gt;
+    data-src=&#34;/assets/art/gif/past.gif&#34;&gt;
 &lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/art/past.gif&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/gif/past.gif&#34;&gt;
 &lt;/noscript&gt;</description>
     </item>
     
@@ -713,18 +713,18 @@
 &lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
-    data-src=&#34;/assets/art/out.gif&#34;&gt;
+    data-src=&#34;/assets/art/gif/out.gif&#34;&gt;
 &lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/art/out.gif&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/gif/out.gif&#34;&gt;
 &lt;/noscript&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==&#34; 
-    data-src=&#34;/assets/art/past.gif&#34;&gt;
+    data-src=&#34;/assets/art/gif/past.gif&#34;&gt;
 &lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/art/past.gif&#34;&gt;
+    &lt;img src=&#34;http://whoisjack.today/assets/art/gif/past.gif&#34;&gt;
 &lt;/noscript&gt;&lt;/p&gt;</description>
     </item>
     
