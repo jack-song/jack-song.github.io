@@ -46,7 +46,11 @@ window.yqlCallback = function (data) {
   function link (name, url) {
     return `<a href="${url}">${name}</a>`;
   }
-  let title = data.query.results.a.title;
-  let url = 'https://en.wikipedia.org' + data.query.results.a.href;
+  let dummy = document.createElement('div');
+  dummy.innerHTML = data.query.results.result;
+  let element = dummy.getElementsByTagName('a')[0];
+
+  let title = element.getAttribute('title');
+  let url = 'https://en.wikipedia.org' + element.getAttribute('href');
   document.getElementById('extra').innerHTML = `\ and read about: <em>${link(title, url)}</em>`;
 }
