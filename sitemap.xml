@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://whoisjack.today/blog/2017-06-29-look-and-jump/</loc>
+    <loc>http://whoisjack.today/blog/2017-06-30-mental-game-statement/</loc>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://whoisjack.today/blog/2017-06-29-mental-game/</loc>
     <lastmod>2017-06-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -164,7 +169,7 @@
   
   <url>
     <loc>http://whoisjack.today/blog/</loc>
-    <lastmod>2017-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,13 +185,13 @@
   
   <url>
     <loc>http://whoisjack.today/collections/fine229/</loc>
-    <lastmod>2017-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://whoisjack.today/</loc>
-    <lastmod>2017-06-29T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-30T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
