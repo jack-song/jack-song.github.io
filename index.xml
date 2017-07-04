@@ -5,8 +5,44 @@
     <link>http://whoisjack.today/index.xml</link>
     <description>Recent content on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Exercise 8</title>
+      <link>http://whoisjack.today/blog/2017-07-04-fine229-b8/</link>
+      <pubDate>Tue, 04 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-07-04-fine229-b8/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;deep-remixability&#34;&gt;Deep remixability&lt;/h2&gt;
+
+&lt;p&gt;When previously separate mediums are being combined in various ways - not just by format, but by technique, culture, and other meta-characteristics as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;variable-form&#34;&gt;Variable form&lt;/h2&gt;
+
+&lt;p&gt;A motion graphic sequence that never holds all its aspects static for long - some part of it is constantly in flux at some point in time.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;continuity-turn&#34;&gt;Continuity turn&lt;/h2&gt;
+
+&lt;p&gt;The shift from discrete cuts and marked delimitations to continuous, gradual changes in motion graphic sequences. This is largely caused by the technological capacity to generate graphical changes through procedural modification of variables.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;metamedium&#34;&gt;Metamedium&lt;/h2&gt;
+
+&lt;p&gt;Term suggested by Alan Kay in the 1970s describing the computer as a medium that encompasses the format, techniques, and expressive possibilities of all preceding mediums, as well future mediums, thanks to its capabilities as an automated turing machine.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+A piece of work that represents all these terms would be Monster Movie by Takeshi Murata. His work combines old-school, practical effect horror films with the contemporary process of datamoshing. The datamosh effect causes colorful visual shapes to jump and change constantly. Distinct cuts are also hard to pinpoint due to lingering visual artefacts between sequences. It takes advantage of the digital metamedium by importing film and audio work from prior sources, as well as applying generated effects.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=t1f3St51S9I&#34;&gt;https://www.youtube.com/watch?v=t1f3St51S9I&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Mental Game - statement</title>
@@ -144,7 +180,7 @@
       <guid>http://whoisjack.today/blog/2017-06-17-fine229-b6/</guid>
       <description>&lt;p&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;constructed-narrative&#34;&gt;Constructed Narrative&lt;/h3&gt;
+&lt;h2 id=&#34;constructed-narrative&#34;&gt;Constructed Narrative&lt;/h2&gt;
 
 &lt;p&gt;When the contents of a photograph have been artificially created by the artist in some way to reflect a narrative, rather than simply photographing a real scene. An example is A Sudden Gust of Wind (after Hokusai), taken by Jeff Wall, portraying the same narrative as the woodcut that inspired the work. The photograph was constructed digitally from various pieces.&lt;/p&gt;
 
@@ -152,7 +188,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;tableau&#34;&gt;Tableau&lt;/h3&gt;
+&lt;h2 id=&#34;tableau&#34;&gt;Tableau&lt;/h2&gt;
 
 &lt;p&gt;A photograph where the scene is assembled and actors are used to produce a certain result. An example is The Basement, by Gregory Crewdson. Actors, an arranged set, and lighting are used to make a lazy, warm, and crisp basement image.&lt;/p&gt;
 
@@ -160,7 +196,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;re-enactment&#34;&gt;Re-enactment&lt;/h3&gt;
+&lt;h2 id=&#34;re-enactment&#34;&gt;Re-enactment&lt;/h2&gt;
 
 &lt;p&gt;A re-enactment is an image that aims to reproduce a past historical event. An example is Diary of a Victorian Dandy, which portrays a gathering of wealthy Victorians in an opulent room, taken in 1998.&lt;/p&gt;
 
@@ -168,7 +204,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;uncanny&#34;&gt;Uncanny&lt;/h3&gt;
+&lt;h2 id=&#34;uncanny&#34;&gt;Uncanny&lt;/h2&gt;
 
 &lt;p&gt;A work has an uncanny characterstic if it is similar to something else, but with subtle, unsettling differences. An example would be Bram Stoker’s Chair, by Sam Taylor-Johnson. The image clearly depicts a situation that is physically possible, but feels fake. The timing of the picture seems highly coincidential and the chair appears to lack a shadow, generating doubt in the viewer.&lt;/p&gt;
 
@@ -664,54 +700,6 @@
 
 &lt;p&gt;Turns out I&amp;rsquo;m also learning a lot about game design, user feedback management, and Google Analytics. There are definitely still improvements (like row elimination animations) to be made and more marketing (like a dedicated domain) to be done.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Playing with gifs - statement</title>
-      <link>http://whoisjack.today/blog/2017-05-23-gifs-statement/</link>
-      <pubDate>Tue, 23 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://whoisjack.today/blog/2017-05-23-gifs-statement/</guid>
-      <description>&lt;p&gt;Making Waves is a short story about a boat in the small fishing town of Lamu, Kenya.
-&lt;/p&gt;
-
-&lt;p&gt;Fishing has always been a mainstay in Lamu, but never the focus. It used to be a thriving port in the center of East African sea trade. Now it&amp;rsquo;s a UNESCO World Heritage site, relying on the tourism and investment of foreigners. However, the story isn&amp;rsquo;t over yet and nearby, one of the largest ports in East Africa is currently being built by Chinese corporations (Weitere). Many residents feel anticipation and uncertainty. The impact of time seems overwhelming in the small town. It becomes easy to look back and think about how things have changed.&lt;/p&gt;
-
-&lt;p&gt;I wanted to capture this sense of reflection using strong contrasts. I wanted the past to be dynamic, first-person, flat, and dream-like. I wanted the present to be sober, realistic, slow, and distant. Smooth motion is used in the realistic gif, with lowered saturation to give a historic quality, and a noise-based dither to create grittiness. The graphic gif instead uses only 4 colors and no dither, creating a more artistic look reminiscent of cel shading.&lt;/p&gt;
-
-&lt;p&gt;Despite these differences, I tried to strongly couple the images through imagery and by using a shared frame rate, appealing to the imagination.&lt;/p&gt;
-
-&lt;p&gt;Rose-tinted nostalgia is a feeling many people can relate to. It&amp;rsquo;s an innate, affective reaction I commonly find in video. As discussed by McKay, these affects can also be wielded effectively and uniquely in the gif medium, making it an appealing choice. By reflecting on the past, I also try to hint at the future, and build on the &amp;ldquo;anti-corporate agenda&amp;rdquo; frequently underlying gifs (McKay), questioning the changes that a modern shipping port could bring to the town.&lt;/p&gt;
-
-&lt;p&gt;Mwita, Weitere. &amp;ldquo;Building of Lamu Port 20% Complete.&amp;rdquo; The Star, Kenya. The Star, Kenya, 16 Apr. 2017. Web. 22 May 2017.&lt;/p&gt;
-
-&lt;p&gt;McKay, Sally. &amp;ldquo;The Affect of Animated GIFs.&amp;rdquo; Art &amp;amp; Education. Art&amp;amp;education, 14 Sept. 2009. Web. 22 May 2017.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;!--&lt;img 
-    class=&#34;lazyload&#34; 
-    src=&#34;http://whoisjack.today/assets/load.svg&#34; 
-    data-src=&#34;image%20fix&#34;&gt;
-&lt;noscript&gt;
-    &lt;img src=&#34;image%20fix&#34;&gt;
-&lt;/noscript&gt;--&gt;
-
-&lt;img 
-    class=&#34;lazyload&#34; 
-    src=&#34;http://whoisjack.today/assets/load.svg&#34; 
-    data-src=&#34;/assets/art/gif/out.gif&#34;&gt;
-&lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/art/gif/out.gif&#34;&gt;
-&lt;/noscript&gt;
-
-&lt;img 
-    class=&#34;lazyload&#34; 
-    src=&#34;http://whoisjack.today/assets/load.svg&#34; 
-    data-src=&#34;/assets/art/gif/past.gif&#34;&gt;
-&lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/art/gif/past.gif&#34;&gt;
-&lt;/noscript&gt;</description>
     </item>
     
   </channel>
