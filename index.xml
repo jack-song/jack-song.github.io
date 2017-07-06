@@ -5,8 +5,24 @@
     <link>http://whoisjack.today/index.xml</link>
     <description>Recent content on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jul 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Exercise 9</title>
+      <link>http://whoisjack.today/blog/2017-07-05-fine229-b9/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2017-07-05-fine229-b9/</guid>
+      <description>&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Farah&amp;rsquo;s original work:
+&lt;a href=&#34;https://minddrewablank.wordpress.com/2017/07/04/moving-still/&#34;&gt;https://minddrewablank.wordpress.com/2017/07/04/moving-still/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Herd is an image constructed from video sourced from Planet Earth. It compresses an overhead shot of a herd of animals into a single frame, creating a textured blur with sporadic details. Inspired by Corinne Vionnet&amp;rsquo;s &amp;lsquo;Photo Opportunities,&amp;rsquo; Farah&amp;rsquo;s piece mimics a long exposure photo using photoshop. The piece is dominated by soft browns and grays, with shadowy lines and blotches as the only recognizable features. Visually, it is well balanced and ambiguous, lacking constrasts and distinct shapes. It is also fairly flat, blending negative and positive space.&lt;/p&gt;
+
+&lt;p&gt;Herd evokes a sense of mystery and discovery - the subject can be guessed, but the title clarifies it. Other possible interpretations include clouds, dust, or a forest. In all cases, it is very successful at generating movement through its lined patterns and smears. Motion blur is implied and the shapes seem organic. These qualities make the piece intriging to look at, as well as a strong example of a moving still. Herd is also effective at referencing the work of Corinne, showcasing the drastic motions of wild animals compared to the subtle changes of static icons over time.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Exercise 8</title>
@@ -671,35 +687,6 @@ A piece of work that represents all these terms would be Monster Movie by Takesh
 &lt;li&gt;ripped USB out of computer while BMP file was transferring&lt;/li&gt;
 &lt;li&gt;mystery finally solved&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>SunShower (WIP)</title>
-      <link>http://whoisjack.today/projects/sunshower/</link>
-      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://whoisjack.today/projects/sunshower/</guid>
-      <description>&lt;img 
-    class=&#34;lazyload&#34; 
-    src=&#34;http://whoisjack.today/assets/load.svg&#34; 
-    data-src=&#34;/assets/projects/sunshower.png&#34;&gt;
-&lt;noscript&gt;
-    &lt;img src=&#34;http://whoisjack.today/assets/projects/sunshower.png&#34;&gt;
-&lt;/noscript&gt;
-
-&lt;div class=&#34;centered&#34;&gt;
-    &lt;a class=&#34;button&#34; href=&#34;http://whoisjack.today/sunshower/&#34;&gt;
-        &lt;i class=&#34;ion-android-globe&#34;&gt;&lt;/i&gt;Play it!
-    &lt;/a&gt;
-    &lt;a class=&#34;button&#34; href=&#34;https://github.com/jack-song/sunshower&#34;&gt;
-        &lt;i class=&#34;ion-social-github&#34;&gt;&lt;/i&gt;Github
-    &lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Pet project based on an idea I had for a simple, challenging game with a high skill ceiling. It&amp;rsquo;s basically Tetris 360. Original intention was to learn more about using a game framework and marketing.&lt;/p&gt;
-
-&lt;p&gt;Turns out I&amp;rsquo;m also learning a lot about game design, user feedback management, and Google Analytics. There are definitely still improvements (like row elimination animations) to be made and more marketing (like a dedicated domain) to be done.&lt;/p&gt;
-</description>
     </item>
     
   </channel>
