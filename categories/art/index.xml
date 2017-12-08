@@ -2,29 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Art on Jack</title>
-    <link>http://whoisjack.today/categories/art/index.xml</link>
+    <link>http://whoisjack.today/categories/art/</link>
     <description>Recent content in Art on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 29 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/categories/art/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Muscle Memory</title>
-      <link>http://whoisjack.today/blog/2017-07-25-muscle-memory/</link>
-      <pubDate>Tue, 25 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://whoisjack.today/blog/2017-07-25-muscle-memory/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
-
-&lt;!--&lt;img 
-    class=&#34;lazyload&#34; 
-    src=&#34;http://whoisjack.today/assets/load.svg&#34; 
-    data-src=&#34;image%20fix&#34;&gt;
-&lt;noscript&gt;
-    &lt;img src=&#34;image%20fix&#34;&gt;
-&lt;/noscript&gt;--&gt;
-
-&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/3GcWC0koK5Q&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;</description>
-    </item>
     
     <item>
       <title>The Mental Game</title>
@@ -65,9 +47,9 @@
       <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-06-27-still/</guid>
-      <description>&lt;p&gt;Taking pictures is hard&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Taking pictures is hard&lt;/p&gt;
 
 &lt;img 
     class=&#34;lazyload&#34; 
@@ -79,7 +61,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;she-ll-never-fall&#34;&gt;She&amp;rsquo;ll never fall!&lt;/h3&gt;
+&lt;h3 id=&#34;she-ll-never-fall:226b1a28e01242fa2285c5a51d3241bd&#34;&gt;She&amp;rsquo;ll never fall!&lt;/h3&gt;
 
 &lt;!--&lt;img 
     class=&#34;lazyload&#34; 
@@ -89,17 +71,17 @@
     &lt;img src=&#34;image%20fix&#34;&gt;
 &lt;/noscript&gt;--&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/still/animated.gif&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/still/animated.gif&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;float&#34;&gt;Float&lt;/h3&gt;
+&lt;h3 id=&#34;float:226b1a28e01242fa2285c5a51d3241bd&#34;&gt;Float&lt;/h3&gt;
 
 &lt;!--&lt;img 
     class=&#34;lazyload&#34; 
@@ -109,13 +91,14 @@
     &lt;img src=&#34;image%20fix&#34;&gt;
 &lt;/noscript&gt;--&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/still/hop.jpg&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/still/hop.jpg&#34;&gt;
-&lt;/noscript&gt;</description>
+&lt;/noscript&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -124,10 +107,11 @@
       <pubDate>Mon, 12 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-06-12-digital-perspective/</guid>
-      <description>&lt;p&gt;
-&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+      <description>
 
-&lt;h2 id=&#34;camera-and-microphone&#34;&gt;Camera and Microphone&lt;/h2&gt;
+&lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;camera-and-microphone:6ded876395b72fd33bc990431eb3eb18&#34;&gt;Camera and Microphone&lt;/h2&gt;
 
 &lt;img 
     class=&#34;lazyload&#34; 
@@ -157,7 +141,7 @@
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;multiple-viewpoints&#34;&gt;Multiple Viewpoints&lt;/h2&gt;
+&lt;h2 id=&#34;multiple-viewpoints:6ded876395b72fd33bc990431eb3eb18&#34;&gt;Multiple Viewpoints&lt;/h2&gt;
 
 &lt;!--&lt;img 
     class=&#34;lazyload&#34; 
@@ -167,15 +151,16 @@
     &lt;img src=&#34;image%20fix&#34;&gt;
 &lt;/noscript&gt;--&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/glitch/painted.jpg&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/glitch/painted.jpg&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
-&lt;p&gt;Importing and exporting funny business.&lt;/p&gt;</description>
+&lt;p&gt;Importing and exporting funny business.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -185,8 +170,6 @@
       
       <guid>http://whoisjack.today/blog/2017-05-28-cans/</guid>
       <description>&lt;p&gt;Cans Cans Cans&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;Source image is a picture of &lt;em&gt;Campbell&amp;rsquo;s Soup Cans&lt;/em&gt;, by Andy Warhol, found here: &lt;a href=&#34;https://www.timeout.com/newyork/art/andy-warhol-campbells-soup-cans-and-other-works-19531967&#34;&gt;https://www.timeout.com/newyork/art/andy-warhol-campbells-soup-cans-and-other-works-19531967&lt;/a&gt;. Displayed images have all been converted to JPG for presentation.&lt;/p&gt;
 
@@ -270,26 +253,26 @@
 &lt;li&gt;re-imported as a non-interleaved RAW iamge&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/a2/extrainterleave.jpg&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/a2/extrainterleave.jpg&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;exported from photoshop as interleaved RAW (3 channels)&lt;/li&gt;
 &lt;li&gt;re-imported as interleaved RAW (10 channels)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/a2/bass.jpg&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/a2/bass.jpg&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
@@ -297,31 +280,32 @@
 &lt;li&gt;increased bass and decreased treble by 5 dB&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/a2/wahwah.jpg&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/a2/wahwah.jpg&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;imported into Audacity from photoshop RAW&lt;/li&gt;
 &lt;li&gt;applied WahWah effect to one section of the audio&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/a2/ripped.jpg&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/a2/ripped.jpg&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;ripped USB out of computer while BMP file was transferring&lt;/li&gt;
 &lt;li&gt;mystery finally solved&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -330,11 +314,11 @@
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-05-22-gifs-2/</guid>
-      <description>&lt;p&gt;&lt;/p&gt;
+      <description>
 
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;making-waves&#34;&gt;Making Waves&lt;/h2&gt;
+&lt;h2 id=&#34;making-waves:885cfed47c938423891dcc92e7bc5ecd&#34;&gt;Making Waves&lt;/h2&gt;
 
 &lt;p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
 &lt;img 
@@ -352,7 +336,8 @@
     data-src=&#34;/assets/art/gif/past.gif&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/gif/past.gif&#34;&gt;
-&lt;/noscript&gt;&lt;/p&gt;</description>
+&lt;/noscript&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -361,8 +346,7 @@
       <pubDate>Thu, 11 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-05-11-gifs-1/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve wanted to make a cinemagraph since I first saw one on Reddit.
-&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;ve wanted to make a cinemagraph since I first saw one on Reddit.&lt;/p&gt;
 
 &lt;p&gt;The stars aligned: when I visited Lamu, I actually remembered. Keeping this in mind, I took a bunch of pictures in continuous shooting.&lt;/p&gt;
 
@@ -418,13 +402,13 @@
 
 &lt;p&gt;They came out better than expected &amp;mdash; some of the gifs are a bit choppy, and my suspicion is it&amp;rsquo;s related to my shooting speed (the M10 has 2 speeds). The one with the old, rusted motorboat seems to look good &amp;mdash; and has the most potential for telling a story. It will be paired with a handdrawn animation. I have tried a simple one before:&lt;/p&gt;
 
-&lt;img 
+&lt;p&gt;&lt;img 
     class=&#34;lazyload&#34; 
     src=&#34;http://whoisjack.today/assets/load.svg&#34; 
     data-src=&#34;/assets/art/gif/peek.gif&#34;&gt;
 &lt;noscript&gt;
     &lt;img src=&#34;http://whoisjack.today/assets/art/gif/peek.gif&#34;&gt;
-&lt;/noscript&gt;
+&lt;/noscript&gt;&lt;/p&gt;
 
 &lt;p&gt;At this point I dearly, dearly regretted not taking cinemagraph photos in Munich and Copenhagen as well.&lt;/p&gt;
 
@@ -432,7 +416,8 @@
 
 &lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=2DU0Sim_BJ4&amp;amp;index=3&amp;amp;list=FLeQ2k5Fm3gR2922N4OzlMVQ&#34;&gt;https://www.youtube.com/watch?v=2DU0Sim_BJ4&amp;amp;index=3&amp;amp;list=FLeQ2k5Fm3gR2922N4OzlMVQ&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Goal: make it better than the one autogenerated by Google.&lt;/p&gt;</description>
+&lt;p&gt;Goal: make it better than the one autogenerated by Google.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Jack</title>
-    <link>http://whoisjack.today/projects/index.xml</link>
+    <link>http://whoisjack.today/projects/</link>
     <description>Recent content in Projects on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>

@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software on Jack</title>
-    <link>http://whoisjack.today/categories/software/index.xml</link>
+    <link>http://whoisjack.today/categories/software/</link>
     <description>Recent content in Software on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Jun 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://whoisjack.today/categories/software/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -13,8 +14,7 @@
       <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-06-02-data-pipeline-3/</guid>
-      <description>&lt;p&gt;Initial results
-&lt;/p&gt;
+      <description>&lt;p&gt;Initial results&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../2017-04-21-data-pipeline-2&#34;&gt;part 2&lt;/a&gt;&lt;/p&gt;
 
@@ -30,7 +30,8 @@
 
 &lt;p&gt;Our design also allowed a little extra complexity to sneak in. The information required for the jobs come from a Node.js lambda service that was already used for shuttling data around. There was no clean way of dropping these jobs directly into the Python worker queues, so we needed another Python lambda. However, it&amp;rsquo;s not a huge issue as the data could be reformated at this gateway anyways, giving a nice seperation of concerns between the two systems.&lt;/p&gt;
 
-&lt;p&gt;Overall, there were no disasters during the initial rollout. There were some hiccups as you&amp;rsquo;d expect from any plan. Pending maturation and scaling. Maybe there will be a part 4.&lt;/p&gt;</description>
+&lt;p&gt;Overall, there were no disasters during the initial rollout. There were some hiccups as you&amp;rsquo;d expect from any plan. Pending maturation and scaling. Maybe there will be a part 4.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -39,8 +40,7 @@
       <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-04-21-data-pipeline-2/</guid>
-      <description>&lt;p&gt;Amazon AWS SQS vs RabbitMQ, with simple domain-specific benchmarks.
-&lt;/p&gt;
+      <description>&lt;p&gt;Amazon AWS SQS vs RabbitMQ, with simple domain-specific benchmarks.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;../2017-04-20-data-pipeline-1&#34;&gt;part 1&lt;/a&gt;&lt;/p&gt;
 
@@ -114,7 +114,8 @@
 
 &lt;p&gt;Since it has been shown that RabbitMQ&amp;rsquo;s 2 main advantages, better performance and lower costs, will likely not be important factors for at least another year, we have decided to use AWS SQS for now. Actually, one of the main advantages of Celery is that it shouldn&amp;rsquo;t be too hard to change the broker that we&amp;rsquo;re using later on.&lt;/p&gt;
 
-&lt;p&gt;Rollout results are discussed in &lt;a href=&#34;../2017-06-02-data-pipeline-3&#34;&gt;part 3&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Rollout results are discussed in &lt;a href=&#34;../2017-06-02-data-pipeline-3&#34;&gt;part 3&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -123,8 +124,7 @@
       <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-04-20-data-pipeline-1/</guid>
-      <description>&lt;p&gt;Requirements and architecture. Job queues.
-&lt;/p&gt;
+      <description>&lt;p&gt;Requirements and architecture. Job queues.&lt;/p&gt;
 
 &lt;p&gt;At my work, we&amp;rsquo;re building a pipeline to provide data-driven feedback to users.&lt;/p&gt;
 
@@ -144,7 +144,8 @@
 
 &lt;p&gt;However, we also have to choose the message storage that Celery would use (a broker). There are many possibilities here as well, but we narrowed it down to two big players: &lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;RabbitMQ&lt;/a&gt; and &lt;a href=&#34;https://aws.amazon.com/sqs/&#34;&gt;Amazon SQS&lt;/a&gt;. They were designed for message reliability at scale and have strong user communities.&lt;/p&gt;
 
-&lt;p&gt;The final choice is described in detail in &lt;a href=&#34;../2017-04-21-data-pipeline-2&#34;&gt;part 2&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;The final choice is described in detail in &lt;a href=&#34;../2017-04-21-data-pipeline-2&#34;&gt;part 2&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -153,8 +154,7 @@
       <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>http://whoisjack.today/blog/2017-01-24-RTFM/</guid>
-      <description>&lt;p&gt;I thought I had found a flaw in the great google machine - instead I learned that &lt;a href=&#34;https://twitter.com/JakeWharton/status/806344184999399424&#34;&gt;&amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;&lt;/a&gt;.
-&lt;/p&gt;
+      <description>&lt;p&gt;I thought I had found a flaw in the great google machine - instead I learned that &lt;a href=&#34;https://twitter.com/JakeWharton/status/806344184999399424&#34;&gt;&amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;I am currently working on an app for Kenyan users, with validation for local phone numbers. We use google&amp;rsquo;s &lt;a href=&#34;https://github.com/googlei18n/libphonenumber&#34;&gt;libphonenumber&lt;/a&gt; library. While testing, I realized that my Kenyan number was considered invalid.&lt;/p&gt;
 
@@ -172,7 +172,8 @@
 
 &lt;p&gt;Bonus: A telecommunication giant using &lt;a href=&#34;https://www.facebook.com/SafaricomLtd/posts/10156369539590084&#34;&gt;facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/safaricomltd/status/633134928536932352&#34;&gt;twitter&lt;/a&gt; as technical communication channels&lt;/p&gt;
 
-&lt;p&gt;At least they&amp;rsquo;re responsive!&lt;/p&gt;</description>
+&lt;p&gt;At least they&amp;rsquo;re responsive!&lt;/p&gt;
+</description>
     </item>
     
   </channel>
