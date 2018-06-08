@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections on Jack</title>
+    <link>http://whoisjack.today/collections/</link>
+    <description>Recent content in Collections on Jack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="http://whoisjack.today/collections/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fine229</title>
+      <link>http://whoisjack.today/collections/fine229/</link>
+      <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/collections/fine229/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
