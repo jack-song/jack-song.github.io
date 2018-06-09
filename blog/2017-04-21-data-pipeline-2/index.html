@@ -41,10 +41,7 @@
       </span>
 
       
-        <p>Amazon AWS SQS vs RabbitMQ, with simple domain-specific benchmarks.
-</p>
-
-<p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
+        <p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
 
 <p>Our data pipeline needs a message broker for a <a href="http://www.celeryproject.org/">Celery</a> job queue; <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a> are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.</p>
 
@@ -117,6 +114,7 @@
 <p>Since it has been shown that RabbitMQ&rsquo;s 2 main advantages, better performance and lower costs, will likely not be important factors for at least another year, we have decided to use AWS SQS for now. Actually, one of the main advantages of Celery is that it shouldn&rsquo;t be too hard to change the broker that we&rsquo;re using later on.</p>
 
 <p>Rollout results are discussed in <a href="../2017-06-02-data-pipeline-3">part 3</a>.</p>
+
       
     </div>
 

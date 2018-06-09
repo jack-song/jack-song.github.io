@@ -41,10 +41,7 @@
       </span>
 
       
-        <p>Requirements and architecture. Job queues.
-</p>
-
-<p>At my work, we&rsquo;re building a pipeline to provide data-driven feedback to users.</p>
+        <p>At my work, we&rsquo;re building a pipeline to provide data-driven feedback to users.</p>
 
 <p>The de-facto king for data is Python, thanks to its community. A common way to deploy these models is via a Flask application, but this isn&rsquo;t a good fit for every case. What if the service doesn&rsquo;t need a front end? What if clients don&rsquo;t want to wait for a potentially long operation? What if our business requirements are still uncertain, and we anticipate a need to scale?</p>
 
@@ -63,6 +60,7 @@
 <p>However, we also have to choose the message storage that Celery would use (a broker). There are many possibilities here as well, but we narrowed it down to two big players: <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a>. They were designed for message reliability at scale and have strong user communities.</p>
 
 <p>The final choice is described in detail in <a href="../2017-04-21-data-pipeline-2">part 2</a>.</p>
+
       
     </div>
 
