@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://whoisjack.today/blog/2020-07-26-adler/</loc>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://whoisjack.today/blog/2019-06-09-packingless/</loc>
     <lastmod>2018-06-09T00:00:00+00:00</lastmod>
   </url>
@@ -183,6 +188,10 @@
   </url>
   
   <url>
+    <loc>http://whoisjack.today/about/</loc>
+  </url>
+  
+  <url>
     <loc>http://whoisjack.today/categories/art/</loc>
     <lastmod>2017-06-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -190,7 +199,7 @@
   
   <url>
     <loc>http://whoisjack.today/blog/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -206,6 +215,12 @@
   </url>
   
   <url>
+    <loc>http://whoisjack.today/categories/diy/</loc>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://whoisjack.today/collections/fine229/</loc>
     <lastmod>2017-07-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -213,7 +228,7 @@
   
   <url>
     <loc>http://whoisjack.today/</loc>
-    <lastmod>2018-06-09T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-26T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

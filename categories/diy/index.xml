@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diy on Jack</title>
+    <link>http://whoisjack.today/categories/diy/</link>
+    <description>Recent content in Diy on Jack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 26 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://whoisjack.today/categories/diy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Adler Special Typewriter</title>
+      <link>http://whoisjack.today/blog/2020-07-26-adler/</link>
+      <pubDate>Thu, 26 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2020-07-26-adler/</guid>
+      <description>A gift that the previous owners of my home left. I didn&amp;rsquo;t think much of it until I watched the documentary California Typewriter on a flight! Brought it outside, cleaned it out, and now I have a nice, heavy, writing machine. I&amp;rsquo;m very lucky to have found it in working condition.
+  This is the most similar model that I&amp;rsquo;ve found online, though the key labels seem slightly different. As a fan of mechanical keyboards already, using this typewriter is a joy.</description>
+    </item>
+    
+    <item>
+      <title>DIY camera finger strap</title>
+      <link>http://whoisjack.today/blog/2018-06-07-fingerstrap/</link>
+      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://whoisjack.today/blog/2018-06-07-fingerstrap/</guid>
+      <description>I just bought a used Fujifilm X70 in an attempt to save on space and weight. To keep chasing that goal, I made another change. Neck strap -&amp;gt; wrist strap -&amp;gt; finger strap. This is my take with the material I had lying around. I trimmed a simple velcro strap from some knock-off go-pro kit, and fitted it by trial and error:
+        Comfortable, adjustable, and surprisingly secure.</description>
+    </item>
+    
+  </channel>
+</rss>
