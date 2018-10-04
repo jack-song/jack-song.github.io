@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Jack</title>
-    <link>whoisjack.today/projects/</link>
+    <link>/projects/</link>
     <description>Recent content in Projects on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="whoisjack.today/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SunShower (WIP)</title>
-      <link>whoisjack.today/projects/sunshower/</link>
+      <link>/projects/sunshower/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/sunshower/</guid>
+      <guid>/projects/sunshower/</guid>
       <description>Play it!  Github   Pet project based on an idea I had for a simple, challenging game with a high skill ceiling. It&amp;rsquo;s basically Tetris 360. Original intention was to learn more about using a game framework and marketing.
 Turns out I&amp;rsquo;m also learning a lot about game design, user feedback management, and Google Analytics. There are definitely still improvements (like row elimination animations) to be made and more marketing (like a dedicated domain) to be done.</description>
     </item>
     
     <item>
       <title>Daily Wiki</title>
-      <link>whoisjack.today/projects/wiki-daily/</link>
+      <link>/projects/wiki-daily/</link>
       <pubDate>Mon, 13 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/wiki-daily/</guid>
+      <guid>/projects/wiki-daily/</guid>
       <description>Amazon  Github   Yes I did it for the free Alexa dev sweater.
 No I haven&amp;rsquo;t retrieved my sweater yet. The ratings are pretty bad. People want the entire featured article read out to them. Maybe I&amp;rsquo;ll add that if I get the time. Feel free to make a pull request!
 Fun to play with Node on AWS Lambda. Also learned about YQL queries, which seem pretty useful for web scraping.</description>
@@ -33,20 +33,20 @@ Fun to play with Node on AWS Lambda. Also learned about YQL queries, which seem 
     
     <item>
       <title>Page Predictor (WIP)</title>
-      <link>whoisjack.today/projects/page-predictor/</link>
+      <link>/projects/page-predictor/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/page-predictor/</guid>
+      <guid>/projects/page-predictor/</guid>
       <description>Github   A chrome extension that predicts what website you&amp;rsquo;re going to &amp;mdash; so you don&amp;rsquo;t even have to type it in!
 Our team&amp;rsquo;s base assumption is that we visit some websites in certain patterns, and a neural net might be able to pick up on them. Learning about normalizing data, recurrent neural networks and tweaking them. Admittedly, test results so far have been quite poor and we will probably try some different training methods or ways of preprocessing/cleaning the history data.</description>
     </item>
     
     <item>
       <title>Pattio (WIP)</title>
-      <link>whoisjack.today/projects/pattio/</link>
+      <link>/projects/pattio/</link>
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/pattio/</guid>
+      <guid>/projects/pattio/</guid>
       <description>Currently our team&amp;rsquo;s Fourth Year Design Project.
 On social media, we don&amp;rsquo;t communicate the way we do in real life. There are different protocols and habits, which can make interactions feel shallow or distracting. We want to make an app that promotes meaningful and spontaneous conversations for close friends and family.
 Important features include voice calls, seeing and joining ongoing conversations between friends, allowing guests to join, and less &amp;ldquo;indirect&amp;rdquo; engagement such as statuses and leaving messages.</description>
@@ -54,30 +54,30 @@ Important features include voice calls, seeing and joining ongoing conversations
     
     <item>
       <title>Arimaa Free</title>
-      <link>whoisjack.today/projects/arimaa-free/</link>
+      <link>/projects/arimaa-free/</link>
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/arimaa-free/</guid>
+      <guid>/projects/arimaa-free/</guid>
       <description>Play Store  Github   Open source contributions welcome! I&amp;rsquo;m currently looking for someone to pass on the development torch; there&amp;rsquo;s a lot of interesting work to be done, especially as a beginner/intermediate project. AI bots and online multiplayer! Send an email to jackthesong@gmail.com and I&amp;rsquo;d be glad to set you up/do a walkthrough.
 Interestingly, a game designed to be difficult for computers to play. But AI players have very recently beaten humans!</description>
     </item>
     
     <item>
       <title>Colorful Conway</title>
-      <link>whoisjack.today/projects/conway/</link>
+      <link>/projects/conway/</link>
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/conway/</guid>
+      <guid>/projects/conway/</guid>
       <description>Try it live  Github   Different clients are given different colours on a standard Game of Life board. The simulation runs as usual - except new cells are generated as an average colour of the cells around it.
 It was interesting to have to deal with the realities of network latency and a relatively inefficient computation. Signficant compromises had to be made to the original design. Simulations are round based rather than constantly running to allow the server to synchronize clients.</description>
     </item>
     
     <item>
       <title>Morbid Motivation</title>
-      <link>whoisjack.today/projects/morbid/</link>
+      <link>/projects/morbid/</link>
       <pubDate>Thu, 17 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>whoisjack.today/projects/morbid/</guid>
+      <guid>/projects/morbid/</guid>
       <description>Chrome Store  Github   The idea is to use our inevitable passing as a source of motivation. Colours are configurable to the user&amp;rsquo;s tastes.
 A fairly simple app made in a few hours for a short hackathon. An early attempt to learn ways of modularizing javascript code.</description>
     </item>
