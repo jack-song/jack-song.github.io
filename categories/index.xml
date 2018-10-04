@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jack</title>
-    <link>http://whoisjack.today/categories/</link>
+    <link>whoisjack.today/categories/</link>
     <description>Recent content in Categories on Jack</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 29 Jun 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://whoisjack.today/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="whoisjack.today/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Art</title>
-      <link>http://whoisjack.today/categories/art/</link>
+      <link>whoisjack.today/categories/art/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/categories/art/</guid>
+      <guid>whoisjack.today/categories/art/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diy</title>
-      <link>http://whoisjack.today/categories/diy/</link>
+      <link>whoisjack.today/categories/diy/</link>
       <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/categories/diy/</guid>
+      <guid>whoisjack.today/categories/diy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>http://whoisjack.today/categories/life/</link>
+      <link>whoisjack.today/categories/life/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/categories/life/</guid>
+      <guid>whoisjack.today/categories/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software</title>
-      <link>http://whoisjack.today/categories/software/</link>
+      <link>whoisjack.today/categories/software/</link>
       <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://whoisjack.today/categories/software/</guid>
+      <guid>whoisjack.today/categories/software/</guid>
       <description></description>
     </item>
     
