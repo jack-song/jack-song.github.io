@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code on Jack</title>
+    <link>/categories/code/</link>
+    <description>Recent content in Code on Jack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/code/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building a Processing Pipeline - final architecture</title>
+      <link>/blog/2017-06-02-data-pipeline-3/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017-06-02-data-pipeline-3/</guid>
+      <description>part 2
+Configuration, security, and deployment with SQS were all as easy as expected, and IAM has been a great convenience. It was also pretty straight forward to write tasks for Celery - but successes are not interesting.
+Celery does not play perfectly with SQS.
+One source of struggle was having scheduled tasks, thanks to SQS limitations (mostly relating to timeouts). We were forced to use local scheduling solutions for timed output delivery - in this case, Advanced Python Scheduler.</description>
+    </item>
+    
+    <item>
+      <title>Building a Processing Pipeline - Amazon AWS SQS vs RabbitMQ benchmarks</title>
+      <link>/blog/2017-04-21-data-pipeline-2/</link>
+      <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017-04-21-data-pipeline-2/</guid>
+      <description>part 1
+Our data pipeline needs a message broker for a Celery job queue; RabbitMQ and Amazon SQS are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.
+RabbitMQ has a solid reputation as a broker, with diverse and robust features. It works very well with Celery. The only real disadvantage is that it relies on custom configuration and deployment. SQS is a message queue as a service, self-scaling and configurable from a web UI.</description>
+    </item>
+    
+    <item>
+      <title>Processing Pipeline - Requirements and architecture.</title>
+      <link>/blog/2017-04-20-data-pipeline-1/</link>
+      <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017-04-20-data-pipeline-1/</guid>
+      <description>At my work, we&amp;rsquo;re building a pipeline to provide data-driven feedback to users.
+The de-facto king for data is Python, thanks to its community. A common way to deploy these models is via a Flask application, but this isn&amp;rsquo;t a good fit for every case. What if the service doesn&amp;rsquo;t need a front end? What if clients don&amp;rsquo;t want to wait for a potentially long operation? What if our business requirements are still uncertain, and we anticipate a need to scale?</description>
+    </item>
+    
+    <item>
+      <title>RTFM - software engineering 101</title>
+      <link>/blog/2017-01-24-RTFM/</link>
+      <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2017-01-24-RTFM/</guid>
+      <description>I thought I had found a flaw in the great google machine - instead I learned that &amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;.
+I am currently working on an app for Kenyan users, with validation for local phone numbers. We use google&amp;rsquo;s libphonenumber library. While testing, I realized that my Kenyan number was considered invalid.
+I check the source code and searched for &amp;ldquo;kenya&amp;rdquo;: &amp;ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report [&amp;hellip;] other prefixes from Wikipedia.</description>
+    </item>
+    
+  </channel>
+</rss>

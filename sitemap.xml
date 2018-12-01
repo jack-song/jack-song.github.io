@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/2021-09-29-portable-uke/</loc>
+    <loc>/blog/2018-09-29-portable-uke/</loc>
     <lastmod>2018-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2020-07-26-adler/</loc>
+    <loc>/blog/2018-07-26-adler/</loc>
     <lastmod>2018-07-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/2019-06-09-packingless/</loc>
+    <loc>/blog/2018-06-09-packingless/</loc>
     <lastmod>2018-06-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -215,6 +215,12 @@
   </url>
   
   <url>
+    <loc>/categories/code/</loc>
+    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/collections/</loc>
     <priority>0</priority>
   </url>
@@ -246,12 +252,6 @@
   <url>
     <loc>/projects/</loc>
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/software/</loc>
-    <lastmod>2017-06-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
