@@ -5,10 +5,19 @@
     <link>/categories/art/</link>
     <description>Recent content in Art on J A C K</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 29 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/art/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>San Francisco Whiplash (gallery)</title>
+      <link>/blog/2019-11-23-sf/</link>
+      <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-11-23-sf/</guid>
+      <description>SF birds.           SF cars.           SF develops infrastructure.           SF moves around.           SF shows local pride.           SF signs.</description>
+    </item>
     
     <item>
       <title>Comic layouts layouts in the digital age?</title>
