@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Art on J A C K</title>
+    <title>art on J A C K</title>
     <link>/categories/art/</link>
-    <description>Recent content in Art on J A C K</description>
+    <description>Recent content in art on J A C K</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/art/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/art/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>San Francisco Whiplash (gallery)</title>
       <link>/blog/2019-11-23-sf/</link>
@@ -20,7 +16,7 @@
     </item>
     
     <item>
-      <title>Comic layouts layouts in the digital age?</title>
+      <title>Comic layouts in the digital age?</title>
       <link>/blog/2017-06-29-mental-game/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
@@ -34,9 +30,7 @@
       <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-06-27-still/</guid>
-      <description>    
-She&amp;rsquo;ll never fall!   --    
-Float   --    </description>
+      <description>   ### She&#39;ll never fall!   --    ### Float   --    </description>
     </item>
     
     <item>
@@ -66,7 +60,11 @@ Multiple Viewpoints   --    Importing and exporting funny business.</description
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-05-22-gifs-2/</guid>
-      <description>Making Waves</description>
+      <description>
+Making Waves 
+   
+
+  </description>
     </item>
     
     <item>

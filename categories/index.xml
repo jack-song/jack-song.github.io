@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on J A C K</title>
     <link>/categories/</link>
     <description>Recent content in Categories on J A C K</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Art</title>
+      <title>art</title>
       <link>/categories/art/</link>
       <pubDate>Sat, 23 Nov 2019 00:00:00 +0000</pubDate>
       
@@ -20,29 +16,29 @@
     </item>
     
     <item>
-      <title>Code</title>
-      <link>/categories/code/</link>
-      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Diy</title>
-      <link>/categories/diy/</link>
+      <title>craft</title>
+      <link>/categories/craft/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>/categories/diy/</guid>
+      <guid>/categories/craft/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Life</title>
+      <title>life</title>
       <link>/categories/life/</link>
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code</title>
+      <link>/categories/code/</link>
+      <pubDate>Fri, 02 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/code/</guid>
       <description></description>
     </item>
     

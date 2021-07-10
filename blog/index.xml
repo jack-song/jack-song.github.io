@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on J A C K</title>
     <link>/blog/</link>
     <description>Recent content in Blogs on J A C K</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 23 Nov 2019 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>San Francisco Whiplash (gallery)</title>
       <link>/blog/2019-11-23-sf/</link>
@@ -55,7 +51,7 @@ Since then, I&amp;rsquo;ve always dreamed about just sawing a ukulele in half to
       <pubDate>Sat, 09 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/2018-06-09-packingless/</guid>
-      <description>For the past 5 years, I&amp;rsquo;ve moved every 4 months. It&amp;rsquo;s taken time, but I&amp;rsquo;ve changed from a hoarder (the way of my people) to someone who wants very little. It was a gradual process, moving from 32&amp;rdquo; luggage to 28&amp;rdquo;, to a Kelty Redwing 50. I found myself cleaving away at my possessions with every move. I really didn&amp;rsquo;t use the vast majority of it and having stuff felt like a burden, mentally and physically.</description>
+      <description>For the past 5 years, I&amp;rsquo;ve moved every 4 months. It&amp;rsquo;s taken time, but I&amp;rsquo;ve changed from a hoarder (the way of my people) to someone who wants very little. It was a gradual process, moving from 32&amp;quot; luggage to 28&amp;quot;, to a Kelty Redwing 50. I found myself cleaving away at my possessions with every move. I really didn&amp;rsquo;t use the vast majority of it and having stuff felt like a burden, mentally and physically.</description>
     </item>
     
     <item>
@@ -85,10 +81,7 @@ Herd is an image constructed from video sourced from Planet Earth. It compresses
       
       <guid>/blog/2017-07-04-fine229-b8/</guid>
       <description>Deep remixability When previously separate mediums are being combined in various ways - not just by format, but by technique, culture, and other meta-characteristics as well.
-
-Variable form A motion graphic sequence that never holds all its aspects static for long - some part of it is constantly in flux at some point in time.
-
-Continuity turn The shift from discrete cuts and marked delimitations to continuous, gradual changes in motion graphic sequences.</description>
+## Variable form A motion graphic sequence that never holds all its aspects static for long - some part of it is constantly in flux at some point in time. ## Continuity turn The shift from discrete cuts and marked delimitations to continuous, gradual changes in motion graphic sequences.</description>
     </item>
     
     <item>
@@ -101,7 +94,7 @@ Continuity turn The shift from discrete cuts and marked delimitations to continu
     </item>
     
     <item>
-      <title>Comic layouts layouts in the digital age?</title>
+      <title>Comic layouts in the digital age?</title>
       <link>/blog/2017-06-29-mental-game/</link>
       <pubDate>Thu, 29 Jun 2017 00:00:00 +0000</pubDate>
       
@@ -115,9 +108,7 @@ Continuity turn The shift from discrete cuts and marked delimitations to continu
       <pubDate>Tue, 27 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-06-27-still/</guid>
-      <description>    
-She&amp;rsquo;ll never fall!   --    
-Float   --    </description>
+      <description>   ### She&#39;ll never fall!   --    ### Float   --    </description>
     </item>
     
     <item>
@@ -126,7 +117,7 @@ Float   --    </description>
       <pubDate>Thu, 22 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-06-22-fine229-b7/</guid>
-      <description>  --  </description>
+      <description>  -- </description>
     </item>
     
     <item>
@@ -137,8 +128,7 @@ Float   --    </description>
       <guid>/blog/2017-06-17-fine229-b6/</guid>
       <description>Constructed Narrative When the contents of a photograph have been artificially created by the artist in some way to reflect a narrative, rather than simply photographing a real scene. An example is A Sudden Gust of Wind (after Hokusai), taken by Jeff Wall, portraying the same narrative as the woodcut that inspired the work. The photograph was constructed digitally from various pieces.
 http://www.tate.org.uk/art/artworks/wall-a-sudden-gust-of-wind-after-hokusai-t06951
-
-Tableau A photograph where the scene is assembled and actors are used to produce a certain result.</description>
+## Tableau A photograph where the scene is assembled and actors are used to produce a certain result.</description>
     </item>
     
     <item>
@@ -168,7 +158,7 @@ The glitch highlights the eyes and ears to build an association with the title o
       <pubDate>Thu, 08 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-06-08-fine229-b5/</guid>
-      <description> 
+      <description>
 How obvious do you want it bro?    Composited with selection, levels, shadows, spot healing, and manual drawing. Originals:
   --       </description>
     </item>
@@ -180,8 +170,7 @@ How obvious do you want it bro?    Composited with selection, levels, shadows, s
       
       <guid>/blog/2017-06-06-fine229-b4/</guid>
       <description>A world with people:    
-And a world without:    
-Indexical A characteristic of images that implies a mapping to the original real world subject. Some relationship between the two is suggested, such as the chemical reactions driven by light reflected from a subject in film photography. This characteristic is debated in digital photography as physical interaction is less apparent, and converted into numerical data.</description>
+And a world without:    ### Indexical A characteristic of images that implies a mapping to the original real world subject. Some relationship between the two is suggested, such as the chemical reactions driven by light reflected from a subject in film photography. This characteristic is debated in digital photography as physical interaction is less apparent, and converted into numerical data.</description>
     </item>
     
     <item>
@@ -238,8 +227,7 @@ Turns out I&amp;rsquo;m also learning a lot about game design, user feedback man
       <guid>/blog/2017-05-28-fine229-b3/</guid>
       <description>A Pure Glitch is an effect either produced without intention or without understanding the underlying cause and system. A Glitch-alike is an effect produced purposefully and with some form of reasoning about how the effect was created.
 My attempts are shown in a separate post here.
-
-Datamoshing Datamoshing is an effect based on the visual presentation of compression artefacts found in lossy file formats. For this reason, they are often shown in certain common formats like GIFs, JPEGs, or video.</description>
+### Datamoshing Datamoshing is an effect based on the visual presentation of compression artefacts found in lossy file formats. For this reason, they are often shown in certain common formats like GIFs, JPEGs, or video.</description>
     </item>
     
     <item>
@@ -258,7 +246,11 @@ Fishing has always been a mainstay in Lamu, but never the focus. It used to be a
       <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-05-22-gifs-2/</guid>
-      <description>Making Waves</description>
+      <description>
+Making Waves 
+   
+
+  </description>
     </item>
     
     <item>
@@ -289,9 +281,7 @@ Realizing that creating a nice cinemagraph would be a lot of work, I first threw
       <description>Subjectivity An object that can be evaluated or interpreted differently by different subjects observing it.
 An example is the series of portraits done by Guim Tió, where black and white portraits receive strokes of colored paint. The meaning of the added color is abstract and open to interpretation.
 http://www.guimtio.com/no-name-project-2/
-
-Pictorial space The simulated sense of 3D space created by 2D artwork.
-This is commonly seen in the world of matte paintings, where realistic artwork is used as backdrops in film, often imitating large spaces that are too expensive to build a set for.</description>
+### Pictorial space The simulated sense of 3D space created by 2D artwork. This is commonly seen in the world of matte paintings, where realistic artwork is used as backdrops in film, often imitating large spaces that are too expensive to build a set for.</description>
     </item>
     
     <item>

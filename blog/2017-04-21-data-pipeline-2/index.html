@@ -34,77 +34,67 @@
 
     <div class="serif-font">
         <p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
-
 <p>Our data pipeline needs a message broker for a <a href="http://www.celeryproject.org/">Celery</a> job queue; <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a> are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.</p>
-
 <p>RabbitMQ has a solid reputation as a broker, with diverse and robust features. It works very well with Celery. The only real disadvantage is that it relies on custom configuration and deployment. SQS is a message queue as a service, self-scaling and configurable from a web UI. It also plays well with other AWS offerings. However, it can be pricier and slower at scale, and less flexible to use.</p>
-
 <p>Long term, RabbitMQ seems like a clear winner, but there are more factors to consider:</p>
-
 <ul>
 <li>We have 2 developers, one of which is leaving soon.</li>
 <li>We lack devops experience.</li>
 <li>While this pipeline is important to the business, it&rsquo;s not operationally crucial.</li>
 <li>There is only one use case where the speed of dropping off jobs will be important.</li>
 </ul>
-
 <p>Maintenance, reliability, security, and scaling would all be taken care of on SQS - making it a very appealing option, provided that 3 assumptions were reasonable:</p>
-
 <ul>
 <li>Given that our clients are in Africa, any performance differences will be trivial compared to the network latency.</li>
 <li>Given jobs of suffcient processing time, any performance differences will be trivial compared to the job computations.</li>
 <li>Even if we scale at a rapid rate, our current business size means that it won&rsquo;t be &ldquo;big enough&rdquo; any time soon.</li>
 </ul>
-
 <p>To confirm, I ran some tests on AWS, swapping out the broker. I had a Flask gateway and a Celery worker on separate EC2 instances, and used Celery to manage jobs. I ran 5 trials for each broker, at 2 different times during the day. Each trial had 300 requests for 1 second jobs.</p>
-
 <p>I had total request time as one metric, using the <code>requests</code> package&rsquo;s built in <a href="http://docs.python-requests.org/en/latest/api/?highlight=elapsed#requests.Response.elapsed">profiling method</a>. I also had a metric for total time taken for processing, using worker logs. Agreeing with general concensus, RabbitMQ is distinctly faster in both reading and writing.</p>
-
 <p>Writing/requesting time (s):</p>
-
 <ul>
 <li>RabbitMQ: 209 +- 28</li>
 <li>AWS SQS: 248 +- 57</li>
 </ul>
-
 <p>Reading/processing time (s):</p>
-
 <ul>
 <li>RabbitMQ: 361 +- 3</li>
 <li>AWS SQS: 368 +- 6</li>
 </ul>
-
 <p>However in both cases, their uncertainty ranges overlap and other components of the pipeline could easily become more dominant bottlenecks as compared to the brokers themselves.</p>
-
 <p>As a cash-strapped startup, cost was another important factor, and estimates were made with the test results.</p>
-
 <p>Scaling:</p>
-
 <ul>
 <li>Assume client use rate of 100% (currently &lt; 5%)</li>
 <li>Doubling client #s every month</li>
 <li>=&gt; clients will push ~60 million requests in about 12 months as a very optimistic estimate</li>
 </ul>
-
 <p>Costs:</p>
-
 <ul>
-<li>RabbitMQ</li>
-<li>A base cost of ~$9 for a fully used T2.micro instance</li>
-<li>~2% CPU usage for ~1 request/second</li>
-<li>Taking into account baseline CPU and CPU credits, we get about 23 million requests/month</li>
-
-<li><p>23 million requests / $9</p></li>
-
-<li><p>AWS SQS</p></li>
-
-<li><p>20 million requests / $10</p></li>
+<li>
+<p>RabbitMQ</p>
+</li>
+<li>
+<p>A base cost of ~$9 for a fully used T2.micro instance</p>
+</li>
+<li>
+<p>~2% CPU usage for ~1 request/second</p>
+</li>
+<li>
+<p>Taking into account baseline CPU and CPU credits, we get about 23 million requests/month</p>
+</li>
+<li>
+<p>23 million requests / $9</p>
+</li>
+<li>
+<p>AWS SQS</p>
+</li>
+<li>
+<p>20 million requests / $10</p>
+</li>
 </ul>
-
 <p>So we start to see a slight cost advantage for RabbitMQ starting at around 20 million requests. We assume that at smaller scales, SQS will be advantageous (lacking overhead costs), and at larger scales, RabbitMQ wil become more advantageous (using more cost-effective, large instances). Since the scaling estimates indicate that this switch will occur ~11 months from now at the earliest, SQS appears to be a cost-effective choice for a reasonable amount of time in the future.</p>
-
 <p>Since it has been shown that RabbitMQ&rsquo;s 2 main advantages, better performance and lower costs, will likely not be important factors for at least another year, we have decided to use AWS SQS for now. Actually, one of the main advantages of Celery is that it shouldn&rsquo;t be too hard to change the broker that we&rsquo;re using later on.</p>
-
 <p>Rollout results are discussed in <a href="../2017-06-02-data-pipeline-3">part 3</a>.</p>
 
     </div>
