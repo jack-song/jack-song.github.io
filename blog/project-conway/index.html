@@ -14,8 +14,16 @@
   </head>
 
   <body class="white-back">
-    <h1 class="top-chunk fade-in earlier"><a href="/">JACK</a></h1>
-    <div class="sz-scroll fade-in earlier">
+    <h1 class="icon">
+  <div class="icon-top invert-accent">
+    <div class="icon-text">
+      <a href="/">JACK</a>
+    </div>
+  </div>
+  <div class="icon-bottom invert-contrast"></div>
+</h1>
+
+    <div class="sz-scroll fade-in">
       <h2>
           Multiplayer Web App - Colorful Conway
       </h2>
@@ -32,8 +40,8 @@
       
       </span>
 
-    <div class="serif-font">
-        <div class="sz-row sz-breathe">
+      <div class="serif-font later">
+          <div class="sz-row sz-breathe">
   <img 
       class="lazyload" 
       src="/assets/load.svg" 
@@ -47,6 +55,7 @@
 <p>Different clients are given different colours on a standard Game of Life board. The simulation runs as usual - except new cells are generated as an average colour of the cells around it.</p>
 <p>It was interesting to have to deal with the realities of network latency and a relatively inefficient computation. Signficant compromises had to be made to the original design. Simulations are round based rather than constantly running to allow the server to synchronize clients. Simulations also run slower to improve consistency between clients with varying computing power.</p>
 
+      </div>
     </div>
 
     <div class="sz-scroll fade-in later">

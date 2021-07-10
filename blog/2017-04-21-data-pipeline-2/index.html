@@ -14,8 +14,16 @@
   </head>
 
   <body class="white-back">
-    <h1 class="top-chunk fade-in earlier"><a href="/">JACK</a></h1>
-    <div class="sz-scroll fade-in earlier">
+    <h1 class="icon">
+  <div class="icon-top invert-accent">
+    <div class="icon-text">
+      <a href="/">JACK</a>
+    </div>
+  </div>
+  <div class="icon-bottom invert-contrast"></div>
+</h1>
+
+    <div class="sz-scroll fade-in">
       <h2>
           Building a Processing Pipeline - Amazon AWS SQS vs RabbitMQ benchmarks
       </h2>
@@ -32,8 +40,8 @@
       
       </span>
 
-    <div class="serif-font">
-        <p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
+      <div class="serif-font later">
+          <p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
 <p>Our data pipeline needs a message broker for a <a href="http://www.celeryproject.org/">Celery</a> job queue; <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a> are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.</p>
 <p>RabbitMQ has a solid reputation as a broker, with diverse and robust features. It works very well with Celery. The only real disadvantage is that it relies on custom configuration and deployment. SQS is a message queue as a service, self-scaling and configurable from a web UI. It also plays well with other AWS offerings. However, it can be pricier and slower at scale, and less flexible to use.</p>
 <p>Long term, RabbitMQ seems like a clear winner, but there are more factors to consider:</p>
@@ -97,6 +105,7 @@
 <p>Since it has been shown that RabbitMQ&rsquo;s 2 main advantages, better performance and lower costs, will likely not be important factors for at least another year, we have decided to use AWS SQS for now. Actually, one of the main advantages of Celery is that it shouldn&rsquo;t be too hard to change the broker that we&rsquo;re using later on.</p>
 <p>Rollout results are discussed in <a href="../2017-06-02-data-pipeline-3">part 3</a>.</p>
 
+      </div>
     </div>
 
     <div class="sz-scroll fade-in later">

@@ -6,59 +6,87 @@
 
 <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?">
 <link rel="stylesheet" href="/css/base.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand|Merriweather:300" rel="stylesheet">
+<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
 
-<title>Jack</title>
-    <link rel="stylesheet" href="/css/ionicons.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<title>J A C K</title>
   </head>
 
   <body>
-    <div class="fade-in earlier top-chunk-container">
-    <div class="top-chunk">
-        <h1><a href="/">J A C K</a></h1>
-        <span class="nav">
-            <h3><a href="/about">about</a></h3>
-            <h3><a href="/projects">projects</a></h3>
-        </span>
+    <h1 class="icon">
+  <div class="icon-top invert-accent">
+    <div class="icon-text">
+      <a href="/">JACK</a>
     </div>
+  </div>
+  <div class="icon-bottom invert-contrast"></div>
+</h1>
+<div class="category-nav">
+    
+        
+            <a href="/categories/art">
+                art
+            </a>
+        
+    
+        
+            <a href="/categories/code">
+                code
+            </a>
+        
+    
+        
+            <a href="/categories/craft">
+                craft
+            </a>
+        
+    
+        
+            <a href="/categories/life">
+                life
+            </a>
+        
+    
+    <a href="/about">about</a>
 </div>
 
-    <div class="content wall card plain section fade-in later">
-        <div class="centered">
-          <a class="button button-tight" href="/assets/JackSong.pdf" target="_blank">
-            <i class="ion-android-document"></i>Resume
-          </a> 
-          <a class="button button-tight" href="https://github.com/jack-song/" target="_blank">
-            <i class="ion-social-github"></i>Github
+    <div class="sz-scroll sz-narrow fade-in">
+      <div class="sz-eighth-beat"></div>
+      <div class="about">
+        <img class="headshot" src="/assets/index/headshot.jpg" />
+        <div class="sz-eighth-beat"></div>
+        <p>
+          Do-it-all engineering and product at
+          <a href="https://cardiogr.am/">Cardiogram</a>. I'm learning to focus.
+          <span id="today">Today</span> I'm currently an entrepreneurial student
+          of
+          <a href="https://payhip.com/Formwell" target="_blank"
+            >3D modeling and printing</a
+          >.
+        </p>
+        <p>
+          <a href="/assets/JackSong.pdf" target="_blank">
+            <i class="ion-ios-document"></i> </a
+          >&nbsp;
+          <a href="https://github.com/jack-song/" target="_blank">
+            <i class="ion-logo-github"></i> </a
+          >&nbsp;
+          <a href="mailto:jackthesong@gmail.com" target="_blank">
+            <i class="ion-ios-mail"></i> </a
+          >&nbsp;
+          <a href="https://www.instagram.com/lessmediocre/" target="_blank">
+            <i class="ion-logo-instagram"></i>
           </a>
-        </div>
-
-        <div>
-          <p>
-            I'm a software engineer at <a href="https://cardiogr.am/">Cardiogram</a>. In my free time I like to bike, draw, climb, read, and work on <a href="https://pattio.space">a healthier social platform</a>.
-          </p>
-
-          <p>
-            <span id="action"></span><span id="extra"></span><span id="dot"></span>
-          </p>
-
-          <p>
-            Who are you? <a href="mailto:jackthesong@gmail.com">Let's talk</a>.
-          </p>
-        </div>
+        </p>
+      </div>
     </div>
-
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-99596755-1', 'auto');
-      ga('send', 'pageview');
-    
+      document.getElementById(
+        "today"
+      ).innerHTML = `On ${new Date().toLocaleString(undefined, {
+        month: "long",
+        day: "numeric",
+      })},`;
     </script>
-    <script type="text/javascript" src="/js/about.js" async></script>
-    <script src="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20htmlstring%20where%20url%3D'https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMain_Page'%20and%20xpath%3D'(%2F%2F*%5B%40id%3D%22mp-tfa%22%5D%2F%2Fb%2Fa)%5B1%5D'&format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=window.yqlCallback" async></script>
   </body>
 </html>

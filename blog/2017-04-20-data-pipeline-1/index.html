@@ -14,8 +14,16 @@
   </head>
 
   <body class="white-back">
-    <h1 class="top-chunk fade-in earlier"><a href="/">JACK</a></h1>
-    <div class="sz-scroll fade-in earlier">
+    <h1 class="icon">
+  <div class="icon-top invert-accent">
+    <div class="icon-text">
+      <a href="/">JACK</a>
+    </div>
+  </div>
+  <div class="icon-bottom invert-contrast"></div>
+</h1>
+
+    <div class="sz-scroll fade-in">
       <h2>
           Processing Pipeline - Requirements and architecture
       </h2>
@@ -32,8 +40,8 @@
       
       </span>
 
-    <div class="serif-font">
-        <p>At my work, we&rsquo;re building a pipeline to provide data-driven feedback to users.</p>
+      <div class="serif-font later">
+          <p>At my work, we&rsquo;re building a pipeline to provide data-driven feedback to users.</p>
 <p>The de-facto king for data is Python, thanks to its community. A common way to deploy these models is via a Flask application, but this isn&rsquo;t a good fit for every case. What if the service doesn&rsquo;t need a front end? What if clients don&rsquo;t want to wait for a potentially long operation? What if our business requirements are still uncertain, and we anticipate a need to scale?</p>
 <p>We could use Twisted or Tornado to imitate some of that Node.js non-blocking goodness, but other libraries might not be compatible. It&rsquo;s also a new paradigm for the devs to learn. Scaling and tight coupling are still concerns as with any monolithic web app.</p>
 <p>A strong solution is to use job queues, where we drop off work and have workers share tasks. Dropping off work takes very little time. Having a storage for the jobs improves reliability. There can be any number of workers, of any type, allowing great flexibility and scalability. The disadvantage is having to set up and maintain the queue infrastructure. Given the importance of this pipeline to our business, it&rsquo;s a worthwhile investment.</p>
@@ -44,6 +52,7 @@
 <p>However, we also have to choose the message storage that Celery would use (a broker). There are many possibilities here as well, but we narrowed it down to two big players: <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a>. They were designed for message reliability at scale and have strong user communities.</p>
 <p>The final choice is described in detail in <a href="../2017-04-21-data-pipeline-2">part 2</a>.</p>
 
+      </div>
     </div>
 
     <div class="sz-scroll fade-in later">
