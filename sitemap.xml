@@ -2,16 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/blog/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collections/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/collections/rayuba/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/2021-07-18-rayuba-1/</loc>
+    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/art/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/blog/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2019-11-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2019-11-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/2019-11-23-sf/</loc>
@@ -37,9 +46,6 @@
   </url><url>
     <loc>/blog/2018-06-07-fingerstrap/</loc>
     <lastmod>2018-06-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/collections/</loc>
-    <lastmod>2017-07-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/2017-07-05-fine229-b9/</loc>
     <lastmod>2017-07-05T00:00:00+00:00</lastmod>
