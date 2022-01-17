@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,25 +24,27 @@
 
     <div class="sz-scroll fade-in">
       <div class="sz-eighth-beat"></div>
-      <h2>
-          RTFM - software engineering 101
-      </h2>
-      <span class="faint-text-color"> Jan 2017 
-        
-        <span> in </span>
-        
-            
-            
-            <a href="/categories/code">
-                code
-            </a>
-        
-      
-      </span>
+      <div class="blog-top">
+        <h1>RTFM - software engineering 101</h1>
+        <div class="date-subtext right-align">
+          <span>Jan 2017</span>
+           <span>-</span>
+          
+            <span>
+              
+              
+              <a href="/categories/code">
+                  code
+              </a>
+            </span>
+          
+          
+        </div>
+      </div>
+
       <div class="sz-eighth-beat"></div>
 
-      <div class="serif-font later">
-          <p>I thought I had found a flaw in the great google machine - instead I learned that <a href="https://twitter.com/JakeWharton/status/806344184999399424">&ldquo;libraries are innocent until proven guilty&rdquo;</a>.</p>
+      <div class="serif-font later"><p>I thought I had found a flaw in the great google machine - instead I learned that <a href="https://twitter.com/JakeWharton/status/806344184999399424">&ldquo;libraries are innocent until proven guilty&rdquo;</a>.</p>
 <p>I am currently working on an app for Kenyan users, with validation for local phone numbers. We use google&rsquo;s <a href="https://github.com/googlei18n/libphonenumber">libphonenumber</a> library. While testing, I realized that my Kenyan number was considered invalid.</p>
 <p>I check the source code and searched for &ldquo;kenya&rdquo;: &ldquo;Prefix 25476 added for Airtel Kenya based on open-source bug report [&hellip;] other prefixes from Wikipedia.&rdquo; I take a look and Wikipedia does not contain a prefix for my number. Everything made sense - my number was recently issued. There&rsquo;s no way google has the resources to keep up with all the technical changes in the world - and certainly not in Kenya where documentation is poor and growth is fast.</p>
 <p>I regretfully hammer out a horrific switch case method to validate phone numbers instead of using the library - we did not have time to wait for a fix. But as I go to file a bug report, I read the guidelines: &ldquo;Is the issue reproducible using the demo? [&hellip;] Your issue may be resolved by upgrading to the latest version of the library.&rdquo;</p>
@@ -53,8 +54,7 @@
 <p>An argument can also be made that in a domain <em>this</em> volatile, it could be wise to use a less strict form of validation in the first place, depending the importance of the features vs. handling illegal values.</p>
 <p>Bonus: A telecommunication giant using <a href="https://www.facebook.com/SafaricomLtd/posts/10156369539590084">facebook</a> and <a href="https://twitter.com/safaricomltd/status/633134928536932352">twitter</a> as technical communication channels</p>
 <p>At least they&rsquo;re responsive!</p>
-
-      </div>
+</div>
     </div>
 
     <div class="sz-scroll fade-in later">

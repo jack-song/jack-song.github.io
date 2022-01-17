@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,25 +24,27 @@
 
     <div class="sz-scroll fade-in">
       <div class="sz-eighth-beat"></div>
-      <h2>
-          Building a Processing Pipeline - final architecture
-      </h2>
-      <span class="faint-text-color"> Jun 2017 
-        
-        <span> in </span>
-        
-            
-            
-            <a href="/categories/code">
-                code
-            </a>
-        
-      
-      </span>
+      <div class="blog-top">
+        <h1>Building a Processing Pipeline - final architecture</h1>
+        <div class="date-subtext right-align">
+          <span>Jun 2017</span>
+           <span>-</span>
+          
+            <span>
+              
+              
+              <a href="/categories/code">
+                  code
+              </a>
+            </span>
+          
+          
+        </div>
+      </div>
+
       <div class="sz-eighth-beat"></div>
 
-      <div class="serif-font later">
-          <p><a href="../2017-04-21-data-pipeline-2">part 2</a></p>
+      <div class="serif-font later"><p><a href="../2017-04-21-data-pipeline-2">part 2</a></p>
 <p>Configuration, security, and deployment with SQS were all as easy as expected, and IAM has been a great convenience. It was also pretty straight forward to write tasks for Celery - but successes are not interesting.</p>
 <p>Celery does not play perfectly with SQS.</p>
 <p>One source of struggle was having scheduled tasks, thanks to SQS limitations <a href="https://stackoverflow.com/questions/41300209/celery-sqs-duplication-of-tasks-sqs-visibility-timeout">(mostly relating to timeouts)</a>. We were forced to use local scheduling solutions for timed output delivery - in this case, Advanced Python Scheduler. Unfortunately, out of the box, jobs can be dropped if worker instances fail before an ETA is met as tasks are stored in memory. To make this a more robust long term solution, we&rsquo;ll have to use disk storage.</p>
@@ -51,8 +52,7 @@
 <p>Presumably, <a href="https://github.com/spulec/PyQS">PyQs</a> should work better with SQS, and may deserve another look if support is improved.</p>
 <p>Our design also allowed a little extra complexity to sneak in. The information required for the jobs come from a Node.js lambda service that was already used for shuttling data around. There was no clean way of dropping these jobs directly into the Python worker queues, so we needed another Python lambda. However, it&rsquo;s not a huge issue as the data could be reformated at this gateway anyways, giving a nice seperation of concerns between the two systems.</p>
 <p>Overall, there were no disasters during the initial rollout. There were some hiccups as you&rsquo;d expect from any plan. Pending maturation and scaling. Maybe there will be a part 4.</p>
-
-      </div>
+</div>
     </div>
 
     <div class="sz-scroll fade-in later">
