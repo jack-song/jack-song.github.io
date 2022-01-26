@@ -12,7 +12,7 @@
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/2022-01-17-public-notes/</guid>
-      <description>I&amp;rsquo;ve worked on a lot of projects (3d printing, grooming habits, video calling), but don&amp;rsquo;t publish enough. I don&amp;rsquo;t get to the critical point of trying to deliver what I&amp;rsquo;ve created into a real market.</description>
+      <description>I&amp;rsquo;ve worked on a lot of projects (3d printing, grooming habits, video calling), but don&amp;rsquo;t publish enough.</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>/blog/2021-08-24-redigestable-notes/</guid>
-      <description>I take a lot of notes but don&amp;rsquo;t seem to make use of them. I feel like I&amp;rsquo;m leaving insight and ideas on the table. It should be possible to remix past thoughts and consumed media to create something new, like taking frozen leftovers out of the fridge once in a while to make a stew.</description>
+      <description>I take a lot of notes but don&amp;rsquo;t seem to make use of them.</description>
     </item>
     
     <item>
@@ -31,7 +31,7 @@
       
       <guid>/blog/2017-06-02-data-pipeline-3/</guid>
       <description>part 2
-Configuration, security, and deployment with SQS were all as easy as expected, and IAM has been a great convenience. It was also pretty straight forward to write tasks for Celery - but successes are not interesting.</description>
+Configuration, security, and deployment with SQS were all as easy as expected, and IAM has been a great convenience.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ Configuration, security, and deployment with SQS were all as easy as expected, a
       <guid>/blog/project-sunshower/</guid>
       <description>Play it!
 Github
-Pet project based on an idea I had for a simple, challenging game with a high skill ceiling. It&amp;rsquo;s basically Tetris 360.</description>
+Pet project based on an idea I had for a simple, challenging game with a high skill ceiling.</description>
     </item>
     
     <item>
@@ -52,7 +52,7 @@ Pet project based on an idea I had for a simple, challenging game with a high sk
       
       <guid>/blog/2017-04-21-data-pipeline-2/</guid>
       <description>part 1
-Our data pipeline needs a message broker for a Celery job queue; RabbitMQ and Amazon SQS are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.</description>
+Our data pipeline needs a message broker for a Celery job queue; RabbitMQ and Amazon SQS are two good choices.</description>
     </item>
     
     <item>
@@ -61,8 +61,7 @@ Our data pipeline needs a message broker for a Celery job queue; RabbitMQ and Am
       <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-04-20-data-pipeline-1/</guid>
-      <description>At my work, we&amp;rsquo;re building a pipeline to provide data-driven feedback to users.
-The de-facto king for data is Python, thanks to its community. A common way to deploy these models is via a Flask application, but this isn&amp;rsquo;t a good fit for every case.</description>
+      <description>At my work, we&amp;rsquo;re building a pipeline to provide data-driven feedback to users.</description>
     </item>
     
     <item>
@@ -73,8 +72,7 @@ The de-facto king for data is Python, thanks to its community. A common way to d
       <guid>/blog/project-wiki-daily/</guid>
       <description>Amazon
 Github
-Yes I did it for the free Alexa dev sweater.
-No I haven&amp;rsquo;t retrieved my sweater yet. The ratings are pretty bad. People want the entire featured article read out to them.</description>
+Yes I did it for the free Alexa dev sweater.</description>
     </item>
     
     <item>
@@ -84,8 +82,7 @@ No I haven&amp;rsquo;t retrieved my sweater yet. The ratings are pretty bad. Peo
       
       <guid>/blog/project-page-predictor/</guid>
       <description>Github
-A chrome extension that predicts what website you&amp;rsquo;re going to &amp;mdash; so you don&amp;rsquo;t even have to type it in!
-Our team&amp;rsquo;s base assumption is that we visit some websites in certain patterns, and a neural net might be able to pick up on them.</description>
+A chrome extension that predicts what website you&amp;rsquo;re going to &amp;mdash; so you don&amp;rsquo;t even have to type it in!</description>
     </item>
     
     <item>
@@ -94,7 +91,7 @@ Our team&amp;rsquo;s base assumption is that we visit some websites in certain p
       <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/project-pattio/</guid>
-      <description>On social media, we don&amp;rsquo;t communicate the way we do in real life. There are different protocols and habits, which can make interactions feel shallow or distracting.</description>
+      <description>On social media, we don&amp;rsquo;t communicate the way we do in real life.</description>
     </item>
     
     <item>
@@ -103,8 +100,7 @@ Our team&amp;rsquo;s base assumption is that we visit some websites in certain p
       <pubDate>Tue, 24 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-01-24-RTFM/</guid>
-      <description>I thought I had found a flaw in the great google machine - instead I learned that &amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;.
-I am currently working on an app for Kenyan users, with validation for local phone numbers.</description>
+      <description>I thought I had found a flaw in the great google machine - instead I learned that &amp;ldquo;libraries are innocent until proven guilty&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -115,7 +111,7 @@ I am currently working on an app for Kenyan users, with validation for local pho
       <guid>/blog/project-arimaa-free/</guid>
       <description>Play Store
 Github
-Open source contributions welcome! I&amp;rsquo;m currently looking for someone to pass on the development torch; there&amp;rsquo;s a lot of interesting work to be done, especially as a beginner/intermediate project.</description>
+Open source contributions welcome!</description>
     </item>
     
     <item>
@@ -126,7 +122,7 @@ Open source contributions welcome! I&amp;rsquo;m currently looking for someone t
       <guid>/blog/project-morbid/</guid>
       <description>Chrome Store
 Github
-The idea is to use our inevitable passing as a source of motivation. Colours are configurable to the user&amp;rsquo;s tastes.</description>
+The idea is to use our inevitable passing as a source of motivation.</description>
     </item>
     
     <item>
@@ -137,7 +133,7 @@ The idea is to use our inevitable passing as a source of motivation. Colours are
       <guid>/blog/project-conway/</guid>
       <description>Try it live
 Github
-Different clients are given different colours on a standard Game of Life board. The simulation runs as usual - except new cells are generated as an average colour of the cells around it.</description>
+Different clients are given different colours on a standard Game of Life board.</description>
     </item>
     
   </channel>

@@ -5,14 +5,23 @@
     <link>/categories/craft/</link>
     <description>Recent content in craft on J A C K</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/craft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/craft/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budget Espresso Setup</title>
+      <link>/blog/2022-01-21-espresso-setup/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2022-01-21-espresso-setup/</guid>
+      <description>Espresso is a meditative experience. It&amp;rsquo;s as much about understanding fluid dynamics as practicing precise handiwork.</description>
+    </item>
+    
     <item>
       <title>2 Minute Intro to Coffee</title>
-      <link>/blog/quick-coffee/</link>
+      <link>/blog/2022-01-20-quick-coffee/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/blog/quick-coffee/</guid>
-      <description>Coffee is alchemy. A hobby that combines art, science, and just the right amount of voodoo. Brewing coffee is practicing one of the most specialized, delicate, and experimental cooking recipes in history.</description>
+      <guid>/blog/2022-01-20-quick-coffee/</guid>
+      <description>Coffee is alchemy. A hobby that combines art, science, and just the right amount of voodoo.</description>
     </item>
     
     <item>
@@ -21,7 +30,7 @@
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/2022-01-17-public-notes/</guid>
-      <description>I&amp;rsquo;ve worked on a lot of projects (3d printing, grooming habits, video calling), but don&amp;rsquo;t publish enough. I don&amp;rsquo;t get to the critical point of trying to deliver what I&amp;rsquo;ve created into a real market.</description>
+      <description>I&amp;rsquo;ve worked on a lot of projects (3d printing, grooming habits, video calling), but don&amp;rsquo;t publish enough.</description>
     </item>
     
     <item>
@@ -30,7 +39,7 @@
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/2018-12-01-scrap-bike/</guid>
-      <description>The San Francisco Bike Kitchen is where you find mechanical magic. This local non-profit, run by volunteers, offers a build-a-bike program for $40. This lets you build a bike with the used parts lying around the Kitchen.</description>
+      <description>The San Francisco Bike Kitchen is where you find mechanical magic.</description>
     </item>
     
     <item>
@@ -39,7 +48,7 @@
       <pubDate>Sat, 29 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/2018-09-29-portable-uke/</guid>
-      <description>A few years ago, I started playing guitar at university and wanted to keep going when I moved around. My solution was to invest in a foldable Voyage Air guitar.</description>
+      <description>A few years ago, I started playing guitar at university and wanted to keep going when I moved around.</description>
     </item>
     
     <item>
@@ -57,7 +66,7 @@
       <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/2018-06-07-fingerstrap/</guid>
-      <description>I just bought a used Fujifilm X70 in an attempt to save on space and weight. To keep chasing that goal, I made another change. Neck strap -&amp;gt; wrist strap -&amp;gt; finger strap.</description>
+      <description>I just bought a used Fujifilm X70 in an attempt to save on space and weight.</description>
     </item>
     
   </channel>

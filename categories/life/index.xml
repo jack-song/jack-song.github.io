@@ -5,14 +5,23 @@
     <link>/categories/life/</link>
     <description>Recent content in life on J A C K</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Budget Espresso Setup</title>
+      <link>/blog/2022-01-21-espresso-setup/</link>
+      <pubDate>Fri, 21 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2022-01-21-espresso-setup/</guid>
+      <description>Espresso is a meditative experience. It&amp;rsquo;s as much about understanding fluid dynamics as practicing precise handiwork.</description>
+    </item>
+    
     <item>
       <title>2 Minute Intro to Coffee</title>
-      <link>/blog/quick-coffee/</link>
+      <link>/blog/2022-01-20-quick-coffee/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>/blog/quick-coffee/</guid>
-      <description>Coffee is alchemy. A hobby that combines art, science, and just the right amount of voodoo. Brewing coffee is practicing one of the most specialized, delicate, and experimental cooking recipes in history.</description>
+      <guid>/blog/2022-01-20-quick-coffee/</guid>
+      <description>Coffee is alchemy. A hobby that combines art, science, and just the right amount of voodoo.</description>
     </item>
     
     <item>
@@ -21,7 +30,7 @@
       <pubDate>Mon, 17 Jan 2022 00:00:00 +0000</pubDate>
       
       <guid>/blog/2022-01-17-public-notes/</guid>
-      <description>I&amp;rsquo;ve worked on a lot of projects (3d printing, grooming habits, video calling), but don&amp;rsquo;t publish enough. I don&amp;rsquo;t get to the critical point of trying to deliver what I&amp;rsquo;ve created into a real market.</description>
+      <description>I&amp;rsquo;ve worked on a lot of projects (3d printing, grooming habits, video calling), but don&amp;rsquo;t publish enough.</description>
     </item>
     
     <item>
@@ -30,7 +39,7 @@
       <pubDate>Tue, 24 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>/blog/2021-08-24-redigestable-notes/</guid>
-      <description>I take a lot of notes but don&amp;rsquo;t seem to make use of them. I feel like I&amp;rsquo;m leaving insight and ideas on the table. It should be possible to remix past thoughts and consumed media to create something new, like taking frozen leftovers out of the fridge once in a while to make a stew.</description>
+      <description>I take a lot of notes but don&amp;rsquo;t seem to make use of them.</description>
     </item>
     
     <item>
@@ -48,7 +57,7 @@
       <pubDate>Wed, 19 Apr 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-04-19-All-the-warm-places/</guid>
-      <description>I have a great view of the grey tarmac and overcast sky from my seat on the turboprop. Taking off, above the clouds, it&amp;rsquo;s a hot, sunny day.</description>
+      <description>I have a great view of the grey tarmac and overcast sky from my seat on the turboprop.</description>
     </item>
     
     <item>
@@ -57,8 +66,7 @@
       <pubDate>Tue, 14 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-03-14-Losing/</guid>
-      <description>Those of us that don&amp;rsquo;t pay attention to history are doomed to repeat it.
-1 year ago: I&amp;rsquo;m on exchange, and life is fun. We travel as if we could actually afford it.</description>
+      <description>Those of us that don&amp;rsquo;t pay attention to history are doomed to repeat it.</description>
     </item>
     
     <item>
@@ -67,8 +75,7 @@
       <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>/blog/2017-02-08-shock/</guid>
-      <description>Now I know a little more about making jumps and taking hard landings.
-   &amp;ldquo;It&amp;rsquo;s definitely overwhelming&amp;rdquo; &amp;mdash; assurances come from many of the people I meet.</description>
+      <description>Now I know a little more about making jumps and taking hard landings.</description>
     </item>
     
   </channel>
