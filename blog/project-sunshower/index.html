@@ -7,9 +7,18 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?" />
 <link rel="stylesheet" href="/css/base.css" />
 <link
+  rel="preload"
   href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
-  rel="stylesheet"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
 />
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
+    rel="stylesheet"
+    type="text/css"
+  />
+</noscript>
 
 <title>J A C K</title>
 
@@ -25,7 +34,7 @@
   <div class="icon-bottom invert-contrast"></div>
 </h1>
 
-    <div class="sz-scroll fade-in reading">
+    <div class="sz-scroll sz-wide fade-in">
       <div class="sz-eighth-beat"></div>
       <div class="blog-top">
         <h1>Browser Game - SunShower</h1>
@@ -47,7 +56,7 @@
 
       <div class="sz-eighth-beat"></div>
 
-      <div class="serif-font later"><div class="sz-row sz-breathe">
+      <div class="serif-font fade-in later"><div class="sz-row sz-breathe">
   <img 
       class="lazyload" 
       src="/assets/load.svg" 

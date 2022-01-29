@@ -7,9 +7,18 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?" />
 <link rel="stylesheet" href="/css/base.css" />
 <link
+  rel="preload"
   href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
-  rel="stylesheet"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
 />
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
+    rel="stylesheet"
+    type="text/css"
+  />
+</noscript>
 
 <title>J A C K</title>
 
@@ -25,7 +34,7 @@
   <div class="icon-bottom invert-contrast"></div>
 </h1>
 
-    <div class="sz-scroll fade-in reading">
+    <div class="sz-scroll sz-wide fade-in">
       <div class="sz-eighth-beat"></div>
       <div class="blog-top">
         <h1>Alexa Skill - Daily Wiki</h1>
@@ -47,7 +56,7 @@
 
       <div class="sz-eighth-beat"></div>
 
-      <div class="serif-font later"><p><p><a href="https://www.amazon.com/Jack-Song-Daily-Wiki/dp/B01N2MAHX5/" target="_blank">Amazon</a></p>
+      <div class="serif-font fade-in later"><p><p><a href="https://www.amazon.com/Jack-Song-Daily-Wiki/dp/B01N2MAHX5/" target="_blank">Amazon</a></p>
 <p><a href="https://github.com/jack-song/WikiDaily" target="_blank">Github</a></p></p>
 <p>Yes I did it for the free Alexa dev sweater.</p>
 <p>No I haven&rsquo;t retrieved my sweater yet. The ratings are pretty bad. People want the entire featured article read out to them. Maybe I&rsquo;ll add that if I get the time. Feel free to make a pull request!</p>

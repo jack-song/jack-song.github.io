@@ -7,9 +7,18 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?" />
 <link rel="stylesheet" href="/css/base.css" />
 <link
+  rel="preload"
   href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
-  rel="stylesheet"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
 />
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
+    rel="stylesheet"
+    type="text/css"
+  />
+</noscript>
 
 <title>J A C K</title>
 
@@ -25,7 +34,7 @@
   <div class="icon-bottom invert-contrast"></div>
 </h1>
 
-    <div class="sz-scroll fade-in reading">
+    <div class="sz-scroll sz-wide fade-in">
       <div class="sz-eighth-beat"></div>
       <div class="blog-top">
         <h1>Building a Processing Pipeline - final architecture</h1>
@@ -47,7 +56,7 @@
 
       <div class="sz-eighth-beat"></div>
 
-      <div class="serif-font later"><p><a href="../2017-04-21-data-pipeline-2">part 2</a></p>
+      <div class="serif-font fade-in later"><p><a href="../2017-04-21-data-pipeline-2">part 2</a></p>
 <p>Configuration, security, and deployment with SQS were all as easy as expected, and IAM has been a great convenience. It was also pretty straight forward to write tasks for Celery - but successes are not interesting.</p>
 <p>Celery does not play perfectly with SQS.</p>
 <p>One source of struggle was having scheduled tasks, thanks to SQS limitations <a href="https://stackoverflow.com/questions/41300209/celery-sqs-duplication-of-tasks-sqs-visibility-timeout">(mostly relating to timeouts)</a>. We were forced to use local scheduling solutions for timed output delivery - in this case, Advanced Python Scheduler. Unfortunately, out of the box, jobs can be dropped if worker instances fail before an ETA is met as tasks are stored in memory. To make this a more robust long term solution, we&rsquo;ll have to use disk storage.</p>

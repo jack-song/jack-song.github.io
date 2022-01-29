@@ -7,9 +7,18 @@
 <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico?" />
 <link rel="stylesheet" href="/css/base.css" />
 <link
+  rel="preload"
   href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
-  rel="stylesheet"
+  as="style"
+  onload="this.onload=null;this.rel='stylesheet'"
 />
+<noscript>
+  <link
+    href="https://fonts.googleapis.com/css?family=Quicksand:400&display=swap"
+    rel="stylesheet"
+    type="text/css"
+  />
+</noscript>
 
 <title>J A C K</title>
 
@@ -25,7 +34,7 @@
   <div class="icon-bottom invert-contrast"></div>
 </h1>
 
-    <div class="sz-scroll fade-in reading">
+    <div class="sz-scroll sz-wide fade-in">
       <div class="sz-eighth-beat"></div>
       <div class="blog-top">
         <h1>Building a Processing Pipeline - Amazon AWS SQS vs RabbitMQ benchmarks</h1>
@@ -47,7 +56,7 @@
 
       <div class="sz-eighth-beat"></div>
 
-      <div class="serif-font later"><p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
+      <div class="serif-font fade-in later"><p><a href="../2017-04-20-data-pipeline-1">part 1</a></p>
 <p>Our data pipeline needs a message broker for a <a href="http://www.celeryproject.org/">Celery</a> job queue; <a href="https://www.rabbitmq.com/">RabbitMQ</a> and <a href="https://aws.amazon.com/sqs/">Amazon SQS</a> are two good choices. They are designed to scale, guarantee message delivery, and seem to have good support.</p>
 <p>RabbitMQ has a solid reputation as a broker, with diverse and robust features. It works very well with Celery. The only real disadvantage is that it relies on custom configuration and deployment. SQS is a message queue as a service, self-scaling and configurable from a web UI. It also plays well with other AWS offerings. However, it can be pricier and slower at scale, and less flexible to use.</p>
 <p>Long term, RabbitMQ seems like a clear winner, but there are more factors to consider:</p>
